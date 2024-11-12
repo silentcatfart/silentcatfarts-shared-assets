@@ -1,0 +1,262 @@
+{
+  "id": "silentcatfarts-shared-assets",
+  "title": "Silentcatfart's Shared Assets",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "silentcatfart",
+      "email": "asa@silentcatfart.com",
+      "discord": "silentcatfart",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "shadowdark-actors",
+      "label": "ShadowDark Actors",
+      "path": "packs/shadowdark-actors",
+      "type": "Actor",
+      "system": "shadowdark",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dnd5e-actors",
+      "label": "DnD5e Actors",
+      "path": "packs/dnd5e-actors",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ose-actors",
+      "label": "OSE Actors",
+      "path": "packs/ose-actors",
+      "type": "Actor",
+      "system": "ose",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "shadowdark-items",
+      "label": "ShadowDark Items",
+      "path": "packs/shadowdark-items",
+      "type": "Item",
+      "system": "shadowdark",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ose-items",
+      "label": "OSE Items",
+      "path": "packs/ose-items",
+      "type": "Item",
+      "system": "ose",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dnd5e-items",
+      "label": "DnD5e Items",
+      "path": "packs/dnd5e-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "shadowdark-adventures",
+      "label": "ShadowDark Adventures",
+      "path": "packs/shadowdark-adventures",
+      "type": "Adventure",
+      "system": "shadowdark",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ose-adventures",
+      "label": "OSE Adventures",
+      "path": "packs/ose-adventures",
+      "type": "Adventure",
+      "system": "ose",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dnd5e-adventures",
+      "label": "DnD5e Adventures",
+      "path": "packs/dnd5e-adventures",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "playlists",
+      "label": "Playlists",
+      "path": "packs/playlists",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "shadowdark-tables",
+      "label": "ShadowDark Tables",
+      "path": "packs/shadowdark-tables",
+      "type": "RollTable",
+      "system": "shadowdark",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dnd5e-tables",
+      "label": "DnD5e Tables",
+      "path": "packs/dnd5e-tables",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ose-tables",
+      "label": "OSE Tables",
+      "path": "packs/ose-tables",
+      "type": "RollTable",
+      "system": "ose",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "shadowdark-journals",
+      "label": "ShadowDark Journals",
+      "path": "packs/shadowdark-journals",
+      "type": "JournalEntry",
+      "system": "shadowdark",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dnd5e-journals",
+      "label": "DnD5e Journals",
+      "path": "packs/dnd5e-journals",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ose-journals",
+      "label": "OSE Journals",
+      "path": "packs/ose-journals",
+      "type": "JournalEntry",
+      "system": "ose",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "shadowdark-macros",
+      "label": "ShadowDark Macros",
+      "path": "packs/shadowdark-macros",
+      "type": "Macro",
+      "system": "shadowdark",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dnd5e-macros",
+      "label": "DnD5e Macros",
+      "path": "packs/dnd5e-macros",
+      "type": "Macro",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ose-macros",
+      "label": "OSE Macros",
+      "path": "packs/ose-macros",
+      "type": "Macro",
+      "system": "ose",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "shadowdark-scenes",
+      "label": "ShadowDark Scenes",
+      "path": "packs/shadowdark-scenes",
+      "type": "Scene",
+      "system": "shadowdark",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dnd5e-scenes",
+      "label": "DnD5e Scenes",
+      "path": "packs/dnd5e-scenes",
+      "type": "Scene",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ose-scenes",
+      "label": "OSE Scenes",
+      "path": "packs/ose-scenes",
+      "type": "Scene",
+      "system": "ose",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "description": "Personal Foundry VTT module for use with shadowdark, dnd5e and ose",
+  "url": "https://github.com/silentcatfart/silentcatfarts-shared-assets"
+}
