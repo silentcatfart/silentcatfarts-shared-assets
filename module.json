@@ -1,7 +1,7 @@
 {
   "id": "silentcatfarts-shared-assets",
   "title": "Silentcatfart's Shared Assets",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
@@ -259,6 +259,6 @@
   ],
   "description": "Personal Foundry VTT module for use with shadowdark, dnd5e and ose",
   "url": "https://github.com/silentcatfart/silentcatfarts-shared-assets",
-  "manifest" : "https://github.com/silentcatfart/silentcatfarts-shared-assets/releases/download/2.0.0/module.json",
-  "download" : "https://github.com/silentcatfart/silentcatfarts-shared-assets/releases/download/2.0.0/module.zip"
+  "manifest" : "https://github.com/silentcatfart/silentcatfarts-shared-assets/releases/latest/download/module.json",
+  "download" : "https://github.com/silentcatfart/silentcatfarts-shared-assets/releases/latest/download/module.zip"
 }
