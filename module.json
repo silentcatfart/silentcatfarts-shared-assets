@@ -1,7 +1,7 @@
 {
   "id": "silentcatfarts-shared-assets",
   "title": "Silentcatfart's Shared Assets",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "compatibility": {
       "minimum": "11",
       "verified": "12"
@@ -259,7 +259,7 @@
   ],
   "packFolders": [
       {
-          "name": "Silentcatfart's ShadowDark Content",
+          "name": "Silentcatfart's ShadowDark",
           "sorting": "a",
           "color": "#7f109e",
           "system": "shadowdark",
@@ -267,7 +267,6 @@
               "shadowdark-actors",
               "shadowdark-items",
               "shadowdark-adventures",
-              "playlists",
               "shadowdark-tables",
               "shadowdark-journals",
               "shadowdark-macros",
@@ -275,7 +274,7 @@
           ]
       },
       {
-        "name": "Silentcatfart's DnD5e Content",
+        "name": "Silentcatfart's DnD5e",
         "sorting": "a",
         "color": "#7f109e",
         "system": "dnd5e",
@@ -283,7 +282,6 @@
             "dnd5e-actors",
             "dnd5e-items",
             "dnd5e-adventures",
-            "playlists",
             "dnd5e-tables",
             "dnd5e-journals",
             "dnd5e-macros",
@@ -291,7 +289,7 @@
         ]
     },
     {
-        "name": "Silentcatfart's OSE Content",
+        "name": "Silentcatfart's OSE",
         "sorting": "a",
         "color": "#7f109e",
         "system": "ose",
@@ -299,7 +297,6 @@
             "ose-actors",
             "ose-items",
             "ose-adventures",
-            "playlists",
             "ose-tables",
             "ose-journals",
             "ose-macros",
