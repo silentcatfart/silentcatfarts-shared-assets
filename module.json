@@ -1,7 +1,7 @@
 {
   "id": "silentcatfarts-shared-assets",
   "title": "Silentcatfart's Shared Assets",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "compatibility": {
       "minimum": "11",
       "verified": "12"
@@ -261,7 +261,7 @@
       {
           "name": "Silentcatfart's ShadowDark",
           "sorting": "a",
-          "color": "#7f109e",
+          "color": "#3e034f",
           "system": "shadowdark",
           "packs": [
               "shadowdark-actors",
@@ -276,7 +276,7 @@
       {
         "name": "Silentcatfart's DnD5e",
         "sorting": "a",
-        "color": "#7f109e",
+        "color": "#3e034f",
         "system": "dnd5e",
         "packs": [
             "dnd5e-actors",
@@ -291,7 +291,7 @@
     {
         "name": "Silentcatfart's OSE",
         "sorting": "a",
-        "color": "#7f109e",
+        "color": "#3e034f",
         "system": "ose",
         "packs": [
             "ose-actors",

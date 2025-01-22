@@ -1,8 +1,8 @@
-2024/12/26-21:22:32.203900 7fca8bfff700 Recovering log #114
-2024/12/26-21:22:32.222043 7fca8bfff700 Delete type=3 #112
-2024/12/26-21:22:32.222069 7fca8bfff700 Delete type=0 #114
-2024/12/26-21:51:11.688299 7fca8b7fe700 Level-0 table #119: started
-2024/12/26-21:51:11.688319 7fca8b7fe700 Level-0 table #119: 0 bytes OK
-2024/12/26-21:51:11.702075 7fca8b7fe700 Delete type=0 #117
-2024/12/26-21:51:11.725071 7fca8b7fe700 Manual compaction at level-0 from '!actors!8WWhksCwlLfGTelJ' @ 72057594037927935 : 1 .. '!folders!t1Nm7iWMmoKXCOuZ' @ 0 : 0; will stop at (end)
-2024/12/26-21:51:11.725121 7fca8b7fe700 Manual compaction at level-1 from '!actors!8WWhksCwlLfGTelJ' @ 72057594037927935 : 1 .. '!folders!t1Nm7iWMmoKXCOuZ' @ 0 : 0; will stop at (end)
+2025/01/16-10:13:18.586650 7ff4817be700 Recovering log #160
+2025/01/16-10:13:18.615680 7ff4817be700 Delete type=3 #158
+2025/01/16-10:13:18.615716 7ff4817be700 Delete type=0 #160
+2025/01/16-10:14:03.750342 7ff47fb2c700 Level-0 table #165: started
+2025/01/16-10:14:03.750364 7ff47fb2c700 Level-0 table #165: 0 bytes OK
+2025/01/16-10:14:03.758083 7ff47fb2c700 Delete type=0 #163
+2025/01/16-10:14:03.774336 7ff47fb2c700 Manual compaction at level-0 from '!actors!8WWhksCwlLfGTelJ' @ 72057594037927935 : 1 .. '!folders!t1Nm7iWMmoKXCOuZ' @ 0 : 0; will stop at (end)
+2025/01/16-10:14:03.784049 7ff47fb2c700 Manual compaction at level-1 from '!actors!8WWhksCwlLfGTelJ' @ 72057594037927935 : 1 .. '!folders!t1Nm7iWMmoKXCOuZ' @ 0 : 0; will stop at (end)

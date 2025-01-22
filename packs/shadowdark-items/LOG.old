@@ -1,8 +1,8 @@
-2024/12/26-21:22:32.225821 7fcab166c700 Recovering log #97
-2024/12/26-21:22:32.244006 7fcab166c700 Delete type=3 #95
-2024/12/26-21:22:32.244031 7fcab166c700 Delete type=0 #97
-2024/12/26-21:51:11.702128 7fca8b7fe700 Level-0 table #102: started
-2024/12/26-21:51:11.702147 7fca8b7fe700 Level-0 table #102: 0 bytes OK
-2024/12/26-21:51:11.709428 7fca8b7fe700 Delete type=0 #100
-2024/12/26-21:51:11.725086 7fca8b7fe700 Manual compaction at level-0 from '!folders!bxFoJ17BFyKGxzl9' @ 72057594037927935 : 1 .. '!items.effects!pLrn6eV9xaq53Na0.x7Fqzf2AMafQ9f1I' @ 0 : 0; will stop at (end)
-2024/12/26-21:51:11.725130 7fca8b7fe700 Manual compaction at level-1 from '!folders!bxFoJ17BFyKGxzl9' @ 72057594037927935 : 1 .. '!items.effects!pLrn6eV9xaq53Na0.x7Fqzf2AMafQ9f1I' @ 0 : 0; will stop at (end)
+2025/01/16-10:13:18.623452 7ff480fbd700 Recovering log #143
+2025/01/16-10:13:18.648677 7ff480fbd700 Delete type=3 #141
+2025/01/16-10:13:18.648707 7ff480fbd700 Delete type=0 #143
+2025/01/16-10:14:03.758135 7ff47fb2c700 Level-0 table #148: started
+2025/01/16-10:14:03.758156 7ff47fb2c700 Level-0 table #148: 0 bytes OK
+2025/01/16-10:14:03.765368 7ff47fb2c700 Delete type=0 #146
+2025/01/16-10:14:03.774350 7ff47fb2c700 Manual compaction at level-0 from '!folders!bxFoJ17BFyKGxzl9' @ 72057594037927935 : 1 .. '!items.effects!pLrn6eV9xaq53Na0.x7Fqzf2AMafQ9f1I' @ 0 : 0; will stop at (end)
+2025/01/16-10:14:03.784019 7ff47fb2c700 Manual compaction at level-1 from '!folders!bxFoJ17BFyKGxzl9' @ 72057594037927935 : 1 .. '!items.effects!pLrn6eV9xaq53Na0.x7Fqzf2AMafQ9f1I' @ 0 : 0; will stop at (end)
