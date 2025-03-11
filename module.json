@@ -1,9 +1,9 @@
 {
   "id": "silentcatfarts-shared-assets",
   "title": "Silentcatfart's Shared Assets",
-  "version": "2.1.6",
+  "version": "2.1.8",
   "compatibility": {
-      "minimum": "11",
+      "minimum": "12",
       "verified": "12"
   },
   "authors": [
@@ -49,6 +49,17 @@
           }
       },
       {
+          "name": "fade-actors",
+          "label": "FaDe Actors",
+          "path": "packs/fade-actors",
+          "type": "Actor",
+          "system": "fantastic-depths",
+          "ownership": {
+              "PLAYER": "OBSERVER",
+              "ASSISTANT": "OWNER"
+        }
+    },
+      {
           "name": "shadowdark-items",
           "label": "ShadowDark Items",
           "path": "packs/shadowdark-items",
@@ -82,6 +93,17 @@
           }
       },
       {
+          "name": "fade-items",
+          "label": "FaDe Items",
+          "path": "packs/fade-items",
+          "type": "Item",
+          "system": "fantastic-depths",
+          "ownership": {
+              "PLAYER": "OBSERVER",
+              "ASSISTANT": "OWNER"
+        }
+    },
+      {
           "name": "shadowdark-adventures",
           "label": "ShadowDark Adventures",
           "path": "packs/shadowdark-adventures",
@@ -114,6 +136,17 @@
               "ASSISTANT": "OWNER"
           }
       },
+      {
+          "name": "fade-adventures",
+          "label": "FaDe Adventures",
+          "path": "packs/fade-adventures",
+          "type": "Adventure",
+          "system": "fantastic-depths",
+          "ownership": {
+              "PLAYER": "OBSERVER",
+              "ASSISTANT": "OWNER"
+        }
+    },
       {
           "name": "playlists",
           "label": "Playlists",
@@ -158,6 +191,17 @@
           }
       },
       {
+        "name": "fade-tables",
+        "label": "Fade Tables",
+        "path": "packs/fade-tables",
+        "type": "RollTable",
+        "system": "fantastic-depths",
+        "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+        }
+    },
+      {
           "name": "shadowdark-journals",
           "label": "ShadowDark Journals",
           "path": "packs/shadowdark-journals",
@@ -190,6 +234,17 @@
               "ASSISTANT": "OWNER"
           }
       },
+      {
+          "name": "fade-journals",
+          "label": "FaDe Journals",
+          "path": "packs/fade-journals",
+          "type": "JournalEntry",
+          "system": "fantastic-depths",
+          "ownership": {
+              "PLAYER": "OBSERVER",
+              "ASSISTANT": "OWNER"
+        }
+    },
       {
           "name": "shadowdark-macros",
           "label": "ShadowDark Macros",
@@ -224,6 +279,17 @@
           }
       },
       {
+          "name": "fade-macros",
+          "label": "FaDe Macros",
+          "path": "packs/fade-macros",
+          "type": "Macro",
+          "system": "fantastic-depths",
+          "ownership": {
+              "PLAYER": "OBSERVER",
+              "ASSISTANT": "OWNER"
+        }
+    },
+      {
           "name": "shadowdark-scenes",
           "label": "ShadowDark Scenes",
           "path": "packs/shadowdark-scenes",
@@ -255,7 +321,18 @@
               "PLAYER": "OBSERVER",
               "ASSISTANT": "OWNER"
           }
-      }
+      },
+      {
+          "name": "fade-scenes",
+          "label": "FaDe Scenes",
+          "path": "packs/fade-scenes",
+          "type": "Scene",
+          "system": "fantastic-depths",
+          "ownership": {
+              "PLAYER": "OBSERVER",
+              "ASSISTANT": "OWNER"
+        }
+    }
   ],
   "packFolders": [
       {
@@ -302,9 +379,24 @@
             "ose-macros",
             "ose-scenes"
         ]
+    },
+    {
+        "name": "Silentcatfart's FaDe",
+        "sorting": "a",
+        "color": "#3e034f",
+        "system": "fantastic-depths",
+        "packs": [
+            "fade-actors",
+            "fade-items",
+            "fade-adventures",
+            "fade-tables",
+            "fade-journals",
+            "fade-macros",
+            "fade-scenes"
+        ]
     }
   ],
-  "description": "Personal Foundry VTT module for use with shadowdark, dnd5e and ose",
+  "description": "Personal Foundry VTT module for use with shadowdark, dnd5e, fade and ose",
   "url": "https://github.com/silentcatfart/silentcatfarts-shared-assets",
   "manifest": "https://github.com/silentcatfart/silentcatfarts-shared-assets/releases/latest/download/module.json",
   "download": "https://github.com/silentcatfart/silentcatfarts-shared-assets/releases/latest/download/module.zip"
