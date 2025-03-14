@@ -1,8 +1,15 @@
-2025/03/14-15:04:09.422193 7f4f90fbc700 Recovering log #618
-2025/03/14-15:04:09.448107 7f4f90fbc700 Delete type=3 #616
-2025/03/14-15:04:09.448142 7f4f90fbc700 Delete type=0 #618
-2025/03/14-17:41:41.187420 7f4a734d6700 Level-0 table #623: started
-2025/03/14-17:41:41.187439 7f4a734d6700 Level-0 table #623: 0 bytes OK
-2025/03/14-17:41:41.196970 7f4a734d6700 Delete type=0 #621
-2025/03/14-17:41:41.205061 7f4a734d6700 Manual compaction at level-0 from '!folders!1Aa3Az4vuG0cp9sZ' @ 72057594037927935 : 1 .. '!playlists.sounds!u6kLxmPRwTYdXAqt.srtFrMfRl6DrFCZz' @ 0 : 0; will stop at (end)
-2025/03/14-17:41:41.205291 7f4a734d6700 Manual compaction at level-1 from '!folders!1Aa3Az4vuG0cp9sZ' @ 72057594037927935 : 1 .. '!playlists.sounds!u6kLxmPRwTYdXAqt.srtFrMfRl6DrFCZz' @ 0 : 0; will stop at (end)
+2025/03/14-18:10:09.576455 7fda75fbf700 Recovering log #626
+2025/03/14-18:10:09.608824 7fda75fbf700 Delete type=3 #624
+2025/03/14-18:10:09.608854 7fda75fbf700 Delete type=0 #626
+2025/03/14-18:11:06.478429 7fda737d4700 Level-0 table #632: started
+2025/03/14-18:11:06.502754 7fda737d4700 Level-0 table #632: 1885 bytes OK
+2025/03/14-18:11:06.517660 7fda737d4700 Delete type=0 #630
+2025/03/14-18:11:06.517806 7fda737d4700 Manual compaction at level-0 from '!folders!371bEYBaNhAUvuuy' @ 72057594037927935 : 1 .. '!playlists.sounds!ojOflZ5ufpmnACwD.b2KzhHakEfIDT03w' @ 0 : 0; will stop at (end)
+2025/03/14-18:11:06.535336 7fda737d4700 Manual compaction at level-1 from '!folders!371bEYBaNhAUvuuy' @ 72057594037927935 : 1 .. '!playlists.sounds!ojOflZ5ufpmnACwD.b2KzhHakEfIDT03w' @ 0 : 0; will stop at '!playlists.sounds!u6kLxmPRwTYdXAqt.srtFrMfRl6DrFCZz' @ 576 : 0
+2025/03/14-18:11:06.535346 7fda737d4700 Compacting 1@1 + 1@2 files
+2025/03/14-18:11:06.545112 7fda737d4700 Generated table #633@1: 232 keys, 28991 bytes
+2025/03/14-18:11:06.545133 7fda737d4700 Compacted 1@1 + 1@2 files => 28991 bytes
+2025/03/14-18:11:06.554792 7fda737d4700 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/14-18:11:06.554916 7fda737d4700 Delete type=2 #628
+2025/03/14-18:11:06.554982 7fda737d4700 Delete type=2 #632
+2025/03/14-18:11:06.564588 7fda737d4700 Manual compaction at level-1 from '!playlists.sounds!u6kLxmPRwTYdXAqt.srtFrMfRl6DrFCZz' @ 576 : 0 .. '!playlists.sounds!ojOflZ5ufpmnACwD.b2KzhHakEfIDT03w' @ 0 : 0; will stop at (end)
