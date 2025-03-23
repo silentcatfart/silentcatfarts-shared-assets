@@ -1,17 +1,14 @@
-2025/03/23-00:14:00.056017 7fd5c77fe700 Recovering log #466
-2025/03/23-00:14:00.057196 7fd5c77fe700 Level-0 table #468: started
-2025/03/23-00:14:00.070955 7fd5c77fe700 Level-0 table #468: 114460 bytes OK
-2025/03/23-00:14:00.092645 7fd5c77fe700 Delete type=3 #465
-2025/03/23-00:14:00.092681 7fd5c77fe700 Delete type=0 #466
-2025/03/23-00:21:43.430277 7fd5c6420700 Level-0 table #471: started
-2025/03/23-00:21:43.449260 7fd5c6420700 Level-0 table #471: 259568 bytes OK
-2025/03/23-00:21:43.456886 7fd5c6420700 Delete type=0 #469
-2025/03/23-00:21:43.457310 7fd5c6420700 Manual compaction at level-0 from '!adventures!Icuw0RuF9GnyNTHB' @ 72057594037927935 : 1 .. '!adventures!MrJvKTmAfRaSVoXj' @ 0 : 0; will stop at '!adventures!MrJvKTmAfRaSVoXj' @ 18 : 1
-2025/03/23-00:21:43.457317 7fd5c6420700 Compacting 2@0 + 1@1 files
-2025/03/23-00:21:43.477413 7fd5c6420700 Generated table #472@0: 3 keys, 259641 bytes
-2025/03/23-00:21:43.477427 7fd5c6420700 Compacted 2@0 + 1@1 files => 259641 bytes
-2025/03/23-00:21:43.488549 7fd5c6420700 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/03/23-00:21:43.488730 7fd5c6420700 Delete type=2 #436
-2025/03/23-00:21:43.488878 7fd5c6420700 Delete type=2 #468
-2025/03/23-00:21:43.488935 7fd5c6420700 Delete type=2 #471
-2025/03/23-00:21:43.514841 7fd5c6420700 Manual compaction at level-0 from '!adventures!MrJvKTmAfRaSVoXj' @ 18 : 1 .. '!adventures!MrJvKTmAfRaSVoXj' @ 0 : 0; will stop at (end)
+2025/03/23-00:30:34.593607 7fa6d562c700 Recovering log #474
+2025/03/23-00:30:34.613605 7fa6d562c700 Delete type=0 #474
+2025/03/23-00:30:34.613651 7fa6d562c700 Delete type=3 #473
+2025/03/23-00:33:20.508774 7fa6aecb5700 Level-0 table #478: started
+2025/03/23-00:33:20.526570 7fa6aecb5700 Level-0 table #478: 208005 bytes OK
+2025/03/23-00:33:20.535150 7fa6aecb5700 Delete type=0 #476
+2025/03/23-00:33:20.535600 7fa6aecb5700 Manual compaction at level-0 from '!adventures!Icuw0RuF9GnyNTHB' @ 72057594037927935 : 1 .. '!adventures!MrJvKTmAfRaSVoXj' @ 0 : 0; will stop at '!adventures!Icuw0RuF9GnyNTHB' @ 21 : 1
+2025/03/23-00:33:20.535605 7fa6aecb5700 Compacting 1@0 + 1@1 files
+2025/03/23-00:33:20.554303 7fa6aecb5700 Generated table #479@0: 3 keys, 259635 bytes
+2025/03/23-00:33:20.554317 7fa6aecb5700 Compacted 1@0 + 1@1 files => 259635 bytes
+2025/03/23-00:33:20.562951 7fa6aecb5700 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/23-00:33:20.563042 7fa6aecb5700 Delete type=2 #472
+2025/03/23-00:33:20.563115 7fa6aecb5700 Delete type=2 #478
+2025/03/23-00:33:20.571576 7fa6aecb5700 Manual compaction at level-0 from '!adventures!Icuw0RuF9GnyNTHB' @ 21 : 1 .. '!adventures!MrJvKTmAfRaSVoXj' @ 0 : 0; will stop at (end)
