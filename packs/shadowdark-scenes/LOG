@@ -1,22 +1,7 @@
-2025/03/23-00:30:34.735144 7fa6d4e2b700 Recovering log #450
-2025/03/23-00:30:34.740293 7fa6d4e2b700 Level-0 table #452: started
-2025/03/23-00:30:34.758938 7fa6d4e2b700 Level-0 table #452: 228719 bytes OK
-2025/03/23-00:30:34.784361 7fa6d4e2b700 Delete type=0 #450
-2025/03/23-00:30:34.784455 7fa6d4e2b700 Delete type=3 #449
-2025/03/23-00:30:35.569988 7fa6aecb5700 Compacting 1@0 + 1@1 files
-2025/03/23-00:30:35.603027 7fa6aecb5700 Generated table #454@0: 4020 keys, 369186 bytes
-2025/03/23-00:30:35.603048 7fa6aecb5700 Compacted 1@0 + 1@1 files => 369186 bytes
-2025/03/23-00:30:35.612586 7fa6aecb5700 compacted to: files[ 0 1 0 0 0 0 0 ]
-2025/03/23-00:30:35.612754 7fa6aecb5700 Delete type=2 #448
-2025/03/23-00:30:35.612867 7fa6aecb5700 Delete type=2 #452
-2025/03/23-00:33:20.594725 7fa6aecb5700 Level-0 table #456: started
-2025/03/23-00:33:20.612926 7fa6aecb5700 Level-0 table #456: 228763 bytes OK
-2025/03/23-00:33:20.625717 7fa6aecb5700 Delete type=0 #453
-2025/03/23-00:33:20.626071 7fa6aecb5700 Manual compaction at level-0 from '!folders!1KyuKmrapGwsLyjU' @ 72057594037927935 : 1 .. '!scenes.walls!zkkOCTBSg1KblTMJ.v7LGIoSsQmg5V5IH' @ 0 : 0; will stop at '!scenes.walls!VpwuDKh5RQPFv83F.zWQqztGPIbuOaVAe' @ 27225 : 1
-2025/03/23-00:33:20.626077 7fa6aecb5700 Compacting 1@0 + 1@1 files
-2025/03/23-00:33:20.651002 7fa6aecb5700 Generated table #457@0: 4020 keys, 369200 bytes
-2025/03/23-00:33:20.651024 7fa6aecb5700 Compacted 1@0 + 1@1 files => 369200 bytes
-2025/03/23-00:33:20.660061 7fa6aecb5700 compacted to: files[ 0 1 0 0 0 0 0 ]
-2025/03/23-00:33:20.660181 7fa6aecb5700 Delete type=2 #454
-2025/03/23-00:33:20.660275 7fa6aecb5700 Delete type=2 #456
-2025/03/23-00:33:20.668372 7fa6aecb5700 Manual compaction at level-0 from '!scenes.walls!VpwuDKh5RQPFv83F.zWQqztGPIbuOaVAe' @ 27225 : 1 .. '!scenes.walls!zkkOCTBSg1KblTMJ.v7LGIoSsQmg5V5IH' @ 0 : 0; will stop at (end)
+2025/03/23-00:37:36.559331 7fbe19ecc700 Recovering log #455
+2025/03/23-00:37:36.580582 7fbe19ecc700 Delete type=0 #455
+2025/03/23-00:37:36.580612 7fbe19ecc700 Delete type=3 #451
+2025/03/23-00:40:09.032176 7fbdf3590700 Level-0 table #461: started
+2025/03/23-00:40:09.032194 7fbdf3590700 Level-0 table #461: 0 bytes OK
+2025/03/23-00:40:09.040018 7fbdf3590700 Delete type=0 #459
+2025/03/23-00:40:09.048882 7fbdf3590700 Manual compaction at level-0 from '!folders!1KyuKmrapGwsLyjU' @ 72057594037927935 : 1 .. '!scenes.walls!zkkOCTBSg1KblTMJ.v7LGIoSsQmg5V5IH' @ 0 : 0; will stop at (end)
