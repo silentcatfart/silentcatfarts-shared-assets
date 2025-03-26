@@ -17,7 +17,7 @@ Hooks.on("ready", async () => {
   // Get packs relevant to the current system
   let packNames = systemPacks[currentSystem] || [];
 
-  // Always include the "playlists" pack
+  // Always include "playlists"
   packNames.push("playlists");
 
   for (let packName of packNames) {
@@ -29,13 +29,29 @@ Hooks.on("ready", async () => {
 
     try {
       let contents = await pack.getDocuments();
+      console.log(`Loaded ${contents.length} documents from ${packName}`);
+
       for (let doc of contents) {
+        // Start by setting the default ownership to NONE
         let updateData = {
           ownership: {
             "default": 0 // 0 = NONE (no access for players)
           }
-
         };
+
+        // Explicitly set each user's permission level (you can adjust as needed)
+        game.users.forEach(user => {
+          // If the user is a player, give them NONE access (no access)
+          if (user.isPlayer) {
+            updateData.ownership[user.id] = 0; // 0 = NONE
+          }
+          // If the user is the GM, you can provide full access
+          else if (user.isGM) {
+            updateData.ownership[user.id] = 4; // 4 = OWNER
+          }
+        });
+
+        // Apply the ownership changes
         await doc.update(updateData, { recursive: true });
       }
       console.log(`Permissions updated for ${packName} in system ${currentSystem}`);
