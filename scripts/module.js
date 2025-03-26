@@ -32,31 +32,25 @@ Hooks.on("ready", async () => {
       console.log(`Loaded ${contents.length} documents from ${packName}`);
 
       for (let doc of contents) {
-        // Prepare ownership data
+        // Initialize the ownership field as an empty object
         let ownership = {};
 
-        // Set the ownership for each document:
-        // 1. Default is 0 (None), meaning players have no access
-        ownership["default"] = 0; // 0 = None
+        // Set ownership for default user (0 = NONE, no access for players)
+        ownership["default"] = 0;
 
-        // 2. Set ownership for each user individually:
+        // Loop through all users and explicitly set ownership
         game.users.forEach(user => {
-          // Give the GM full access (4 = OWNER)
           if (user.isGM) {
-            ownership[user.id] = 4; // 4 = Owner
-          }
-          // Players get no access (0 = NONE)
-          else if (user.isPlayer) {
-            ownership[user.id] = 0; // 0 = None (no access)
+            ownership[user.id] = 4; // 4 = OWNER for the GM
+          } else if (user.isPlayer) {
+            ownership[user.id] = 0; // 0 = NONE for players
           }
         });
 
-        // Update document with the ownership data
-        let updateData = {
-          ownership: ownership
-        };
-        await doc.update(updateData, { recursive: true });
+        // Update the document with the new ownership
+        await doc.update({ ownership }, { recursive: true });
       }
+
       console.log(`Permissions updated for ${packName} in system ${currentSystem}`);
     } catch (error) {
       console.error(`Error updating permissions for ${packName}:`, error);
