@@ -32,9 +32,9 @@ Hooks.on("ready", async () => {
       for (let doc of contents) {
         let updateData = {
           ownership: {
-            default: CONST.DOCUMENT_OWNERSHIP_LEVELS.NONE,
-            player: CONST.DOCUMENT_OWNERSHIP_LEVELS.NONE
+            "default": 0 // 0 = NONE (no access for players)
           }
+
         };
         await doc.update(updateData, { recursive: true });
       }
