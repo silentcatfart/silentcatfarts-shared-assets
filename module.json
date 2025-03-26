@@ -1,8 +1,7 @@
 {
   "id": "silentcatfarts-shared-assets",
   "title": "Silentcatfart's Shared Assets",
-  "version": "2.2.6",
-  "esmodules": ["scripts/module.js"],
+  "version": "2.2.7",
   "compatibility": {
       "minimum": "12",
       "verified": "12"
