@@ -11,6 +11,7 @@ Hooks.on("ready", async () => {
     "fantastic-depths": ["fade-actors", "fade-items", "fade-adventures", "fade-tables", "fade-journals", "fade-macros", "fade-scenes"]
   };
 
+
   const currentSystem = game.system.id; // Get active system ID
   console.log(`Detected system: ${currentSystem}`);
 
@@ -32,25 +33,13 @@ Hooks.on("ready", async () => {
       console.log(`Loaded ${contents.length} documents from ${packName}`);
 
       for (let doc of contents) {
-        // Initialize the ownership field as an empty object
-        let ownership = {};
-
-        // Set ownership for default user (0 = NONE, no access for players)
-        ownership["default"] = 0;
-
-        // Loop through all users and explicitly set ownership
-        game.users.forEach(user => {
-          if (user.isGM) {
-            ownership[user.id] = 4; // 4 = OWNER for the GM
-          } else if (user.isPlayer) {
-            ownership[user.id] = 0; // 0 = NONE for players
+        let updateData = {
+          ownership: {
+            "default": 0 // 0 = NONE (no access for players)
           }
-        });
-
-        // Update the document with the new ownership
-        await doc.update({ ownership }, { recursive: true });
+        };
+        await doc.update(updateData, { recursive: true });
       }
-
       console.log(`Permissions updated for ${packName} in system ${currentSystem}`);
     } catch (error) {
       console.error(`Error updating permissions for ${packName}:`, error);
