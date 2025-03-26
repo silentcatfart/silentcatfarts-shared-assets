@@ -1,7 +1,8 @@
 {
   "id": "silentcatfarts-shared-assets",
   "title": "Silentcatfart's Shared Assets",
-  "version": "2.1.21",
+  "version": "2.2.0",
+  "esmodules": ["scripts/module.js"],
   "compatibility": {
       "minimum": "12",
       "verified": "12"
@@ -20,318 +21,202 @@
           "label": "ShadowDark Actors",
           "path": "packs/shadowdark-actors",
           "type": "Actor",
-          "system": "shadowdark",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "shadowdark"
       },
       {
           "name": "dnd5e-actors",
           "label": "DnD5e Actors",
           "path": "packs/dnd5e-actors",
           "type": "Actor",
-          "system": "dnd5e",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "dnd5e"
       },
       {
           "name": "ose-actors",
           "label": "OSE Actors",
           "path": "packs/ose-actors",
           "type": "Actor",
-          "system": "ose",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "ose"
       },
       {
           "name": "fade-actors",
           "label": "FaDe Actors",
           "path": "packs/fade-actors",
           "type": "Actor",
-          "system": "fantastic-depths",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-        }
+          "system": "fantastic-depths"
     },
       {
           "name": "shadowdark-items",
           "label": "ShadowDark Items",
           "path": "packs/shadowdark-items",
           "type": "Item",
-          "system": "shadowdark",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "shadowdark"
       },
       {
           "name": "ose-items",
           "label": "OSE Items",
           "path": "packs/ose-items",
           "type": "Item",
-          "system": "ose",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "ose"
       },
       {
           "name": "dnd5e-items",
           "label": "DnD5e Items",
           "path": "packs/dnd5e-items",
           "type": "Item",
-          "system": "dnd5e",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "dnd5e"
       },
       {
           "name": "fade-items",
           "label": "FaDe Items",
           "path": "packs/fade-items",
           "type": "Item",
-          "system": "fantastic-depths",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-        }
+          "system": "fantastic-depths"
     },
       {
           "name": "shadowdark-adventures",
           "label": "ShadowDark Adventures",
           "path": "packs/shadowdark-adventures",
           "type": "Adventure",
-          "system": "shadowdark",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "shadowdark"
       },
       {
           "name": "ose-adventures",
           "label": "OSE Adventures",
           "path": "packs/ose-adventures",
           "type": "Adventure",
-          "system": "ose",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "ose"
       },
       {
           "name": "dnd5e-adventures",
           "label": "DnD5e Adventures",
           "path": "packs/dnd5e-adventures",
           "type": "Adventure",
-          "system": "dnd5e",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "dnd5e"
       },
       {
           "name": "fade-adventures",
           "label": "FaDe Adventures",
           "path": "packs/fade-adventures",
           "type": "Adventure",
-          "system": "fantastic-depths",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-        }
+          "system": "fantastic-depths"
     },
       {
           "name": "playlists",
           "label": "Playlists",
           "path": "packs/playlists",
-          "type": "Playlist",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "type": "Playlist"
       },
       {
           "name": "shadowdark-tables",
           "label": "ShadowDark Tables",
           "path": "packs/shadowdark-tables",
           "type": "RollTable",
-          "system": "shadowdark",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "shadowdark"
       },
       {
           "name": "dnd5e-tables",
           "label": "DnD5e Tables",
           "path": "packs/dnd5e-tables",
           "type": "RollTable",
-          "system": "dnd5e",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "dnd5e"
       },
       {
           "name": "ose-tables",
           "label": "OSE Tables",
           "path": "packs/ose-tables",
           "type": "RollTable",
-          "system": "ose",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "ose"
       },
       {
         "name": "fade-tables",
         "label": "Fade Tables",
         "path": "packs/fade-tables",
         "type": "RollTable",
-        "system": "fantastic-depths",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
-        }
+        "system": "fantastic-depths"
     },
       {
           "name": "shadowdark-journals",
           "label": "ShadowDark Journals",
           "path": "packs/shadowdark-journals",
           "type": "JournalEntry",
-          "system": "shadowdark",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "shadowdark"
       },
       {
           "name": "dnd5e-journals",
           "label": "DnD5e Journals",
           "path": "packs/dnd5e-journals",
           "type": "JournalEntry",
-          "system": "dnd5e",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "dnd5e"
       },
       {
           "name": "ose-journals",
           "label": "OSE Journals",
           "path": "packs/ose-journals",
           "type": "JournalEntry",
-          "system": "ose",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "ose"
       },
       {
           "name": "fade-journals",
           "label": "FaDe Journals",
           "path": "packs/fade-journals",
           "type": "JournalEntry",
-          "system": "fantastic-depths",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-        }
+          "system": "fantastic-depths"
     },
       {
           "name": "shadowdark-macros",
           "label": "ShadowDark Macros",
           "path": "packs/shadowdark-macros",
           "type": "Macro",
-          "system": "shadowdark",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "shadowdark"
       },
       {
           "name": "dnd5e-macros",
           "label": "DnD5e Macros",
           "path": "packs/dnd5e-macros",
           "type": "Macro",
-          "system": "dnd5e",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "dnd5e"
       },
       {
           "name": "ose-macros",
           "label": "OSE Macros",
           "path": "packs/ose-macros",
           "type": "Macro",
-          "system": "ose",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "ose"
       },
       {
           "name": "fade-macros",
           "label": "FaDe Macros",
           "path": "packs/fade-macros",
           "type": "Macro",
-          "system": "fantastic-depths",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-        }
+          "system": "fantastic-depths"
     },
       {
           "name": "shadowdark-scenes",
           "label": "ShadowDark Scenes",
           "path": "packs/shadowdark-scenes",
           "type": "Scene",
-          "system": "shadowdark",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "shadowdark"
       },
       {
           "name": "dnd5e-scenes",
           "label": "DnD5e Scenes",
           "path": "packs/dnd5e-scenes",
           "type": "Scene",
-          "system": "dnd5e",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "dnd5e"
       },
       {
           "name": "ose-scenes",
           "label": "OSE Scenes",
           "path": "packs/ose-scenes",
           "type": "Scene",
-          "system": "ose",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-          }
+          "system": "ose"
       },
       {
           "name": "fade-scenes",
           "label": "FaDe Scenes",
           "path": "packs/fade-scenes",
           "type": "Scene",
-          "system": "fantastic-depths",
-          "ownership": {
-              "PLAYER": "OBSERVER",
-              "ASSISTANT": "OWNER"
-        }
+          "system": "fantastic-depths"
     }
   ],
   "packFolders": [
