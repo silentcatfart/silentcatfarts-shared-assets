@@ -1,8 +1,15 @@
-2025/03/17-08:36:30.728589 7f9d3efbf700 Recovering log #94
-2025/03/17-08:36:30.749990 7f9d3efbf700 Delete type=0 #94
-2025/03/17-08:36:30.750018 7f9d3efbf700 Delete type=3 #92
-2025/03/17-08:37:09.705207 7f981ffff700 Level-0 table #99: started
-2025/03/17-08:37:09.705382 7f981ffff700 Level-0 table #99: 0 bytes OK
-2025/03/17-08:37:09.714070 7f981ffff700 Delete type=0 #97
-2025/03/17-08:37:09.733359 7f981ffff700 Manual compaction at level-0 from '!folders!eDjxm6SE9YvFLb2D' @ 72057594037927935 : 1 .. '!folders!tzfBL2KQVRLKRL8j' @ 0 : 0; will stop at (end)
-2025/03/17-08:37:09.742806 7f981ffff700 Manual compaction at level-1 from '!folders!eDjxm6SE9YvFLb2D' @ 72057594037927935 : 1 .. '!folders!tzfBL2KQVRLKRL8j' @ 0 : 0; will stop at (end)
+2025/03/27-16:08:23.565708 7f2dc0d11700 Recovering log #98
+2025/03/27-16:08:23.587906 7f2dc0d11700 Delete type=0 #98
+2025/03/27-16:08:23.587933 7f2dc0d11700 Delete type=3 #96
+2025/03/27-16:43:54.383118 7f2d99e0f700 Level-0 table #103: started
+2025/03/27-16:43:54.394292 7f2d99e0f700 Level-0 table #103: 78972 bytes OK
+2025/03/27-16:43:54.405979 7f2d99e0f700 Delete type=0 #101
+2025/03/27-16:43:54.444687 7f2d99e0f700 Manual compaction at level-0 from '!actors!6jpK7GA3r5f0qliV' @ 72057594037927935 : 1 .. '!folders!yARfBoLtjJn7pZ7W' @ 0 : 0; will stop at (end)
+2025/03/27-16:43:54.454022 7f2d99e0f700 Manual compaction at level-1 from '!actors!6jpK7GA3r5f0qliV' @ 72057594037927935 : 1 .. '!folders!yARfBoLtjJn7pZ7W' @ 0 : 0; will stop at '!folders!yARfBoLtjJn7pZ7W' @ 12 : 1
+2025/03/27-16:43:54.454029 7f2d99e0f700 Compacting 1@1 + 1@2 files
+2025/03/27-16:43:54.466004 7f2d99e0f700 Generated table #104@1: 57 keys, 78839 bytes
+2025/03/27-16:43:54.466025 7f2d99e0f700 Compacted 1@1 + 1@2 files => 78839 bytes
+2025/03/27-16:43:54.476230 7f2d99e0f700 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/27-16:43:54.476344 7f2d99e0f700 Delete type=2 #5
+2025/03/27-16:43:54.476408 7f2d99e0f700 Delete type=2 #103
+2025/03/27-16:43:54.501549 7f2d99e0f700 Manual compaction at level-1 from '!folders!yARfBoLtjJn7pZ7W' @ 12 : 1 .. '!folders!yARfBoLtjJn7pZ7W' @ 0 : 0; will stop at (end)
