@@ -1,15 +1,8 @@
-2025/03/27-16:45:03.759503 7f2d9b7fe700 Recovering log #564
-2025/03/27-16:45:03.781673 7f2d9b7fe700 Delete type=3 #562
-2025/03/27-16:45:03.781706 7f2d9b7fe700 Delete type=0 #564
-2025/03/27-16:55:35.342264 7f2d99e0f700 Level-0 table #569: started
-2025/03/27-16:55:35.350882 7f2d99e0f700 Level-0 table #569: 12128 bytes OK
-2025/03/27-16:55:35.358494 7f2d99e0f700 Delete type=0 #567
-2025/03/27-16:55:35.375132 7f2d99e0f700 Manual compaction at level-0 from '!actors!0IGOp7M6Dfj1Gt1Y' @ 72057594037927935 : 1 .. '!folders!trGD29dvG4AVNxjV' @ 0 : 0; will stop at (end)
-2025/03/27-16:55:35.393074 7f2d99e0f700 Manual compaction at level-1 from '!actors!0IGOp7M6Dfj1Gt1Y' @ 72057594037927935 : 1 .. '!folders!trGD29dvG4AVNxjV' @ 0 : 0; will stop at '!folders!LKnqzIlaXfGvJLgS' @ 7011 : 1
-2025/03/27-16:55:35.393080 7f2d99e0f700 Compacting 1@1 + 1@2 files
-2025/03/27-16:55:35.420261 7f2d99e0f700 Generated table #570@1: 787 keys, 411050 bytes
-2025/03/27-16:55:35.420292 7f2d99e0f700 Compacted 1@1 + 1@2 files => 411050 bytes
-2025/03/27-16:55:35.428848 7f2d99e0f700 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/03/27-16:55:35.428979 7f2d99e0f700 Delete type=2 #553
-2025/03/27-16:55:35.429078 7f2d99e0f700 Delete type=2 #569
-2025/03/27-16:55:35.465628 7f2d99e0f700 Manual compaction at level-1 from '!folders!LKnqzIlaXfGvJLgS' @ 7011 : 1 .. '!folders!trGD29dvG4AVNxjV' @ 0 : 0; will stop at (end)
+2025/04/01-20:14:40.494313 7feaeaffd700 Recovering log #585
+2025/04/01-20:14:40.515541 7feaeaffd700 Delete type=3 #583
+2025/04/01-20:14:40.515568 7feaeaffd700 Delete type=0 #585
+2025/04/01-20:16:53.397587 7feae941a700 Level-0 table #590: started
+2025/04/01-20:16:53.397644 7feae941a700 Level-0 table #590: 0 bytes OK
+2025/04/01-20:16:53.409660 7feae941a700 Delete type=0 #588
+2025/04/01-20:16:53.435258 7feae941a700 Manual compaction at level-0 from '!actors!0IGOp7M6Dfj1Gt1Y' @ 72057594037927935 : 1 .. '!folders!trGD29dvG4AVNxjV' @ 0 : 0; will stop at (end)
+2025/04/01-20:16:53.435311 7feae941a700 Manual compaction at level-1 from '!actors!0IGOp7M6Dfj1Gt1Y' @ 72057594037927935 : 1 .. '!folders!trGD29dvG4AVNxjV' @ 0 : 0; will stop at (end)
