@@ -1,8 +1,15 @@
-2025/04/04-15:12:04.591199 7f49858d9700 Recovering log #980
-2025/04/04-15:12:04.612336 7f49858d9700 Delete type=3 #978
-2025/04/04-15:12:04.612363 7f49858d9700 Delete type=0 #980
-2025/04/04-17:57:47.091328 7f495ef2c700 Level-0 table #986: started
-2025/04/04-17:57:47.091353 7f495ef2c700 Level-0 table #986: 0 bytes OK
-2025/04/04-17:57:47.101260 7f495ef2c700 Delete type=0 #984
-2025/04/04-17:57:47.110047 7f495ef2c700 Manual compaction at level-0 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
-2025/04/04-17:57:47.118912 7f495ef2c700 Manual compaction at level-1 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
+2025/04/09-15:40:24.239840 7eff92fbe700 Recovering log #1014
+2025/04/09-15:40:24.266032 7eff92fbe700 Delete type=3 #1012
+2025/04/09-15:40:24.266061 7eff92fbe700 Delete type=0 #1014
+2025/04/09-15:50:41.770164 7eff913aa700 Level-0 table #1019: started
+2025/04/09-15:50:41.781611 7eff913aa700 Level-0 table #1019: 37739 bytes OK
+2025/04/09-15:50:41.794049 7eff913aa700 Delete type=0 #1017
+2025/04/09-15:50:41.804476 7eff913aa700 Manual compaction at level-0 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
+2025/04/09-15:50:41.818673 7eff913aa700 Manual compaction at level-1 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 943 : 1
+2025/04/09-15:50:41.818680 7eff913aa700 Compacting 1@1 + 1@2 files
+2025/04/09-15:50:41.829810 7eff913aa700 Generated table #1020@1: 335 keys, 40858 bytes
+2025/04/09-15:50:41.829826 7eff913aa700 Compacted 1@1 + 1@2 files => 40858 bytes
+2025/04/09-15:50:41.840397 7eff913aa700 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/09-15:50:41.840495 7eff913aa700 Delete type=2 #999
+2025/04/09-15:50:41.840573 7eff913aa700 Delete type=2 #1019
+2025/04/09-15:50:41.853023 7eff913aa700 Manual compaction at level-1 from '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 943 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
