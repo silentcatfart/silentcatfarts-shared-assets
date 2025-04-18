@@ -1,15 +1,8 @@
-2025/04/15-08:58:48.032725 7f1464fbd700 Recovering log #596
-2025/04/15-08:58:48.052837 7f1464fbd700 Delete type=3 #594
-2025/04/15-08:58:48.052876 7f1464fbd700 Delete type=0 #596
-2025/04/15-11:31:23.572385 7f1463818700 Level-0 table #601: started
-2025/04/15-11:31:23.586198 7f1463818700 Level-0 table #601: 2043 bytes OK
-2025/04/15-11:31:23.598790 7f1463818700 Delete type=0 #599
-2025/04/15-11:31:23.619314 7f1463818700 Manual compaction at level-0 from '!folders!UYgjAbbMlCQtdUy4' @ 72057594037927935 : 1 .. '!macros!nMDwplY4kV8FuEJf' @ 0 : 0; will stop at (end)
-2025/04/15-11:31:23.619702 7f1463818700 Manual compaction at level-1 from '!folders!UYgjAbbMlCQtdUy4' @ 72057594037927935 : 1 .. '!macros!nMDwplY4kV8FuEJf' @ 0 : 0; will stop at '!macros!nMDwplY4kV8FuEJf' @ 57 : 1
-2025/04/15-11:31:23.619805 7f1463818700 Compacting 1@1 + 1@2 files
-2025/04/15-11:31:23.630978 7f1463818700 Generated table #602@1: 13 keys, 15716 bytes
-2025/04/15-11:31:23.631017 7f1463818700 Compacted 1@1 + 1@2 files => 15716 bytes
-2025/04/15-11:31:23.640083 7f1463818700 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/04/15-11:31:23.640197 7f1463818700 Delete type=2 #569
-2025/04/15-11:31:23.640287 7f1463818700 Delete type=2 #601
-2025/04/15-11:31:23.671605 7f1463818700 Manual compaction at level-1 from '!macros!nMDwplY4kV8FuEJf' @ 57 : 1 .. '!macros!nMDwplY4kV8FuEJf' @ 0 : 0; will stop at (end)
+2025/04/15-22:48:16.278248 7f54e9340700 Recovering log #605
+2025/04/15-22:48:16.299220 7f54e9340700 Delete type=0 #605
+2025/04/15-22:48:16.299247 7f54e9340700 Delete type=3 #603
+2025/04/15-23:47:20.401631 7f54c3172700 Level-0 table #610: started
+2025/04/15-23:47:20.401663 7f54c3172700 Level-0 table #610: 0 bytes OK
+2025/04/15-23:47:20.412836 7f54c3172700 Delete type=0 #608
+2025/04/15-23:47:20.436920 7f54c3172700 Manual compaction at level-0 from '!folders!UYgjAbbMlCQtdUy4' @ 72057594037927935 : 1 .. '!macros!nMDwplY4kV8FuEJf' @ 0 : 0; will stop at (end)
+2025/04/15-23:47:20.436972 7f54c3172700 Manual compaction at level-1 from '!folders!UYgjAbbMlCQtdUy4' @ 72057594037927935 : 1 .. '!macros!nMDwplY4kV8FuEJf' @ 0 : 0; will stop at (end)
