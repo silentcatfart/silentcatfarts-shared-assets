@@ -1,8 +1,15 @@
-2025/04/18-17:00:25.351803 7fb48b7fe700 Recovering log #221
-2025/04/18-17:00:25.375612 7fb48b7fe700 Delete type=3 #219
-2025/04/18-17:00:25.375640 7fb48b7fe700 Delete type=0 #221
-2025/04/18-17:01:36.715668 7fb489f56700 Level-0 table #227: started
-2025/04/18-17:01:36.715688 7fb489f56700 Level-0 table #227: 0 bytes OK
-2025/04/18-17:01:36.724932 7fb489f56700 Delete type=0 #225
-2025/04/18-17:01:36.725048 7fb489f56700 Manual compaction at level-0 from '!actors!2KrDl6kmywtMSPnK' @ 72057594037927935 : 1 .. '!folders!uyvKZQqyj4p357JW' @ 0 : 0; will stop at (end)
-2025/04/18-17:01:36.754223 7fb489f56700 Manual compaction at level-1 from '!actors!2KrDl6kmywtMSPnK' @ 72057594037927935 : 1 .. '!folders!uyvKZQqyj4p357JW' @ 0 : 0; will stop at (end)
+2025/04/24-14:12:15.895572 7f27e08e3700 Recovering log #274
+2025/04/24-14:12:15.918872 7f27e08e3700 Delete type=3 #272
+2025/04/24-14:12:15.918901 7f27e08e3700 Delete type=0 #274
+2025/04/24-17:41:30.726337 7f27baeba700 Level-0 table #279: started
+2025/04/24-17:41:30.736018 7f27baeba700 Level-0 table #279: 58905 bytes OK
+2025/04/24-17:41:30.743747 7f27baeba700 Delete type=0 #277
+2025/04/24-17:41:30.781581 7f27baeba700 Manual compaction at level-0 from '!actors!2KrDl6kmywtMSPnK' @ 72057594037927935 : 1 .. '!folders!uyvKZQqyj4p357JW' @ 0 : 0; will stop at (end)
+2025/04/24-17:41:30.793477 7f27baeba700 Manual compaction at level-1 from '!actors!2KrDl6kmywtMSPnK' @ 72057594037927935 : 1 .. '!folders!uyvKZQqyj4p357JW' @ 0 : 0; will stop at '!folders!juVdeUwfY5X2Cafk' @ 290 : 0
+2025/04/24-17:41:30.793485 7f27baeba700 Compacting 1@1 + 1@2 files
+2025/04/24-17:41:30.803277 7f27baeba700 Generated table #280@1: 61 keys, 58986 bytes
+2025/04/24-17:41:30.803291 7f27baeba700 Compacted 1@1 + 1@2 files => 58986 bytes
+2025/04/24-17:41:30.811963 7f27baeba700 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/24-17:41:30.812049 7f27baeba700 Delete type=2 #223
+2025/04/24-17:41:30.812101 7f27baeba700 Delete type=2 #279
+2025/04/24-17:41:30.848384 7f27baeba700 Manual compaction at level-1 from '!folders!juVdeUwfY5X2Cafk' @ 290 : 0 .. '!folders!uyvKZQqyj4p357JW' @ 0 : 0; will stop at (end)
