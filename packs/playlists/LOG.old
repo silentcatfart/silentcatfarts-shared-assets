@@ -1,8 +1,15 @@
-2025/04/28-16:22:43.666094 7fd8e8fbd700 Recovering log #1212
-2025/04/28-16:22:43.695324 7fd8e8fbd700 Delete type=3 #1210
-2025/04/28-16:22:43.695360 7fd8e8fbd700 Delete type=0 #1212
-2025/04/28-17:06:37.648437 7fd8e7a10700 Level-0 table #1217: started
-2025/04/28-17:06:37.648458 7fd8e7a10700 Level-0 table #1217: 0 bytes OK
-2025/04/28-17:06:37.657105 7fd8e7a10700 Delete type=0 #1215
-2025/04/28-17:06:37.657205 7fd8e7a10700 Manual compaction at level-0 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
-2025/04/28-17:06:37.690897 7fd8e7a10700 Manual compaction at level-1 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
+2025/05/01-11:39:55.396867 7f6b7a7be700 Recovering log #1256
+2025/05/01-11:39:55.419167 7f6b7a7be700 Delete type=3 #1254
+2025/05/01-11:39:55.419193 7f6b7a7be700 Delete type=0 #1256
+2025/05/01-17:08:12.779767 7f6b789b5700 Level-0 table #1261: started
+2025/05/01-17:08:12.789572 7f6b789b5700 Level-0 table #1261: 32167 bytes OK
+2025/05/01-17:08:12.799960 7f6b789b5700 Delete type=0 #1259
+2025/05/01-17:08:12.817752 7f6b789b5700 Manual compaction at level-0 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
+2025/05/01-17:08:12.818060 7f6b789b5700 Manual compaction at level-1 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at '!playlists.sounds!iCc2nKdBOUjbkndf.vkwQ5yKjzmSlAIzb' @ 1540 : 1
+2025/05/01-17:08:12.818065 7f6b789b5700 Compacting 1@1 + 1@2 files
+2025/05/01-17:08:12.828199 7f6b789b5700 Generated table #1262@1: 321 keys, 40552 bytes
+2025/05/01-17:08:12.828214 7f6b789b5700 Compacted 1@1 + 1@2 files => 40552 bytes
+2025/05/01-17:08:12.837436 7f6b789b5700 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/05/01-17:08:12.837516 7f6b789b5700 Delete type=2 #1025
+2025/05/01-17:08:12.837566 7f6b789b5700 Delete type=2 #1261
+2025/05/01-17:08:12.862057 7f6b789b5700 Manual compaction at level-1 from '!playlists.sounds!iCc2nKdBOUjbkndf.vkwQ5yKjzmSlAIzb' @ 1540 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
