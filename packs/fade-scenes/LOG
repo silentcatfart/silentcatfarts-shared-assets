@@ -1,8 +1,15 @@
-2025/05/30-11:16:55.003226 7fdece7be700 Recovering log #460
-2025/05/30-11:16:55.022833 7fdece7be700 Delete type=3 #458
-2025/05/30-11:16:55.022864 7fdece7be700 Delete type=0 #460
-2025/05/30-16:04:08.024496 7fd9affff700 Level-0 table #465: started
-2025/05/30-16:04:08.024522 7fd9affff700 Level-0 table #465: 0 bytes OK
-2025/05/30-16:04:08.038701 7fd9affff700 Delete type=0 #463
-2025/05/30-16:04:08.056246 7fd9affff700 Manual compaction at level-0 from '!folders!8lNaosnorp5naDjl' @ 72057594037927935 : 1 .. '!scenes!PfxAy4b6YrNOF2wy' @ 0 : 0; will stop at (end)
-2025/05/30-16:04:08.056280 7fd9affff700 Manual compaction at level-1 from '!folders!8lNaosnorp5naDjl' @ 72057594037927935 : 1 .. '!scenes!PfxAy4b6YrNOF2wy' @ 0 : 0; will stop at (end)
+2025/06/02-13:51:45.606888 7f6e6afbf700 Recovering log #468
+2025/06/02-13:51:45.628326 7f6e6afbf700 Delete type=3 #466
+2025/06/02-13:51:45.628358 7f6e6afbf700 Delete type=0 #468
+2025/06/02-16:31:10.608590 7f6e6889a700 Level-0 table #473: started
+2025/06/02-16:31:10.618419 7f6e6889a700 Level-0 table #473: 309 bytes OK
+2025/06/02-16:31:10.627306 7f6e6889a700 Delete type=0 #471
+2025/06/02-16:31:10.627660 7f6e6889a700 Manual compaction at level-0 from '!folders!mBOS5P0LrHqpllGc' @ 72057594037927935 : 1 .. '!scenes!PfxAy4b6YrNOF2wy' @ 0 : 0; will stop at (end)
+2025/06/02-16:31:10.693627 7f6e6889a700 Manual compaction at level-1 from '!folders!mBOS5P0LrHqpllGc' @ 72057594037927935 : 1 .. '!scenes!PfxAy4b6YrNOF2wy' @ 0 : 0; will stop at '!folders!yShAyC71neRWZZKC' @ 19 : 0
+2025/06/02-16:31:10.693640 7f6e6889a700 Compacting 1@1 + 1@2 files
+2025/06/02-16:31:10.703203 7f6e6889a700 Generated table #474@1: 2 keys, 1450 bytes
+2025/06/02-16:31:10.703222 7f6e6889a700 Compacted 1@1 + 1@2 files => 1450 bytes
+2025/06/02-16:31:10.713232 7f6e6889a700 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/06/02-16:31:10.713357 7f6e6889a700 Delete type=2 #45
+2025/06/02-16:31:10.713416 7f6e6889a700 Delete type=2 #473
+2025/06/02-16:31:10.713579 7f6e6889a700 Manual compaction at level-1 from '!folders!yShAyC71neRWZZKC' @ 19 : 0 .. '!scenes!PfxAy4b6YrNOF2wy' @ 0 : 0; will stop at (end)

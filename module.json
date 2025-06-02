@@ -1,7 +1,7 @@
 {
   "id": "silentcatfarts-shared-assets",
   "title": "Silentcatfart's Shared Assets",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "compatibility": {
       "minimum": "12",
       "verified": "13"
@@ -38,7 +38,7 @@
       },
       {
           "name": "fade-actors",
-          "label": "FaDe Actors",
+          "label": "OSE Actors",
           "path": "packs/fade-actors",
           "type": "Actor",
           "system": "fantastic-depths"
@@ -66,7 +66,7 @@
       },
       {
           "name": "fade-items",
-          "label": "FaDe Items",
+          "label": "OSE Items",
           "path": "packs/fade-items",
           "type": "Item",
           "system": "fantastic-depths"
@@ -94,7 +94,7 @@
       },
       {
           "name": "fade-adventures",
-          "label": "FaDe Adventures",
+          "label": "OSE Adventures",
           "path": "packs/fade-adventures",
           "type": "Adventure",
           "system": "fantastic-depths"
@@ -128,7 +128,7 @@
       },
       {
         "name": "fade-tables",
-        "label": "Fade Tables",
+        "label": "OSE Tables",
         "path": "packs/fade-tables",
         "type": "RollTable",
         "system": "fantastic-depths"
@@ -156,7 +156,7 @@
       },
       {
           "name": "fade-journals",
-          "label": "FaDe Journals",
+          "label": "OSE Journals",
           "path": "packs/fade-journals",
           "type": "JournalEntry",
           "system": "fantastic-depths"
@@ -184,7 +184,7 @@
       },
       {
           "name": "fade-macros",
-          "label": "FaDe Macros",
+          "label": "OSE Macros",
           "path": "packs/fade-macros",
           "type": "Macro",
           "system": "fantastic-depths"
@@ -212,7 +212,7 @@
       },
       {
           "name": "fade-scenes",
-          "label": "FaDe Scenes",
+          "label": "OSE Scenes",
           "path": "packs/fade-scenes",
           "type": "Scene",
           "system": "fantastic-depths"
@@ -265,7 +265,7 @@
         ]
     },
     {
-        "name": "Silentcatfart's FaDe",
+        "name": "Silentcatfart's OSE",
         "sorting": "a",
         "color": "#3e034f",
         "system": "fantastic-depths",
