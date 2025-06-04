@@ -1,15 +1,8 @@
-2025/06/02-13:51:45.557685 7f6e69fbd700 Recovering log #468
-2025/06/02-13:51:45.578859 7f6e69fbd700 Delete type=3 #466
-2025/06/02-13:51:45.578888 7f6e69fbd700 Delete type=0 #468
-2025/06/02-16:31:10.537713 7f6e6889a700 Level-0 table #473: started
-2025/06/02-16:31:10.545975 7f6e6889a700 Level-0 table #473: 309 bytes OK
-2025/06/02-16:31:10.554311 7f6e6889a700 Delete type=0 #471
-2025/06/02-16:31:10.573818 7f6e6889a700 Manual compaction at level-0 from '!folders!ZB3zdHfrKGC0jXOb' @ 72057594037927935 : 1 .. '!folders!ZB3zdHfrKGC0jXOb' @ 0 : 0; will stop at (end)
-2025/06/02-16:31:10.592917 7f6e6889a700 Manual compaction at level-1 from '!folders!ZB3zdHfrKGC0jXOb' @ 72057594037927935 : 1 .. '!folders!ZB3zdHfrKGC0jXOb' @ 0 : 0; will stop at '!folders!uXoXJG2OzsVvC0q2' @ 13 : 0
-2025/06/02-16:31:10.592925 7f6e6889a700 Compacting 1@1 + 1@2 files
-2025/06/02-16:31:10.600687 7f6e6889a700 Generated table #474@1: 1 keys, 514 bytes
-2025/06/02-16:31:10.600703 7f6e6889a700 Compacted 1@1 + 1@2 files => 514 bytes
-2025/06/02-16:31:10.608455 7f6e6889a700 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/06/02-16:31:10.608516 7f6e6889a700 Delete type=2 #45
-2025/06/02-16:31:10.608559 7f6e6889a700 Delete type=2 #473
-2025/06/02-16:31:10.627397 7f6e6889a700 Manual compaction at level-1 from '!folders!uXoXJG2OzsVvC0q2' @ 13 : 0 .. '!folders!ZB3zdHfrKGC0jXOb' @ 0 : 0; will stop at (end)
+2025/06/04-15:38:36.437653 7f287946c700 Recovering log #507
+2025/06/04-15:38:36.461004 7f287946c700 Delete type=3 #505
+2025/06/04-15:38:36.461041 7f287946c700 Delete type=0 #507
+2025/06/04-17:08:10.645466 7f285308c700 Level-0 table #512: started
+2025/06/04-17:08:10.654388 7f285308c700 Level-0 table #512: 2224 bytes OK
+2025/06/04-17:08:10.663705 7f285308c700 Delete type=0 #510
+2025/06/04-17:08:10.735090 7f285308c700 Manual compaction at level-0 from '!folders!ZB3zdHfrKGC0jXOb' @ 72057594037927935 : 1 .. '!journal.pages!wRYBAOKH5XxhWsZI.mKbpWwZAJpDvmaMG' @ 0 : 0; will stop at (end)
+2025/06/04-17:08:10.735164 7f285308c700 Manual compaction at level-1 from '!folders!ZB3zdHfrKGC0jXOb' @ 72057594037927935 : 1 .. '!journal.pages!wRYBAOKH5XxhWsZI.mKbpWwZAJpDvmaMG' @ 0 : 0; will stop at (end)
