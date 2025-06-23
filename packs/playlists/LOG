@@ -1,8 +1,8 @@
-2025/06/20-09:52:30.991888 7f5c31fbf700 Recovering log #1539
-2025/06/20-09:52:31.012322 7f5c31fbf700 Delete type=3 #1537
-2025/06/20-09:52:31.012358 7f5c31fbf700 Delete type=0 #1539
-2025/06/20-15:34:03.481384 7f5c2fa1f700 Level-0 table #1544: started
-2025/06/20-15:34:03.481408 7f5c2fa1f700 Level-0 table #1544: 0 bytes OK
-2025/06/20-15:34:03.496133 7f5c2fa1f700 Delete type=0 #1542
-2025/06/20-15:34:03.496261 7f5c2fa1f700 Manual compaction at level-0 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
-2025/06/20-15:34:03.576532 7f5c2fa1f700 Manual compaction at level-1 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
+2025/06/23-13:10:31.218893 7f710d7bc700 Recovering log #1555
+2025/06/23-13:10:31.240430 7f710d7bc700 Delete type=3 #1553
+2025/06/23-13:10:31.240463 7f710d7bc700 Delete type=0 #1555
+2025/06/23-14:44:13.232396 7f710cb60700 Level-0 table #1560: started
+2025/06/23-14:44:13.232418 7f710cb60700 Level-0 table #1560: 0 bytes OK
+2025/06/23-14:44:13.239375 7f710cb60700 Delete type=0 #1558
+2025/06/23-14:44:13.239460 7f710cb60700 Manual compaction at level-0 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
+2025/06/23-14:44:13.325542 7f710cb60700 Manual compaction at level-1 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
