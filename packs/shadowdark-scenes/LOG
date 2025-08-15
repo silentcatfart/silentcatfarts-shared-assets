@@ -1,3 +1,22 @@
-2025/08/15-11:08:59.345097 7f0655053700 Recovering log #746
-2025/08/15-11:08:59.366777 7f0655053700 Delete type=3 #744
-2025/08/15-11:08:59.366811 7f0655053700 Delete type=0 #746
+2025/08/15-11:55:53.935615 7f47a8ec1700 Recovering log #749
+2025/08/15-11:55:53.936008 7f47a8ec1700 Level-0 table #751: started
+2025/08/15-11:55:53.946135 7f47a8ec1700 Level-0 table #751: 37141 bytes OK
+2025/08/15-11:55:53.968159 7f47a8ec1700 Delete type=3 #748
+2025/08/15-11:55:53.968194 7f47a8ec1700 Delete type=0 #749
+2025/08/15-11:55:54.761235 7f47827fc700 Compacting 1@0 + 1@1 files
+2025/08/15-11:55:54.798321 7f47827fc700 Generated table #753@0: 3237 keys, 321879 bytes
+2025/08/15-11:55:54.798346 7f47827fc700 Compacted 1@0 + 1@1 files => 321879 bytes
+2025/08/15-11:55:54.807259 7f47827fc700 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/08/15-11:55:54.807380 7f47827fc700 Delete type=2 #685
+2025/08/15-11:55:54.807460 7f47827fc700 Delete type=2 #751
+2025/08/15-11:57:42.007746 7f47827fc700 Level-0 table #755: started
+2025/08/15-11:57:42.017192 7f47827fc700 Level-0 table #755: 221 bytes OK
+2025/08/15-11:57:42.026776 7f47827fc700 Delete type=0 #752
+2025/08/15-11:57:42.045381 7f47827fc700 Manual compaction at level-0 from '!folders!1KyuKmrapGwsLyjU' @ 72057594037927935 : 1 .. '!scenes.walls!zkkOCTBSg1KblTMJ.v7LGIoSsQmg5V5IH' @ 0 : 0; will stop at '!scenes.notes!PaTNiX6Dj7Vvnmky.0kHVkxOZMGqTfH2T' @ 31863 : 0
+2025/08/15-11:57:42.045388 7f47827fc700 Compacting 1@0 + 1@1 files
+2025/08/15-11:57:42.072135 7f47827fc700 Generated table #756@0: 3236 keys, 321516 bytes
+2025/08/15-11:57:42.072158 7f47827fc700 Compacted 1@0 + 1@1 files => 321516 bytes
+2025/08/15-11:57:42.082443 7f47827fc700 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/08/15-11:57:42.082547 7f47827fc700 Delete type=2 #753
+2025/08/15-11:57:42.082655 7f47827fc700 Delete type=2 #755
+2025/08/15-11:57:42.082929 7f47827fc700 Manual compaction at level-0 from '!scenes.notes!PaTNiX6Dj7Vvnmky.0kHVkxOZMGqTfH2T' @ 31863 : 0 .. '!scenes.walls!zkkOCTBSg1KblTMJ.v7LGIoSsQmg5V5IH' @ 0 : 0; will stop at (end)
