@@ -1,8 +1,15 @@
-2026/02/12-06:25:23.169670 7ab9cffff640 Recovering log #850
-2026/02/12-06:25:23.182721 7ab9cffff640 Delete type=3 #848
-2026/02/12-06:25:23.182754 7ab9cffff640 Delete type=0 #850
-2026/02/12-08:56:42.880652 7ab74f7ef640 Level-0 table #855: started
-2026/02/12-08:56:42.880671 7ab74f7ef640 Level-0 table #855: 0 bytes OK
-2026/02/12-08:56:42.887670 7ab74f7ef640 Delete type=0 #853
-2026/02/12-08:56:42.891543 7ab74f7ef640 Manual compaction at level-0 from '!folders!8sBDDGjvJprVvEz1' @ 72057594037927935 : 1 .. '!tables.results!yrusm9RwgUleLvaz.yJxlJfD3pjsixB3Z' @ 0 : 0; will stop at (end)
-2026/02/12-08:56:42.897522 7ab74f7ef640 Manual compaction at level-1 from '!folders!8sBDDGjvJprVvEz1' @ 72057594037927935 : 1 .. '!tables.results!yrusm9RwgUleLvaz.yJxlJfD3pjsixB3Z' @ 0 : 0; will stop at (end)
+2026/02/19-16:16:53.988269 7f74e23fe640 Recovering log #873
+2026/02/19-16:16:53.998865 7f74e23fe640 Delete type=3 #871
+2026/02/19-16:16:53.998891 7f74e23fe640 Delete type=0 #873
+2026/02/19-17:11:16.915768 7f74e0bfb640 Level-0 table #878: started
+2026/02/19-17:11:16.920844 7f74e0bfb640 Level-0 table #878: 5376 bytes OK
+2026/02/19-17:11:16.925179 7f74e0bfb640 Delete type=0 #876
+2026/02/19-17:11:16.942761 7f74e0bfb640 Manual compaction at level-0 from '!folders!1zrZBU8jA6AZGSY5' @ 72057594037927935 : 1 .. '!tables.results!yrusm9RwgUleLvaz.yJxlJfD3pjsixB3Z' @ 0 : 0; will stop at (end)
+2026/02/19-17:11:16.942837 7f74e0bfb640 Manual compaction at level-1 from '!folders!1zrZBU8jA6AZGSY5' @ 72057594037927935 : 1 .. '!tables.results!yrusm9RwgUleLvaz.yJxlJfD3pjsixB3Z' @ 0 : 0; will stop at '!tables.results!TNRWjqc2xLRIgjls.uQ4zdSJk4bAyIyfH' @ 13459 : 1
+2026/02/19-17:11:16.942841 7f74e0bfb640 Compacting 1@1 + 1@2 files
+2026/02/19-17:11:16.954689 7f74e0bfb640 Generated table #879@1: 1793 keys, 254021 bytes
+2026/02/19-17:11:16.954703 7f74e0bfb640 Compacted 1@1 + 1@2 files => 254021 bytes
+2026/02/19-17:11:16.958928 7f74e0bfb640 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/19-17:11:16.958990 7f74e0bfb640 Delete type=2 #870
+2026/02/19-17:11:16.959050 7f74e0bfb640 Delete type=2 #878
+2026/02/19-17:11:16.971660 7f74e0bfb640 Manual compaction at level-1 from '!tables.results!TNRWjqc2xLRIgjls.uQ4zdSJk4bAyIyfH' @ 13459 : 1 .. '!tables.results!yrusm9RwgUleLvaz.yJxlJfD3pjsixB3Z' @ 0 : 0; will stop at (end)
