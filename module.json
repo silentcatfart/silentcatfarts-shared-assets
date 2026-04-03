@@ -1,10 +1,10 @@
 {
   "id": "silentcatfarts-shared-assets",
   "title": "Silentcatfart's Shared Assets",
-  "version": "2.5.18",
+  "version": "2.6.0",
   "compatibility": {
-      "minimum": "12",
-      "verified": "13"
+      "minimum": "13",
+      "verified": "14"
   },
   "authors": [
       {
@@ -42,7 +42,21 @@
           "path": "packs/fade-actors",
           "type": "Actor",
           "system": "fantastic-depths"
-    },
+      },
+      {
+          "name": "mosh-actors",
+          "label": "Mothership Actors",
+          "path": "packs/mosh-actors",
+          "type": "Actor",
+          "system": "mosh"
+      },
+      {
+          "name": "pirateborg-actors",
+          "label": "Pirate Borg Actors",
+          "path": "packs/pirateborg-actors",
+          "type": "Actor",
+          "system": "pirateborg"
+      },      
       {
           "name": "shadowdark-items",
           "label": "ShadowDark Items",
@@ -70,7 +84,21 @@
           "path": "packs/fade-items",
           "type": "Item",
           "system": "fantastic-depths"
-    },
+      },
+      {
+          "name": "mosh-items",
+          "label": "Mothership Items",
+          "path": "packs/mosh-items",
+          "type": "Item",
+          "system": "mosh"
+      },
+      {
+          "name": "pirateborg-items",
+          "label": "Pirate Borg Items",
+          "path": "packs/pirateborg-items",
+          "type": "Item",
+          "system": "pirateborg"
+      },      
       {
           "name": "shadowdark-adventures",
           "label": "ShadowDark Adventures",
@@ -98,7 +126,21 @@
           "path": "packs/fade-adventures",
           "type": "Adventure",
           "system": "fantastic-depths"
-    },
+      },
+      {
+          "name": "mosh-adventures",
+          "label": "Mothership Adventures",
+          "path": "packs/mosh-adventures",
+          "type": "Adventure",
+          "system": "mosh"
+      },
+      {
+          "name": "pirateborg-adventures",
+          "label": "Pirate Borg Adventures",
+          "path": "packs/pirateborg-adventures",
+          "type": "Adventure",
+          "system": "pirateborg"
+      },      
       {
           "name": "playlists",
           "label": "Playlists",
@@ -132,7 +174,21 @@
         "path": "packs/fade-tables",
         "type": "RollTable",
         "system": "fantastic-depths"
-    },
+      },
+      {
+          "name": "mosh-tables",
+          "label": "Mothership Tables",
+          "path": "packs/mosh-tables",
+          "type": "RollTable",
+          "system": "mosh"
+      },
+      {
+          "name": "pirateborg-tables",
+          "label": "Pirate Borg Tables",
+          "path": "packs/pirateborg-tables",
+          "type": "RollTable",
+          "system": "pirateborg"
+      },      
       {
           "name": "shadowdark-journals",
           "label": "ShadowDark Journals",
@@ -160,7 +216,21 @@
           "path": "packs/fade-journals",
           "type": "JournalEntry",
           "system": "fantastic-depths"
-    },
+      },
+      {
+          "name": "mosh-journals",
+          "label": "Mothership Journals",
+          "path": "packs/mosh-journals",
+          "type": "JournalEntry",
+          "system": "mosh"
+      },
+      {
+          "name": "pirateborg-journals",
+          "label": "Pirate Borg Journals",
+          "path": "packs/pirateborg-journals",
+          "type": "JournalEntry",
+          "system": "pirateborg"
+      },      
       {
           "name": "shadowdark-macros",
           "label": "ShadowDark Macros",
@@ -188,7 +258,21 @@
           "path": "packs/fade-macros",
           "type": "Macro",
           "system": "fantastic-depths"
-    },
+      },
+      {
+          "name": "mosh-macros",
+          "label": "Mothership Macros",
+          "path": "packs/mosh-macros",
+          "type": "Macro",
+          "system": "mosh"
+      },
+      {
+          "name": "pirateborg-macros",
+          "label": "Pirate Borg Macros",
+          "path": "packs/pirateborg-macros",
+          "type": "Macro",
+          "system": "pirateborg"
+      },      
       {
           "name": "shadowdark-scenes",
           "label": "ShadowDark Scenes",
@@ -216,7 +300,21 @@
           "path": "packs/fade-scenes",
           "type": "Scene",
           "system": "fantastic-depths"
-    }
+      },
+      {
+          "name": "mosh-scenes",
+          "label": "Mothership Scenes",
+          "path": "packs/mosh-scenes",
+          "type": "Scene",
+          "system": "mosh"
+      },
+      {
+          "name": "pirateborg-scenes",
+          "label": "Pirate Borg Scenes",
+          "path": "packs/pirateborg-scenes",
+          "type": "Scene",
+          "system": "pirateborg"
+      }      
   ],
   "packFolders": [
       {
@@ -278,9 +376,39 @@
             "fade-macros",
             "fade-scenes"
         ]
-    }
+    },
+    {
+        "name": "Silentcatfart's Mothership",
+        "sorting": "a",
+        "color": "#3e034f",
+        "system": "mosh",
+        "packs": [
+            "mosh-actors",
+            "mosh-items",
+            "mosh-adventures",
+            "mosh-tables",
+            "mosh-journals",
+            "mosh-macros",
+            "mosh-scenes"
+        ]
+    },
+    {
+        "name": "Silentcatfart's Pirate Borg",
+        "sorting": "a",
+        "color": "#3e034f",
+        "system": "pirateborg",
+        "packs": [
+            "pirateborg-actors",
+            "pirateborg-items",
+            "pirateborg-adventures",
+            "pirateborg-tables",
+            "pirateborg-journals",
+            "pirateborg-macros",
+            "pirateborg-scenes"
+        ]
+    }    
   ],
-  "description": "Personal Foundry VTT module for use with shadowdark, dnd5e, fade and ose",
+  "description": "Personal Foundry VTT module for use with shadowdark, mosh, pirateborg, dnd5e, fade and ose",
   "url": "https://github.com/silentcatfart/silentcatfarts-shared-assets",
   "manifest": "https://github.com/silentcatfart/silentcatfarts-shared-assets/releases/latest/download/module.json",
   "download": "https://github.com/silentcatfart/silentcatfarts-shared-assets/releases/latest/download/module.zip"
