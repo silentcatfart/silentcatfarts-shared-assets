@@ -1,8 +1,15 @@
-2026/03/12-07:48:06.537767 78f96d7bc640 Recovering log #1867
-2026/03/12-07:48:06.549061 78f96d7bc640 Delete type=3 #1865
-2026/03/12-07:48:06.549089 78f96d7bc640 Delete type=0 #1867
-2026/03/12-07:49:25.581318 78f96cf30640 Level-0 table #1873: started
-2026/03/12-07:49:25.581332 78f96cf30640 Level-0 table #1873: 0 bytes OK
-2026/03/12-07:49:25.587606 78f96cf30640 Delete type=0 #1871
-2026/03/12-07:49:25.639821 78f96cf30640 Manual compaction at level-0 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
-2026/03/12-07:49:25.639876 78f96cf30640 Manual compaction at level-1 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
+2026/04/06-12:32:14.974730 7329e73fe640 Recovering log #1884
+2026/04/06-12:32:14.988094 7329e73fe640 Delete type=3 #1882
+2026/04/06-12:32:14.988130 7329e73fe640 Delete type=0 #1884
+2026/04/06-12:58:50.063550 732765bef640 Level-0 table #1889: started
+2026/04/06-12:58:50.068787 732765bef640 Level-0 table #1889: 13565 bytes OK
+2026/04/06-12:58:50.073672 732765bef640 Delete type=0 #1887
+2026/04/06-12:58:50.073775 732765bef640 Manual compaction at level-0 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
+2026/04/06-12:58:50.074075 732765bef640 Manual compaction at level-1 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at '!playlists.sounds!yDseIJXggoQ4R68x.xRTO6SMyShnK3VF7' @ 2080 : 1
+2026/04/06-12:58:50.074078 732765bef640 Compacting 1@1 + 1@2 files
+2026/04/06-12:58:50.081893 732765bef640 Generated table #1890@1: 533 keys, 74258 bytes
+2026/04/06-12:58:50.081910 732765bef640 Compacted 1@1 + 1@2 files => 74258 bytes
+2026/04/06-12:58:50.086007 732765bef640 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/04/06-12:58:50.086083 732765bef640 Delete type=2 #1869
+2026/04/06-12:58:50.086131 732765bef640 Delete type=2 #1889
+2026/04/06-12:58:50.098167 732765bef640 Manual compaction at level-1 from '!playlists.sounds!yDseIJXggoQ4R68x.xRTO6SMyShnK3VF7' @ 2080 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
