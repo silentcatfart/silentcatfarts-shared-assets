@@ -1,8 +1,18 @@
-2026/04/06-12:32:15.021996 7329e6bfd640 Recovering log #924
-2026/04/06-12:32:15.032765 7329e6bfd640 Delete type=0 #924
-2026/04/06-12:32:15.032794 7329e6bfd640 Delete type=3 #922
-2026/04/06-12:58:50.086178 732765bef640 Level-0 table #929: started
-2026/04/06-12:58:50.086197 732765bef640 Level-0 table #929: 0 bytes OK
-2026/04/06-12:58:50.090358 732765bef640 Delete type=0 #927
-2026/04/06-12:58:50.098383 732765bef640 Manual compaction at level-0 from '!folders!1zrZBU8jA6AZGSY5' @ 72057594037927935 : 1 .. '!tables.results!yrusm9RwgUleLvaz.yJxlJfD3pjsixB3Z' @ 0 : 0; will stop at (end)
-2026/04/06-12:58:50.104991 732765bef640 Manual compaction at level-1 from '!folders!1zrZBU8jA6AZGSY5' @ 72057594037927935 : 1 .. '!tables.results!yrusm9RwgUleLvaz.yJxlJfD3pjsixB3Z' @ 0 : 0; will stop at (end)
+2026/05/04-15:42:12.020670 71566effe640 Recovering log #931
+2026/05/04-15:42:12.023876 71566effe640 Level-0 table #933: started
+2026/05/04-15:42:12.029980 71566effe640 Level-0 table #933: 1327 bytes OK
+2026/05/04-15:42:12.043158 71566effe640 Delete type=0 #931
+2026/05/04-15:42:12.043184 71566effe640 Delete type=3 #930
+2026/05/04-15:42:12.938221 7153ed1be640 Moved #933 to level-1 1327 bytes OK: files[ 0 1 1 0 0 0 0 ]
+2026/05/04-16:11:21.254081 7153ed1be640 Level-0 table #936: started
+2026/05/04-16:11:21.254101 7153ed1be640 Level-0 table #936: 0 bytes OK
+2026/05/04-16:11:21.258164 7153ed1be640 Delete type=0 #934
+2026/05/04-16:11:21.262398 7153ed1be640 Manual compaction at level-0 from '!folders!1zrZBU8jA6AZGSY5' @ 72057594037927935 : 1 .. '!tables.results!yrusm9RwgUleLvaz.yJxlJfD3pjsixB3Z' @ 0 : 0; will stop at (end)
+2026/05/04-16:11:21.294977 7153ed1be640 Manual compaction at level-1 from '!folders!1zrZBU8jA6AZGSY5' @ 72057594037927935 : 1 .. '!tables.results!yrusm9RwgUleLvaz.yJxlJfD3pjsixB3Z' @ 0 : 0; will stop at '!tables.results!68BVvuC6fF0gyVFd.x8IOGti33eSl0lvq' @ 14720 : 1
+2026/05/04-16:11:21.294984 7153ed1be640 Compacting 1@1 + 1@2 files
+2026/05/04-16:11:21.306191 7153ed1be640 Generated table #937@1: 1843 keys, 263238 bytes
+2026/05/04-16:11:21.306210 7153ed1be640 Compacted 1@1 + 1@2 files => 263238 bytes
+2026/05/04-16:11:21.316398 7153ed1be640 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/04-16:11:21.316495 7153ed1be640 Delete type=2 #897
+2026/05/04-16:11:21.316560 7153ed1be640 Delete type=2 #933
+2026/05/04-16:11:21.325105 7153ed1be640 Manual compaction at level-1 from '!tables.results!68BVvuC6fF0gyVFd.x8IOGti33eSl0lvq' @ 14720 : 1 .. '!tables.results!yrusm9RwgUleLvaz.yJxlJfD3pjsixB3Z' @ 0 : 0; will stop at (end)
