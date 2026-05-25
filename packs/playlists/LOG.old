@@ -1,18 +1,8 @@
-2026/05/04-15:42:11.978372 71566f7ff640 Recovering log #1892
-2026/05/04-15:42:11.982057 71566f7ff640 Level-0 table #1894: started
-2026/05/04-15:42:11.988928 71566f7ff640 Level-0 table #1894: 15171 bytes OK
-2026/05/04-15:42:12.002722 71566f7ff640 Delete type=3 #1891
-2026/05/04-15:42:12.002749 71566f7ff640 Delete type=0 #1892
-2026/05/04-15:42:12.928949 7153ed1be640 Moved #1894 to level-1 15171 bytes OK: files[ 0 1 1 0 0 0 0 ]
-2026/05/04-16:11:21.217183 7153ed1be640 Level-0 table #1897: started
-2026/05/04-16:11:21.217198 7153ed1be640 Level-0 table #1897: 0 bytes OK
-2026/05/04-16:11:21.220324 7153ed1be640 Delete type=0 #1895
-2026/05/04-16:11:21.220400 7153ed1be640 Manual compaction at level-0 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
-2026/05/04-16:11:21.243971 7153ed1be640 Manual compaction at level-1 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at '!playlists.sounds!IKv0wUeYqRdUA1Ft.yD4Iyye3O8pfsEZ8' @ 2192 : 1
-2026/05/04-16:11:21.243978 7153ed1be640 Compacting 1@1 + 1@2 files
-2026/05/04-16:11:21.250037 7153ed1be640 Generated table #1898@1: 597 keys, 85655 bytes
-2026/05/04-16:11:21.250053 7153ed1be640 Compacted 1@1 + 1@2 files => 85655 bytes
-2026/05/04-16:11:21.253931 7153ed1be640 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/05/04-16:11:21.254001 7153ed1be640 Delete type=2 #1890
-2026/05/04-16:11:21.254044 7153ed1be640 Delete type=2 #1894
-2026/05/04-16:11:21.262305 7153ed1be640 Manual compaction at level-1 from '!playlists.sounds!IKv0wUeYqRdUA1Ft.yD4Iyye3O8pfsEZ8' @ 2192 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
+2026/05/07-12:12:03.376318 730f3e7bf640 Recovering log #1901
+2026/05/07-12:12:03.392476 730f3e7bf640 Delete type=0 #1901
+2026/05/07-12:12:03.392519 730f3e7bf640 Delete type=3 #1899
+2026/05/07-12:13:10.835858 730c9ffff640 Level-0 table #1907: started
+2026/05/07-12:13:10.835881 730c9ffff640 Level-0 table #1907: 0 bytes OK
+2026/05/07-12:13:10.842184 730c9ffff640 Delete type=0 #1905
+2026/05/07-12:13:10.847274 730c9ffff640 Manual compaction at level-0 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
+2026/05/07-12:13:10.857875 730c9ffff640 Manual compaction at level-1 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)

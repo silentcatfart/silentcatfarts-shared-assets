@@ -1,7 +1,7 @@
 {
   "id": "silentcatfarts-shared-assets",
   "title": "Silentcatfart's Shared Assets",
-  "version": "2.6.3",
+  "version": "2.6.4",
   "compatibility": {
       "minimum": "13",
       "verified": "14"
@@ -320,7 +320,7 @@
       {
           "name": "Silentcatfart's ShadowDark",
           "sorting": "a",
-          "color": "#3e034f",
+          "color": "#100018",
           "system": "shadowdark",
           "packs": [
               "shadowdark-actors",
@@ -335,7 +335,7 @@
       {
         "name": "Silentcatfart's DnD5e",
         "sorting": "a",
-        "color": "#3e034f",
+        "color": "#100018",
         "system": "dnd5e",
         "packs": [
             "dnd5e-actors",
@@ -350,7 +350,7 @@
     {
         "name": "Silentcatfart's OSE",
         "sorting": "a",
-        "color": "#3e034f",
+        "color": "#100018",
         "system": "ose",
         "packs": [
             "ose-actors",
@@ -365,7 +365,7 @@
     {
         "name": "Silentcatfart's OSE",
         "sorting": "a",
-        "color": "#3e034f",
+        "color": "#100018",
         "system": "fantastic-depths",
         "packs": [
             "fade-actors",
@@ -380,7 +380,7 @@
     {
         "name": "Silentcatfart's Mothership",
         "sorting": "a",
-        "color": "#3e034f",
+        "color": "#100018",
         "system": "mosh",
         "packs": [
             "mosh-actors",
@@ -395,7 +395,7 @@
     {
         "name": "Silentcatfart's Pirate Borg",
         "sorting": "a",
-        "color": "#3e034f",
+        "color": "#100018",
         "system": "pirateborg",
         "packs": [
             "pirateborg-actors",

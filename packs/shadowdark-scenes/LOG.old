@@ -1,15 +1,7 @@
-2026/05/04-15:42:12.182662 71566e7fd640 Recovering log #934
-2026/05/04-15:42:12.185893 71566e7fd640 Level-0 table #936: started
-2026/05/04-15:42:12.191052 71566e7fd640 Level-0 table #936: 4682 bytes OK
-2026/05/04-15:42:12.203483 71566e7fd640 Delete type=3 #933
-2026/05/04-15:42:12.203511 71566e7fd640 Delete type=0 #934
-2026/05/04-15:42:12.985954 7153ed1be640 Compacting 1@0 + 1@1 files
-2026/05/04-15:42:13.017205 7153ed1be640 Generated table #938@0: 5773 keys, 570031 bytes
-2026/05/04-15:42:13.017222 7153ed1be640 Compacted 1@0 + 1@1 files => 570031 bytes
-2026/05/04-15:42:13.023649 7153ed1be640 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/05/04-15:42:13.023745 7153ed1be640 Delete type=2 #908
-2026/05/04-15:42:13.023929 7153ed1be640 Delete type=2 #936
-2026/05/04-16:11:21.291356 7153ed1be640 Level-0 table #940: started
-2026/05/04-16:11:21.291383 7153ed1be640 Level-0 table #940: 0 bytes OK
-2026/05/04-16:11:21.294918 7153ed1be640 Delete type=0 #937
-2026/05/04-16:11:21.324878 7153ed1be640 Manual compaction at level-0 from '!folders!1KyuKmrapGwsLyjU' @ 72057594037927935 : 1 .. '!scenes.walls!zkkOCTBSg1KblTMJ.v7LGIoSsQmg5V5IH' @ 0 : 0; will stop at (end)
+2026/05/07-12:12:03.465572 730f3dfbe640 Recovering log #943
+2026/05/07-12:12:03.475992 730f3dfbe640 Delete type=0 #943
+2026/05/07-12:12:03.476028 730f3dfbe640 Delete type=3 #941
+2026/05/07-12:13:10.858227 730c9ffff640 Level-0 table #949: started
+2026/05/07-12:13:10.858248 730c9ffff640 Level-0 table #949: 0 bytes OK
+2026/05/07-12:13:10.888590 730c9ffff640 Delete type=0 #947
+2026/05/07-12:13:10.893651 730c9ffff640 Manual compaction at level-0 from '!folders!1KyuKmrapGwsLyjU' @ 72057594037927935 : 1 .. '!scenes.walls!zkkOCTBSg1KblTMJ.v7LGIoSsQmg5V5IH' @ 0 : 0; will stop at (end)
