@@ -1,7 +1,7 @@
 {
   "id": "silentcatfarts-shared-assets",
   "title": "Silentcatfart's Shared Assets",
-  "version": "2.6.4",
+  "version": "2.6.5",
   "compatibility": {
       "minimum": "13",
       "verified": "14"
@@ -23,10 +23,94 @@
           "system": "shadowdark"
       },
       {
+          "name": "shadowdark-items",
+          "label": "ShadowDark Items",
+          "path": "packs/shadowdark-items",
+          "type": "Item",
+          "system": "shadowdark"
+      },
+      {
+          "name": "shadowdark-adventures",
+          "label": "ShadowDark Adventures",
+          "path": "packs/shadowdark-adventures",
+          "type": "Adventure",
+          "system": "shadowdark"
+      },
+      {
+          "name": "shadowdark-tables",
+          "label": "ShadowDark Tables",
+          "path": "packs/shadowdark-tables",
+          "type": "RollTable",
+          "system": "shadowdark"
+      },
+      {
+          "name": "shadowdark-journals",
+          "label": "ShadowDark Journals",
+          "path": "packs/shadowdark-journals",
+          "type": "JournalEntry",
+          "system": "shadowdark"
+      },
+      {
+          "name": "shadowdark-macros",
+          "label": "ShadowDark Macros",
+          "path": "packs/shadowdark-macros",
+          "type": "Macro",
+          "system": "shadowdark"
+      },
+      {
+          "name": "shadowdark-scenes",
+          "label": "ShadowDark Scenes",
+          "path": "packs/shadowdark-scenes",
+          "type": "Scene",
+          "system": "shadowdark"
+      },
+      {
           "name": "dnd5e-actors",
           "label": "DnD5e Actors",
           "path": "packs/dnd5e-actors",
           "type": "Actor",
+          "system": "dnd5e"
+      },
+      {
+          "name": "dnd5e-items",
+          "label": "DnD5e Items",
+          "path": "packs/dnd5e-items",
+          "type": "Item",
+          "system": "dnd5e"
+      },
+      {
+          "name": "dnd5e-adventures",
+          "label": "DnD5e Adventures",
+          "path": "packs/dnd5e-adventures",
+          "type": "Adventure",
+          "system": "dnd5e"
+      },
+      {
+          "name": "dnd5e-tables",
+          "label": "DnD5e Tables",
+          "path": "packs/dnd5e-tables",
+          "type": "RollTable",
+          "system": "dnd5e"
+      },
+      {
+          "name": "dnd5e-journals",
+          "label": "DnD5e Journals",
+          "path": "packs/dnd5e-journals",
+          "type": "JournalEntry",
+          "system": "dnd5e"
+      },
+      {
+          "name": "dnd5e-macros",
+          "label": "DnD5e Macros",
+          "path": "packs/dnd5e-macros",
+          "type": "Macro",
+          "system": "dnd5e"
+      },
+      {
+          "name": "dnd5e-scenes",
+          "label": "DnD5e Scenes",
+          "path": "packs/dnd5e-scenes",
+          "type": "Scene",
           "system": "dnd5e"
       },
       {
@@ -37,10 +121,94 @@
           "system": "ose"
       },
       {
+          "name": "ose-items",
+          "label": "OSE Items",
+          "path": "packs/ose-items",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "ose-adventures",
+          "label": "OSE Adventures",
+          "path": "packs/ose-adventures",
+          "type": "Adventure",
+          "system": "ose"
+      },
+      {
+          "name": "ose-tables",
+          "label": "OSE Tables",
+          "path": "packs/ose-tables",
+          "type": "RollTable",
+          "system": "ose"
+      },
+      {
+          "name": "ose-journals",
+          "label": "OSE Journals",
+          "path": "packs/ose-journals",
+          "type": "JournalEntry",
+          "system": "ose"
+      },
+      {
+          "name": "ose-macros",
+          "label": "OSE Macros",
+          "path": "packs/ose-macros",
+          "type": "Macro",
+          "system": "ose"
+      },
+      {
+          "name": "ose-scenes",
+          "label": "OSE Scenes",
+          "path": "packs/ose-scenes",
+          "type": "Scene",
+          "system": "ose"
+      },
+      {
           "name": "fade-actors",
           "label": "OSE Actors",
           "path": "packs/fade-actors",
           "type": "Actor",
+          "system": "fantastic-depths"
+      },
+      {
+          "name": "fade-items",
+          "label": "OSE Items",
+          "path": "packs/fade-items",
+          "type": "Item",
+          "system": "fantastic-depths"
+      },
+      {
+          "name": "fade-adventures",
+          "label": "OSE Adventures",
+          "path": "packs/fade-adventures",
+          "type": "Adventure",
+          "system": "fantastic-depths"
+      },
+      {
+          "name": "fade-tables",
+          "label": "OSE Tables",
+          "path": "packs/fade-tables",
+          "type": "RollTable",
+          "system": "fantastic-depths"
+      },
+      {
+          "name": "fade-journals",
+          "label": "OSE Journals",
+          "path": "packs/fade-journals",
+          "type": "JournalEntry",
+          "system": "fantastic-depths"
+      },
+      {
+          "name": "fade-macros",
+          "label": "OSE Macros",
+          "path": "packs/fade-macros",
+          "type": "Macro",
+          "system": "fantastic-depths"
+      },
+      {
+          "name": "fade-scenes",
+          "label": "OSE Scenes",
+          "path": "packs/fade-scenes",
+          "type": "Scene",
           "system": "fantastic-depths"
       },
       {
@@ -51,81 +219,11 @@
           "system": "mosh"
       },
       {
-          "name": "pirateborg-actors",
-          "label": "Pirate Borg Actors",
-          "path": "packs/pirateborg-actors",
-          "type": "Actor",
-          "system": "pirateborg"
-      },      
-      {
-          "name": "shadowdark-items",
-          "label": "ShadowDark Items",
-          "path": "packs/shadowdark-items",
-          "type": "Item",
-          "system": "shadowdark"
-      },
-      {
-          "name": "ose-items",
-          "label": "OSE Items",
-          "path": "packs/ose-items",
-          "type": "Item",
-          "system": "ose"
-      },
-      {
-          "name": "dnd5e-items",
-          "label": "DnD5e Items",
-          "path": "packs/dnd5e-items",
-          "type": "Item",
-          "system": "dnd5e"
-      },
-      {
-          "name": "fade-items",
-          "label": "OSE Items",
-          "path": "packs/fade-items",
-          "type": "Item",
-          "system": "fantastic-depths"
-      },
-      {
           "name": "mosh-items",
           "label": "Mothership Items",
           "path": "packs/mosh-items",
           "type": "Item",
           "system": "mosh"
-      },
-      {
-          "name": "pirateborg-items",
-          "label": "Pirate Borg Items",
-          "path": "packs/pirateborg-items",
-          "type": "Item",
-          "system": "pirateborg"
-      },      
-      {
-          "name": "shadowdark-adventures",
-          "label": "ShadowDark Adventures",
-          "path": "packs/shadowdark-adventures",
-          "type": "Adventure",
-          "system": "shadowdark"
-      },
-      {
-          "name": "ose-adventures",
-          "label": "OSE Adventures",
-          "path": "packs/ose-adventures",
-          "type": "Adventure",
-          "system": "ose"
-      },
-      {
-          "name": "dnd5e-adventures",
-          "label": "DnD5e Adventures",
-          "path": "packs/dnd5e-adventures",
-          "type": "Adventure",
-          "system": "dnd5e"
-      },
-      {
-          "name": "fade-adventures",
-          "label": "OSE Adventures",
-          "path": "packs/fade-adventures",
-          "type": "Adventure",
-          "system": "fantastic-depths"
       },
       {
           "name": "mosh-adventures",
@@ -135,87 +233,11 @@
           "system": "mosh"
       },
       {
-          "name": "pirateborg-adventures",
-          "label": "Pirate Borg Adventures",
-          "path": "packs/pirateborg-adventures",
-          "type": "Adventure",
-          "system": "pirateborg"
-      },      
-      {
-          "name": "playlists",
-          "label": "Playlists",
-          "path": "packs/playlists",
-          "type": "Playlist"
-      },
-      {
-          "name": "shadowdark-tables",
-          "label": "ShadowDark Tables",
-          "path": "packs/shadowdark-tables",
-          "type": "RollTable",
-          "system": "shadowdark"
-      },
-      {
-          "name": "dnd5e-tables",
-          "label": "DnD5e Tables",
-          "path": "packs/dnd5e-tables",
-          "type": "RollTable",
-          "system": "dnd5e"
-      },
-      {
-          "name": "ose-tables",
-          "label": "OSE Tables",
-          "path": "packs/ose-tables",
-          "type": "RollTable",
-          "system": "ose"
-      },
-      {
-        "name": "fade-tables",
-        "label": "OSE Tables",
-        "path": "packs/fade-tables",
-        "type": "RollTable",
-        "system": "fantastic-depths"
-      },
-      {
           "name": "mosh-tables",
           "label": "Mothership Tables",
           "path": "packs/mosh-tables",
           "type": "RollTable",
           "system": "mosh"
-      },
-      {
-          "name": "pirateborg-tables",
-          "label": "Pirate Borg Tables",
-          "path": "packs/pirateborg-tables",
-          "type": "RollTable",
-          "system": "pirateborg"
-      },      
-      {
-          "name": "shadowdark-journals",
-          "label": "ShadowDark Journals",
-          "path": "packs/shadowdark-journals",
-          "type": "JournalEntry",
-          "system": "shadowdark"
-      },
-      {
-          "name": "dnd5e-journals",
-          "label": "DnD5e Journals",
-          "path": "packs/dnd5e-journals",
-          "type": "JournalEntry",
-          "system": "dnd5e"
-      },
-      {
-          "name": "ose-journals",
-          "label": "OSE Journals",
-          "path": "packs/ose-journals",
-          "type": "JournalEntry",
-          "system": "ose"
-      },
-      {
-          "name": "fade-journals",
-          "label": "OSE Journals",
-          "path": "packs/fade-journals",
-          "type": "JournalEntry",
-          "system": "fantastic-depths"
       },
       {
           "name": "mosh-journals",
@@ -225,81 +247,11 @@
           "system": "mosh"
       },
       {
-          "name": "pirateborg-journals",
-          "label": "Pirate Borg Journals",
-          "path": "packs/pirateborg-journals",
-          "type": "JournalEntry",
-          "system": "pirateborg"
-      },      
-      {
-          "name": "shadowdark-macros",
-          "label": "ShadowDark Macros",
-          "path": "packs/shadowdark-macros",
-          "type": "Macro",
-          "system": "shadowdark"
-      },
-      {
-          "name": "dnd5e-macros",
-          "label": "DnD5e Macros",
-          "path": "packs/dnd5e-macros",
-          "type": "Macro",
-          "system": "dnd5e"
-      },
-      {
-          "name": "ose-macros",
-          "label": "OSE Macros",
-          "path": "packs/ose-macros",
-          "type": "Macro",
-          "system": "ose"
-      },
-      {
-          "name": "fade-macros",
-          "label": "OSE Macros",
-          "path": "packs/fade-macros",
-          "type": "Macro",
-          "system": "fantastic-depths"
-      },
-      {
           "name": "mosh-macros",
           "label": "Mothership Macros",
           "path": "packs/mosh-macros",
           "type": "Macro",
           "system": "mosh"
-      },
-      {
-          "name": "pirateborg-macros",
-          "label": "Pirate Borg Macros",
-          "path": "packs/pirateborg-macros",
-          "type": "Macro",
-          "system": "pirateborg"
-      },      
-      {
-          "name": "shadowdark-scenes",
-          "label": "ShadowDark Scenes",
-          "path": "packs/shadowdark-scenes",
-          "type": "Scene",
-          "system": "shadowdark"
-      },
-      {
-          "name": "dnd5e-scenes",
-          "label": "DnD5e Scenes",
-          "path": "packs/dnd5e-scenes",
-          "type": "Scene",
-          "system": "dnd5e"
-      },
-      {
-          "name": "ose-scenes",
-          "label": "OSE Scenes",
-          "path": "packs/ose-scenes",
-          "type": "Scene",
-          "system": "ose"
-      },
-      {
-          "name": "fade-scenes",
-          "label": "OSE Scenes",
-          "path": "packs/fade-scenes",
-          "type": "Scene",
-          "system": "fantastic-depths"
       },
       {
           "name": "mosh-scenes",
@@ -309,12 +261,109 @@
           "system": "mosh"
       },
       {
+          "name": "pirateborg-actors",
+          "label": "Pirate Borg Actors",
+          "path": "packs/pirateborg-actors",
+          "type": "Actor",
+          "system": "pirateborg"
+      },
+      {
+          "name": "pirateborg-items",
+          "label": "Pirate Borg Items",
+          "path": "packs/pirateborg-items",
+          "type": "Item",
+          "system": "pirateborg"
+      },
+      {
+          "name": "pirateborg-adventures",
+          "label": "Pirate Borg Adventures",
+          "path": "packs/pirateborg-adventures",
+          "type": "Adventure",
+          "system": "pirateborg"
+      },
+      {
+          "name": "pirateborg-tables",
+          "label": "Pirate Borg Tables",
+          "path": "packs/pirateborg-tables",
+          "type": "RollTable",
+          "system": "pirateborg"
+      },
+      {
+          "name": "pirateborg-journals",
+          "label": "Pirate Borg Journals",
+          "path": "packs/pirateborg-journals",
+          "type": "JournalEntry",
+          "system": "pirateborg"
+      },
+      {
+          "name": "pirateborg-macros",
+          "label": "Pirate Borg Macros",
+          "path": "packs/pirateborg-macros",
+          "type": "Macro",
+          "system": "pirateborg"
+      },
+      {
           "name": "pirateborg-scenes",
           "label": "Pirate Borg Scenes",
           "path": "packs/pirateborg-scenes",
           "type": "Scene",
           "system": "pirateborg"
-      }      
+      },
+      {
+          "name": "dolmenwood-actors",
+          "label": "Dolmenwood Actors",
+          "path": "packs/dolmenwood-actors",
+          "type": "Actor",
+          "system": "dolmenwood"
+      },
+      {
+          "name": "dolmenwood-items",
+          "label": "Dolmenwood Items",
+          "path": "packs/dolmenwood-items",
+          "type": "Item",
+          "system": "dolmenwood"
+      },
+      {
+          "name": "dolmenwood-adventures",
+          "label": "Dolmenwood Adventures",
+          "path": "packs/dolmenwood-adventures",
+          "type": "Adventure",
+          "system": "dolmenwood"
+      },
+      {
+          "name": "dolmenwood-tables",
+          "label": "Dolmenwood Tables",
+          "path": "packs/dolmenwood-tables",
+          "type": "RollTable",
+          "system": "dolmenwood"
+      },
+      {
+          "name": "dolmenwood-journals",
+          "label": "Dolmenwood Journals",
+          "path": "packs/dolmenwood-journals",
+          "type": "JournalEntry",
+          "system": "dolmenwood"
+      },
+      {
+          "name": "dolmenwood-macros",
+          "label": "Dolmenwood Macros",
+          "path": "packs/dolmenwood-macros",
+          "type": "Macro",
+          "system": "dolmenwood"
+      },
+      {
+          "name": "dolmenwood-scenes",
+          "label": "Dolmenwood Scenes",
+          "path": "packs/dolmenwood-scenes",
+          "type": "Scene",
+          "system": "dolmenwood"
+      },
+      {
+          "name": "playlists",
+          "label": "Playlists",
+          "path": "packs/playlists",
+          "type": "Playlist"
+      }
   ],
   "packFolders": [
       {
@@ -406,9 +455,24 @@
             "pirateborg-macros",
             "pirateborg-scenes"
         ]
-    }    
+    },
+    {
+        "name": "Silentcatfart's Dolmenwood",
+        "sorting": "a",
+        "color": "#100018",
+        "system": "dolmenwood",
+        "packs": [
+            "dolmenwood-actors",
+            "dolmenwood-items",
+            "dolmenwood-adventures",
+            "dolmenwood-tables",
+            "dolmenwood-journals",
+            "dolmenwood-macros",
+            "dolmenwood-scenes"
+        ]
+    }
   ],
-  "description": "Personal Foundry VTT module for use with shadowdark, mosh, pirateborg, dnd5e, fade and ose",
+  "description": "Personal Foundry VTT module for use with shadowdark, mosh, pirateborg, dnd5e, fade, ose and dolmenwood",
   "url": "https://github.com/silentcatfart/silentcatfarts-shared-assets",
   "manifest": "https://github.com/silentcatfart/silentcatfarts-shared-assets/releases/latest/download/module.json",
   "download": "https://github.com/silentcatfart/silentcatfarts-shared-assets/releases/latest/download/module.zip"
