@@ -1,7 +1,7 @@
 {
   "id": "silentcatfarts-shared-assets",
   "title": "Silentcatfart's Shared Assets",
-  "version": "2.6.5",
+  "version": "2.7.0",
   "compatibility": {
       "minimum": "13",
       "verified": "14"
@@ -163,55 +163,6 @@
           "system": "ose"
       },
       {
-          "name": "fade-actors",
-          "label": "OSE Actors",
-          "path": "packs/fade-actors",
-          "type": "Actor",
-          "system": "fantastic-depths"
-      },
-      {
-          "name": "fade-items",
-          "label": "OSE Items",
-          "path": "packs/fade-items",
-          "type": "Item",
-          "system": "fantastic-depths"
-      },
-      {
-          "name": "fade-adventures",
-          "label": "OSE Adventures",
-          "path": "packs/fade-adventures",
-          "type": "Adventure",
-          "system": "fantastic-depths"
-      },
-      {
-          "name": "fade-tables",
-          "label": "OSE Tables",
-          "path": "packs/fade-tables",
-          "type": "RollTable",
-          "system": "fantastic-depths"
-      },
-      {
-          "name": "fade-journals",
-          "label": "OSE Journals",
-          "path": "packs/fade-journals",
-          "type": "JournalEntry",
-          "system": "fantastic-depths"
-      },
-      {
-          "name": "fade-macros",
-          "label": "OSE Macros",
-          "path": "packs/fade-macros",
-          "type": "Macro",
-          "system": "fantastic-depths"
-      },
-      {
-          "name": "fade-scenes",
-          "label": "OSE Scenes",
-          "path": "packs/fade-scenes",
-          "type": "Scene",
-          "system": "fantastic-depths"
-      },
-      {
           "name": "mosh-actors",
           "label": "Mothership Actors",
           "path": "packs/mosh-actors",
@@ -360,9 +311,15 @@
       },
       {
           "name": "playlists",
-          "label": "Playlists",
+          "label": "Silentcatfart's Playlists",
           "path": "packs/playlists",
           "type": "Playlist"
+      },
+      {
+          "name": "scenes",
+          "label": "Silentcatfart's Scenes",
+          "path": "packs/scenes",
+          "type": "Scene"
       }
   ],
   "packFolders": [
@@ -412,21 +369,6 @@
         ]
     },
     {
-        "name": "Silentcatfart's OSE",
-        "sorting": "a",
-        "color": "#100018",
-        "system": "fantastic-depths",
-        "packs": [
-            "fade-actors",
-            "fade-items",
-            "fade-adventures",
-            "fade-tables",
-            "fade-journals",
-            "fade-macros",
-            "fade-scenes"
-        ]
-    },
-    {
         "name": "Silentcatfart's Mothership",
         "sorting": "a",
         "color": "#100018",
@@ -472,7 +414,7 @@
         ]
     }
   ],
-  "description": "Personal Foundry VTT module for use with shadowdark, mosh, pirateborg, dnd5e, fade, ose and dolmenwood",
+  "description": "Personal Foundry VTT module for use with shadowdark, mosh, pirateborg, dnd5e, ose and dolmenwood",
   "url": "https://github.com/silentcatfart/silentcatfarts-shared-assets",
   "manifest": "https://github.com/silentcatfart/silentcatfarts-shared-assets/releases/latest/download/module.json",
   "download": "https://github.com/silentcatfart/silentcatfarts-shared-assets/releases/latest/download/module.zip"
