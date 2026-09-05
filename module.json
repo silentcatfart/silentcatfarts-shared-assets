@@ -1,7 +1,7 @@
 {
   "id": "silentcatfarts-shared-assets",
   "title": "Silentcatfart's Shared Assets",
-  "version": "2.7.0",
+  "version": "2.7.1",
   "compatibility": {
       "minimum": "13",
       "verified": "14"
@@ -55,13 +55,6 @@
           "label": "ShadowDark Macros",
           "path": "packs/shadowdark-macros",
           "type": "Macro",
-          "system": "shadowdark"
-      },
-      {
-          "name": "shadowdark-scenes",
-          "label": "ShadowDark Scenes",
-          "path": "packs/shadowdark-scenes",
-          "type": "Scene",
           "system": "shadowdark"
       },
       {
@@ -334,8 +327,7 @@
               "shadowdark-adventures",
               "shadowdark-tables",
               "shadowdark-journals",
-              "shadowdark-macros",
-              "shadowdark-scenes"
+              "shadowdark-macros"
           ]
       },
       {
