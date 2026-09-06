@@ -1,8 +1,8 @@
-2026/09/06-15:48:26.789530 7d8d5dfed640 Recovering log #954
-2026/09/06-15:48:26.801276 7d8d5dfed640 Delete type=3 #952
-2026/09/06-15:48:26.801307 7d8d5dfed640 Delete type=0 #954
-2026/09/06-15:49:07.109653 7d8b3ffff640 Level-0 table #959: started
-2026/09/06-15:49:07.109685 7d8b3ffff640 Level-0 table #959: 0 bytes OK
-2026/09/06-15:49:07.116348 7d8b3ffff640 Delete type=0 #957
-2026/09/06-15:49:07.129184 7d8b3ffff640 Manual compaction at level-0 from '!folders!713C5QlZYCM8voSa' @ 72057594037927935 : 1 .. '!journal.pages!dToVMvfkWGCMMgiC.y7tq4qAR1Jtk7ywV' @ 0 : 0; will stop at (end)
-2026/09/06-15:49:07.129247 7d8b3ffff640 Manual compaction at level-1 from '!folders!713C5QlZYCM8voSa' @ 72057594037927935 : 1 .. '!journal.pages!dToVMvfkWGCMMgiC.y7tq4qAR1Jtk7ywV' @ 0 : 0; will stop at (end)
+2026/09/06-16:08:56.325843 706a6a3fd640 Recovering log #958
+2026/09/06-16:08:56.348582 706a6a3fd640 Delete type=3 #956
+2026/09/06-16:08:56.348614 706a6a3fd640 Delete type=0 #958
+2026/09/06-16:16:12.253855 706a69241640 Level-0 table #963: started
+2026/09/06-16:16:12.253870 706a69241640 Level-0 table #963: 0 bytes OK
+2026/09/06-16:16:12.262841 706a69241640 Delete type=0 #961
+2026/09/06-16:16:12.285648 706a69241640 Manual compaction at level-0 from '!folders!713C5QlZYCM8voSa' @ 72057594037927935 : 1 .. '!journal.pages!dToVMvfkWGCMMgiC.y7tq4qAR1Jtk7ywV' @ 0 : 0; will stop at (end)
+2026/09/06-16:16:12.285719 706a69241640 Manual compaction at level-1 from '!folders!713C5QlZYCM8voSa' @ 72057594037927935 : 1 .. '!journal.pages!dToVMvfkWGCMMgiC.y7tq4qAR1Jtk7ywV' @ 0 : 0; will stop at (end)
