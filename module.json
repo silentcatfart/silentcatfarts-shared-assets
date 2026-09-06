@@ -1,7 +1,7 @@
 {
   "id": "silentcatfarts-shared-assets",
   "title": "Silentcatfart's Shared Assets",
-  "version": "2.7.1",
+  "version": "2.7.2",
   "compatibility": {
       "minimum": "13",
       "verified": "14"
@@ -296,13 +296,6 @@
           "system": "dolmenwood"
       },
       {
-          "name": "dolmenwood-scenes",
-          "label": "Dolmenwood Scenes",
-          "path": "packs/dolmenwood-scenes",
-          "type": "Scene",
-          "system": "dolmenwood"
-      },
-      {
           "name": "playlists",
           "label": "Silentcatfart's Playlists",
           "path": "packs/playlists",
@@ -401,8 +394,7 @@
             "dolmenwood-adventures",
             "dolmenwood-tables",
             "dolmenwood-journals",
-            "dolmenwood-macros",
-            "dolmenwood-scenes"
+            "dolmenwood-macros"
         ]
     }
   ],

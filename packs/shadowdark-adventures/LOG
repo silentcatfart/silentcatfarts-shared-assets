@@ -1,8 +1,15 @@
-2026/09/05-17:03:41.148466 7c989ebfd640 Recovering log #972
-2026/09/05-17:03:41.158383 7c989ebfd640 Delete type=3 #969
-2026/09/05-17:03:41.158402 7c989ebfd640 Delete type=0 #972
-2026/09/05-18:43:08.801556 7c989db68640 Level-0 table #979: started
-2026/09/05-18:43:08.801571 7c989db68640 Level-0 table #979: 0 bytes OK
-2026/09/05-18:43:08.804840 7c989db68640 Delete type=0 #977
-2026/09/05-18:43:08.859596 7c989db68640 Manual compaction at level-0 from '!adventures!9GPK82MKs3ust0pI' @ 72057594037927935 : 1 .. '!folders!MfgrR28J9HFnEDEP' @ 0 : 0; will stop at (end)
-2026/09/05-18:43:08.870906 7c989db68640 Manual compaction at level-1 from '!adventures!9GPK82MKs3ust0pI' @ 72057594037927935 : 1 .. '!folders!MfgrR28J9HFnEDEP' @ 0 : 0; will stop at (end)
+2026/09/06-12:07:09.528343 74e74d3fc640 Recovering log #986
+2026/09/06-12:07:09.539791 74e74d3fc640 Delete type=3 #984
+2026/09/06-12:07:09.539816 74e74d3fc640 Delete type=0 #986
+2026/09/06-14:03:38.999910 74e74cbfb640 Level-0 table #991: started
+2026/09/06-14:03:39.022641 74e74cbfb640 Level-0 table #991: 398357 bytes OK
+2026/09/06-14:03:39.028519 74e74cbfb640 Delete type=0 #989
+2026/09/06-14:03:39.117475 74e74cbfb640 Manual compaction at level-0 from '!adventures!9GPK82MKs3ust0pI' @ 72057594037927935 : 1 .. '!folders!MfgrR28J9HFnEDEP' @ 0 : 0; will stop at (end)
+2026/09/06-14:03:39.117804 74e74cbfb640 Manual compaction at level-1 from '!adventures!9GPK82MKs3ust0pI' @ 72057594037927935 : 1 .. '!folders!MfgrR28J9HFnEDEP' @ 0 : 0; will stop at '!adventures!rZD85GpvQkZqPIo7' @ 74 : 1
+2026/09/06-14:03:39.117808 74e74cbfb640 Compacting 1@1 + 1@2 files
+2026/09/06-14:03:39.140749 74e74cbfb640 Generated table #992@1: 11 keys, 400091 bytes
+2026/09/06-14:03:39.140769 74e74cbfb640 Compacted 1@1 + 1@2 files => 400091 bytes
+2026/09/06-14:03:39.145936 74e74cbfb640 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/09/06-14:03:39.146019 74e74cbfb640 Delete type=2 #975
+2026/09/06-14:03:39.146118 74e74cbfb640 Delete type=2 #991
+2026/09/06-14:03:39.204007 74e74cbfb640 Manual compaction at level-1 from '!adventures!rZD85GpvQkZqPIo7' @ 74 : 1 .. '!folders!MfgrR28J9HFnEDEP' @ 0 : 0; will stop at (end)

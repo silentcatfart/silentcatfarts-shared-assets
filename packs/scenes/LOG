@@ -1,7 +1,15 @@
-2026/09/05-17:03:41.391156 7c989f3fe640 Recovering log #4
-2026/09/05-17:03:41.405505 7c989f3fe640 Delete type=3 #2
-2026/09/05-17:03:41.405526 7c989f3fe640 Delete type=0 #4
-2026/09/05-18:43:08.995097 7c989db68640 Level-0 table #9: started
-2026/09/05-18:43:09.013999 7c989db68640 Level-0 table #9: 598825 bytes OK
-2026/09/05-18:43:09.018202 7c989db68640 Delete type=0 #7
-2026/09/05-18:43:09.051200 7c989db68640 Manual compaction at level-0 from '!folders!1KyuKmrapGwsLyjU' @ 72057594037927935 : 1 .. '!scenes.walls!zkkOCTBSg1KblTMJ.v7LGIoSsQmg5V5IH' @ 0 : 0; will stop at (end)
+2026/09/06-12:07:09.617226 74e74d3fc640 Recovering log #24
+2026/09/06-12:07:09.629924 74e74d3fc640 Delete type=3 #22
+2026/09/06-12:07:09.629951 74e74d3fc640 Delete type=0 #24
+2026/09/06-14:03:39.204801 74e74cbfb640 Level-0 table #29: started
+2026/09/06-14:03:39.237991 74e74cbfb640 Level-0 table #29: 601443 bytes OK
+2026/09/06-14:03:39.247516 74e74cbfb640 Delete type=0 #27
+2026/09/06-14:03:39.307258 74e74cbfb640 Manual compaction at level-0 from '!folders!1KyuKmrapGwsLyjU' @ 72057594037927935 : 1 .. '!scenes.walls!zkkOCTBSg1KblTMJ.v7LGIoSsQmg5V5IH' @ 0 : 0; will stop at (end)
+2026/09/06-14:03:39.307916 74e74cbfb640 Manual compaction at level-1 from '!folders!1KyuKmrapGwsLyjU' @ 72057594037927935 : 1 .. '!scenes.walls!zkkOCTBSg1KblTMJ.v7LGIoSsQmg5V5IH' @ 0 : 0; will stop at '!scenes.walls!zkkOCTBSg1KblTMJ.v7LGIoSsQmg5V5IH' @ 8028 : 1
+2026/09/06-14:03:39.307924 74e74cbfb640 Compacting 1@1 + 1@2 files
+2026/09/06-14:03:39.330900 74e74cbfb640 Generated table #30@1: 5919 keys, 599791 bytes
+2026/09/06-14:03:39.330919 74e74cbfb640 Compacted 1@1 + 1@2 files => 599791 bytes
+2026/09/06-14:03:39.335367 74e74cbfb640 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/09/06-14:03:39.335448 74e74cbfb640 Delete type=2 #9
+2026/09/06-14:03:39.335534 74e74cbfb640 Delete type=2 #29
+2026/09/06-14:03:39.391479 74e74cbfb640 Manual compaction at level-1 from '!scenes.walls!zkkOCTBSg1KblTMJ.v7LGIoSsQmg5V5IH' @ 8028 : 1 .. '!scenes.walls!zkkOCTBSg1KblTMJ.v7LGIoSsQmg5V5IH' @ 0 : 0; will stop at (end)
