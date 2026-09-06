@@ -1,15 +1,8 @@
-2026/09/06-12:07:09.528343 74e74d3fc640 Recovering log #986
-2026/09/06-12:07:09.539791 74e74d3fc640 Delete type=3 #984
-2026/09/06-12:07:09.539816 74e74d3fc640 Delete type=0 #986
-2026/09/06-14:03:38.999910 74e74cbfb640 Level-0 table #991: started
-2026/09/06-14:03:39.022641 74e74cbfb640 Level-0 table #991: 398357 bytes OK
-2026/09/06-14:03:39.028519 74e74cbfb640 Delete type=0 #989
-2026/09/06-14:03:39.117475 74e74cbfb640 Manual compaction at level-0 from '!adventures!9GPK82MKs3ust0pI' @ 72057594037927935 : 1 .. '!folders!MfgrR28J9HFnEDEP' @ 0 : 0; will stop at (end)
-2026/09/06-14:03:39.117804 74e74cbfb640 Manual compaction at level-1 from '!adventures!9GPK82MKs3ust0pI' @ 72057594037927935 : 1 .. '!folders!MfgrR28J9HFnEDEP' @ 0 : 0; will stop at '!adventures!rZD85GpvQkZqPIo7' @ 74 : 1
-2026/09/06-14:03:39.117808 74e74cbfb640 Compacting 1@1 + 1@2 files
-2026/09/06-14:03:39.140749 74e74cbfb640 Generated table #992@1: 11 keys, 400091 bytes
-2026/09/06-14:03:39.140769 74e74cbfb640 Compacted 1@1 + 1@2 files => 400091 bytes
-2026/09/06-14:03:39.145936 74e74cbfb640 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/09/06-14:03:39.146019 74e74cbfb640 Delete type=2 #975
-2026/09/06-14:03:39.146118 74e74cbfb640 Delete type=2 #991
-2026/09/06-14:03:39.204007 74e74cbfb640 Manual compaction at level-1 from '!adventures!rZD85GpvQkZqPIo7' @ 74 : 1 .. '!folders!MfgrR28J9HFnEDEP' @ 0 : 0; will stop at (end)
+2026/09/06-15:48:26.650935 7d8d5cfeb640 Recovering log #995
+2026/09/06-15:48:26.663010 7d8d5cfeb640 Delete type=3 #993
+2026/09/06-15:48:26.663038 7d8d5cfeb640 Delete type=0 #995
+2026/09/06-15:49:07.093648 7d8b3ffff640 Level-0 table #1000: started
+2026/09/06-15:49:07.093685 7d8b3ffff640 Level-0 table #1000: 0 bytes OK
+2026/09/06-15:49:07.099044 7d8b3ffff640 Delete type=0 #998
+2026/09/06-15:49:07.109305 7d8b3ffff640 Manual compaction at level-0 from '!adventures!9GPK82MKs3ust0pI' @ 72057594037927935 : 1 .. '!folders!MfgrR28J9HFnEDEP' @ 0 : 0; will stop at (end)
+2026/09/06-15:49:07.109638 7d8b3ffff640 Manual compaction at level-1 from '!adventures!9GPK82MKs3ust0pI' @ 72057594037927935 : 1 .. '!folders!MfgrR28J9HFnEDEP' @ 0 : 0; will stop at (end)

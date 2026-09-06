@@ -1,8 +1,15 @@
-2026/09/06-12:04:55.056501 74e74ebff640 Recovering log #1012
-2026/09/06-12:04:55.068729 74e74ebff640 Delete type=3 #1010
-2026/09/06-12:04:55.068753 74e74ebff640 Delete type=0 #1012
-2026/09/06-12:05:49.533696 74e74cbfb640 Level-0 table #1017: started
-2026/09/06-12:05:49.533713 74e74cbfb640 Level-0 table #1017: 0 bytes OK
-2026/09/06-12:05:49.541163 74e74cbfb640 Delete type=0 #1015
-2026/09/06-12:05:49.556525 74e74cbfb640 Manual compaction at level-0 from '!actors!0IGOp7M6Dfj1Gt1Y' @ 72057594037927935 : 1 .. '!folders!ugaXjErA1uMdH5m1' @ 0 : 0; will stop at (end)
-2026/09/06-12:05:49.556603 74e74cbfb640 Manual compaction at level-1 from '!actors!0IGOp7M6Dfj1Gt1Y' @ 72057594037927935 : 1 .. '!folders!ugaXjErA1uMdH5m1' @ 0 : 0; will stop at (end)
+2026/09/06-14:16:01.611234 7b2e733ff640 Recovering log #1020
+2026/09/06-14:16:01.624018 7b2e733ff640 Delete type=0 #1020
+2026/09/06-14:16:01.624043 7b2e733ff640 Delete type=3 #1018
+2026/09/06-15:01:07.516217 7b2e711b2640 Level-0 table #1026: started
+2026/09/06-15:01:07.520504 7b2e711b2640 Level-0 table #1026: 14356 bytes OK
+2026/09/06-15:01:07.524836 7b2e711b2640 Delete type=0 #1024
+2026/09/06-15:01:07.537674 7b2e711b2640 Manual compaction at level-0 from '!actors!0IGOp7M6Dfj1Gt1Y' @ 72057594037927935 : 1 .. '!folders!ugaXjErA1uMdH5m1' @ 0 : 0; will stop at (end)
+2026/09/06-15:01:07.537746 7b2e711b2640 Manual compaction at level-1 from '!actors!0IGOp7M6Dfj1Gt1Y' @ 72057594037927935 : 1 .. '!folders!ugaXjErA1uMdH5m1' @ 0 : 0; will stop at '!actors.items.effects!zQvxLsUbRhGvmAnj.hfVqRZneHyKkH6rF.0g9MUhj9Tr3AWRXl' @ 13482 : 0
+2026/09/06-15:01:07.537751 7b2e711b2640 Compacting 1@1 + 1@2 files
+2026/09/06-15:01:07.552968 7b2e711b2640 Generated table #1027@1: 688 keys, 390234 bytes
+2026/09/06-15:01:07.552988 7b2e711b2640 Compacted 1@1 + 1@2 files => 390234 bytes
+2026/09/06-15:01:07.557393 7b2e711b2640 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/09/06-15:01:07.557489 7b2e711b2640 Delete type=2 #1022
+2026/09/06-15:01:07.557688 7b2e711b2640 Delete type=2 #1026
+2026/09/06-15:01:07.558071 7b2e711b2640 Manual compaction at level-1 from '!actors.items.effects!zQvxLsUbRhGvmAnj.hfVqRZneHyKkH6rF.0g9MUhj9Tr3AWRXl' @ 13482 : 0 .. '!folders!ugaXjErA1uMdH5m1' @ 0 : 0; will stop at (end)

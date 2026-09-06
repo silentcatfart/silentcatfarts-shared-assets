@@ -1,7 +1,7 @@
 {
   "id": "silentcatfarts-shared-assets",
   "title": "Silentcatfart's Shared Assets",
-  "version": "2.7.2",
+  "version": "2.7.3",
   "compatibility": {
       "minimum": "13",
       "verified": "14"
@@ -100,13 +100,6 @@
           "system": "dnd5e"
       },
       {
-          "name": "dnd5e-scenes",
-          "label": "DnD5e Scenes",
-          "path": "packs/dnd5e-scenes",
-          "type": "Scene",
-          "system": "dnd5e"
-      },
-      {
           "name": "ose-actors",
           "label": "OSE Actors",
           "path": "packs/ose-actors",
@@ -146,13 +139,6 @@
           "label": "OSE Macros",
           "path": "packs/ose-macros",
           "type": "Macro",
-          "system": "ose"
-      },
-      {
-          "name": "ose-scenes",
-          "label": "OSE Scenes",
-          "path": "packs/ose-scenes",
-          "type": "Scene",
           "system": "ose"
       },
       {
@@ -198,13 +184,6 @@
           "system": "mosh"
       },
       {
-          "name": "mosh-scenes",
-          "label": "Mothership Scenes",
-          "path": "packs/mosh-scenes",
-          "type": "Scene",
-          "system": "mosh"
-      },
-      {
           "name": "pirateborg-actors",
           "label": "Pirate Borg Actors",
           "path": "packs/pirateborg-actors",
@@ -244,13 +223,6 @@
           "label": "Pirate Borg Macros",
           "path": "packs/pirateborg-macros",
           "type": "Macro",
-          "system": "pirateborg"
-      },
-      {
-          "name": "pirateborg-scenes",
-          "label": "Pirate Borg Scenes",
-          "path": "packs/pirateborg-scenes",
-          "type": "Scene",
           "system": "pirateborg"
       },
       {
@@ -334,8 +306,7 @@
             "dnd5e-adventures",
             "dnd5e-tables",
             "dnd5e-journals",
-            "dnd5e-macros",
-            "dnd5e-scenes"
+            "dnd5e-macros"
         ]
     },
     {
@@ -349,8 +320,7 @@
             "ose-adventures",
             "ose-tables",
             "ose-journals",
-            "ose-macros",
-            "ose-scenes"
+            "ose-macros"
         ]
     },
     {
@@ -364,8 +334,7 @@
             "mosh-adventures",
             "mosh-tables",
             "mosh-journals",
-            "mosh-macros",
-            "mosh-scenes"
+            "mosh-macros"
         ]
     },
     {
@@ -379,8 +348,7 @@
             "pirateborg-adventures",
             "pirateborg-tables",
             "pirateborg-journals",
-            "pirateborg-macros",
-            "pirateborg-scenes"
+            "pirateborg-macros"
         ]
     },
     {
