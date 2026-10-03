@@ -1,7 +1,15 @@
-2026/09/06-16:20:44.894932 706a6abfe640 Recovering log #12
-2026/09/06-16:20:44.910476 706a6abfe640 Delete type=3 #10
-2026/09/06-16:20:44.910502 706a6abfe640 Delete type=0 #12
-2026/09/06-17:20:59.996522 706a69241640 Level-0 table #17: started
-2026/09/06-17:21:00.002512 706a69241640 Level-0 table #17: 9408 bytes OK
-2026/09/06-17:21:00.011258 706a69241640 Delete type=0 #15
-2026/09/06-17:21:00.016929 706a69241640 Manual compaction at level-0 from '!folders!7Sy8ww7m67jo5QBf' @ 72057594037927935 : 1 .. '!tables.results!y0jSWnLSoRNRejUp.xWgxhCsuhjQpZHWF' @ 0 : 0; will stop at (end)
+2026/10/03-13:45:10.814132 7800cdfed640 Recovering log #28
+2026/10/03-13:45:10.827090 7800cdfed640 Delete type=3 #26
+2026/10/03-13:45:10.827159 7800cdfed640 Delete type=0 #28
+2026/10/03-13:49:57.183645 77feaffff640 Level-0 table #33: started
+2026/10/03-13:49:57.200930 77feaffff640 Level-0 table #33: 399673 bytes OK
+2026/10/03-13:49:57.204848 77feaffff640 Delete type=0 #31
+2026/10/03-13:49:57.205913 77feaffff640 Manual compaction at level-0 from '!folders!lz5uSYudiYTnvZyd' @ 72057594037927935 : 1 .. '!tables.results!zqhXhrzvnJfawmTQ.ieS0f6ruqZNETgDv' @ 0 : 0; will stop at (end)
+2026/10/03-13:49:57.228681 77feaffff640 Manual compaction at level-1 from '!folders!lz5uSYudiYTnvZyd' @ 72057594037927935 : 1 .. '!tables.results!zqhXhrzvnJfawmTQ.ieS0f6ruqZNETgDv' @ 0 : 0; will stop at '!tables.results!zqhXhrzvnJfawmTQ.ieS0f6ruqZNETgDv' @ 1232 : 1
+2026/10/03-13:49:57.228691 77feaffff640 Compacting 1@1 + 1@2 files
+2026/10/03-13:49:57.245776 77feaffff640 Generated table #34@1: 2169 keys, 405968 bytes
+2026/10/03-13:49:57.245802 77feaffff640 Compacted 1@1 + 1@2 files => 405968 bytes
+2026/10/03-13:49:57.249837 77feaffff640 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/10/03-13:49:57.249920 77feaffff640 Delete type=2 #17
+2026/10/03-13:49:57.250001 77feaffff640 Delete type=2 #33
+2026/10/03-13:49:57.250252 77feaffff640 Manual compaction at level-1 from '!tables.results!zqhXhrzvnJfawmTQ.ieS0f6ruqZNETgDv' @ 1232 : 1 .. '!tables.results!zqhXhrzvnJfawmTQ.ieS0f6ruqZNETgDv' @ 0 : 0; will stop at (end)
