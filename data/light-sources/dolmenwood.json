@@ -1,0 +1,701 @@
+{
+  "module": "light-sources",
+  "systemId": "dolmenwood",
+  "exportedAt": "2026-10-20T21:25:52.209Z",
+  "sources": [
+    {
+      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.E7XLi0aeG0XqzOmC",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.E7XLi0aeG0XqzOmC",
+      "name": "Torches (3)",
+      "img": "icons/sundries/lights/torch-brown-lit.webp",
+      "type": "Consumable",
+      "managedBy": null,
+      "consume": "copy",
+      "fuel": null,
+      "freeForAll": false,
+      "coverable": false,
+      "droppable": true,
+      "hudHidden": false,
+      "durationMode": "world",
+      "durationMinutes": 60,
+      "endingMinutes": 10,
+      "patterns": [
+        {
+          "id": "8R7ForQgGtQZu339",
+          "name": "Burning",
+          "light": {
+            "dim": 30,
+            "bright": 15,
+            "color": "#ff8a2a",
+            "alpha": 0.4,
+            "animation": {
+              "type": "torch",
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": {
+              "dim": 18,
+              "bright": 8,
+              "color": "#ff8a2a",
+              "alpha": 0.4,
+              "animation": {
+                "type": "torch",
+                "speed": 5,
+                "intensity": 5,
+                "reverse": false
+              }
+            }
+          }
+        }
+      ],
+      "removed": false,
+      "removedPatterns": []
+    },
+    {
+      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.bNobmpsuSvbEELsv",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.bNobmpsuSvbEELsv",
+      "name": "Candles (10)",
+      "img": "icons/sundries/lights/candle-lit-yellow.webp",
+      "type": "Consumable",
+      "managedBy": null,
+      "consume": "copy",
+      "fuel": null,
+      "freeForAll": false,
+      "coverable": false,
+      "droppable": true,
+      "hudHidden": false,
+      "durationMode": "world",
+      "durationMinutes": 60,
+      "endingMinutes": 10,
+      "patterns": [
+        {
+          "id": "hxRJ4nJGGQPUXZm6",
+          "name": "Burning",
+          "light": {
+            "dim": 5,
+            "bright": 0,
+            "color": "#ffc46b",
+            "alpha": 0.4,
+            "animation": {
+              "type": "flame",
+              "speed": 3,
+              "intensity": 3,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": {
+              "dim": 3,
+              "bright": 0,
+              "color": "#ffc46b",
+              "alpha": 0.4,
+              "animation": {
+                "type": "flame",
+                "speed": 3,
+                "intensity": 3,
+                "reverse": false
+              }
+            }
+          }
+        }
+      ],
+      "removed": false,
+      "removedPatterns": []
+    },
+    {
+      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.r9pocCMMDZGfoar5",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.r9pocCMMDZGfoar5",
+      "name": "Lantern (hooded)",
+      "img": "icons/sundries/lights/lantern-bullseye-signal-copper.webp",
+      "type": "Item",
+      "managedBy": null,
+      "consume": "fuel",
+      "fuel": {
+        "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.DluLcahFmV2lwJyz",
+        "name": "Oil (flask)",
+        "type": "Consumable"
+      },
+      "freeForAll": false,
+      "coverable": false,
+      "droppable": true,
+      "hudHidden": false,
+      "durationMode": "world",
+      "durationMinutes": 240,
+      "endingMinutes": 10,
+      "patterns": [
+        {
+          "id": "OnJzBamqg0uc4lzS",
+          "name": "Lit",
+          "light": {
+            "dim": 30,
+            "bright": 20,
+            "color": "#ffb347",
+            "alpha": 0.4,
+            "animation": {
+              "type": "torch",
+              "speed": 2,
+              "intensity": 2,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": {
+              "dim": 18,
+              "bright": 10,
+              "color": "#ffb347",
+              "alpha": 0.4,
+              "animation": {
+                "type": "torch",
+                "speed": 2,
+                "intensity": 2,
+                "reverse": false
+              }
+            }
+          }
+        }
+      ],
+      "removed": false,
+      "removedPatterns": []
+    },
+    {
+      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.3y7b4olXmarU4NFv",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.3y7b4olXmarU4NFv",
+      "name": "Lantern (bullseye)",
+      "img": "icons/sundries/lights/lantern-bullseye-signal-copper.webp",
+      "type": "Item",
+      "managedBy": null,
+      "consume": "fuel",
+      "fuel": {
+        "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.DluLcahFmV2lwJyz",
+        "name": "Oil (flask)",
+        "type": "Consumable"
+      },
+      "freeForAll": false,
+      "coverable": false,
+      "droppable": true,
+      "hudHidden": false,
+      "durationMode": "world",
+      "durationMinutes": 240,
+      "endingMinutes": 10,
+      "patterns": [
+        {
+          "id": "LMuwrotnEvbevn1y",
+          "name": "Beam",
+          "light": {
+            "dim": 60,
+            "bright": 40,
+            "color": "#ffb347",
+            "alpha": 0.4,
+            "animation": {
+              "type": "torch",
+              "speed": 2,
+              "intensity": 2,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 20,
+            "advanced": null,
+            "ending": {
+              "dim": 36,
+              "bright": 20,
+              "color": "#ffb347",
+              "alpha": 0.4,
+              "animation": {
+                "type": "torch",
+                "speed": 2,
+                "intensity": 2,
+                "reverse": false
+              }
+            }
+          }
+        }
+      ],
+      "removed": false,
+      "removedPatterns": []
+    },
+    {
+      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.7Mn0iYq5HiYQCIwh",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.7Mn0iYq5HiYQCIwh",
+      "name": "Bottled Light",
+      "img": "icons/consumables/potions/potion-flask-pink-red.webp",
+      "type": "Consumable",
+      "managedBy": null,
+      "consume": "none",
+      "fuel": null,
+      "freeForAll": false,
+      "coverable": false,
+      "droppable": true,
+      "hudHidden": false,
+      "durationMode": "world",
+      "durationMinutes": 60,
+      "endingMinutes": 0,
+      "patterns": [
+        {
+          "id": "JDRJ7k8bF9q9SQWF",
+          "name": "Unstoppered",
+          "light": {
+            "dim": 30,
+            "bright": 20,
+            "color": "#ffbf00",
+            "alpha": 0.4,
+            "animation": {
+              "type": "pulse",
+              "speed": 2,
+              "intensity": 3,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": null
+          }
+        }
+      ],
+      "removed": false,
+      "removedPatterns": []
+    },
+    {
+      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.lcfWOf9ZfVifGrLD",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.lcfWOf9ZfVifGrLD",
+      "name": "Grave Wax Candle",
+      "img": "icons/sundries/lights/candle-pillar-lit-yellow.webp",
+      "type": "Treasure",
+      "managedBy": null,
+      "consume": "copy",
+      "fuel": null,
+      "freeForAll": false,
+      "coverable": false,
+      "droppable": true,
+      "hudHidden": false,
+      "durationMode": "world",
+      "durationMinutes": 30,
+      "endingMinutes": 10,
+      "patterns": [
+        {
+          "id": "K5Ji0FMz5DjyjNix",
+          "name": "Burning",
+          "light": {
+            "dim": 5,
+            "bright": 0,
+            "color": "#c8d68a",
+            "alpha": 0.4,
+            "animation": {
+              "type": "flame",
+              "speed": 3,
+              "intensity": 6,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": {
+              "dim": 3,
+              "bright": 0,
+              "color": "#c8d68a",
+              "alpha": 0.4,
+              "animation": {
+                "type": "flame",
+                "speed": 3,
+                "intensity": 6,
+                "reverse": false
+              }
+            }
+          }
+        }
+      ],
+      "removed": false,
+      "removedPatterns": []
+    },
+    {
+      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.0W94fvsItDX51hSE",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.0W94fvsItDX51hSE",
+      "name": "Orb of Illumination",
+      "img": "icons/commodities/treasure/crystal-ball-blue-purple.webp",
+      "type": "Treasure",
+      "managedBy": null,
+      "consume": "none",
+      "fuel": null,
+      "freeForAll": false,
+      "coverable": false,
+      "droppable": true,
+      "hudHidden": false,
+      "durationMode": "world",
+      "durationMinutes": 0,
+      "endingMinutes": 0,
+      "patterns": [
+        {
+          "id": "Xc5HYZH57XeQeXLo",
+          "name": "Glowing",
+          "light": {
+            "dim": 30,
+            "bright": 20,
+            "color": "#e6f0ff",
+            "alpha": 0.3,
+            "animation": {
+              "type": "pulse",
+              "speed": 1,
+              "intensity": 2,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": null
+          }
+        }
+      ],
+      "removed": false,
+      "removedPatterns": []
+    },
+    {
+      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.V0qm0qCkJEul30bN",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.V0qm0qCkJEul30bN",
+      "name": "Boggle Lantern",
+      "img": "icons/sundries/lights/lantern-steel.webp",
+      "type": "Treasure",
+      "managedBy": null,
+      "consume": "none",
+      "fuel": null,
+      "freeForAll": false,
+      "coverable": false,
+      "droppable": true,
+      "hudHidden": false,
+      "durationMode": "world",
+      "durationMinutes": 0,
+      "endingMinutes": 0,
+      "patterns": [
+        {
+          "id": "RO4idjXdxRhMJDFa",
+          "name": "Lit",
+          "light": {
+            "dim": 30,
+            "bright": 20,
+            "color": "#ff7fbf",
+            "alpha": 0.4,
+            "animation": {
+              "type": "fairy",
+              "speed": 3,
+              "intensity": 4,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": null
+          }
+        }
+      ],
+      "removed": false,
+      "removedPatterns": []
+    },
+    {
+      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.GAGuSJBazIsEXxHQ",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.GAGuSJBazIsEXxHQ",
+      "name": "Mask and Lamp of Ghrind",
+      "img": "icons/commodities/treasure/mask-bone-white.webp",
+      "type": "Treasure",
+      "managedBy": null,
+      "consume": "none",
+      "fuel": null,
+      "freeForAll": false,
+      "coverable": false,
+      "droppable": true,
+      "hudHidden": false,
+      "durationMode": "world",
+      "durationMinutes": 0,
+      "endingMinutes": 0,
+      "patterns": [
+        {
+          "id": "dLLX1JbpO4dxAoj9",
+          "name": "Golden light",
+          "light": {
+            "dim": 30,
+            "bright": 15,
+            "color": "#ffd24a",
+            "alpha": 0.4,
+            "animation": {
+              "type": "ghost",
+              "speed": 2,
+              "intensity": 4,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": null
+          }
+        }
+      ],
+      "removed": false,
+      "removedPatterns": []
+    },
+    {
+      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.GepwdS2MED2wCBV9",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.GepwdS2MED2wCBV9",
+      "name": "Light",
+      "img": "icons/magic/holy/prayer-hands-glowing-yellow-white.webp",
+      "type": "HolySpell",
+      "managedBy": null,
+      "consume": "none",
+      "fuel": null,
+      "freeForAll": false,
+      "coverable": false,
+      "droppable": true,
+      "hudHidden": false,
+      "durationMode": "world",
+      "durationMinutes": 120,
+      "endingMinutes": 0,
+      "patterns": [
+        {
+          "id": "Txmm5In4ZH5TN7fY",
+          "name": "Golden radiance",
+          "light": {
+            "dim": 15,
+            "bright": 10,
+            "color": "#ffd700",
+            "alpha": 0.3,
+            "animation": {
+              "type": "pulse",
+              "speed": 1,
+              "intensity": 2,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": null
+          }
+        }
+      ],
+      "removed": false,
+      "removedPatterns": []
+    },
+    {
+      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.m6tsDA0U7Ro1xoFN",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.m6tsDA0U7Ro1xoFN",
+      "name": "Holy Light",
+      "img": "icons/magic/light/beam-rays-yellow-blue.webp",
+      "type": "HolySpell",
+      "managedBy": null,
+      "consume": "none",
+      "fuel": null,
+      "freeForAll": false,
+      "coverable": false,
+      "droppable": true,
+      "hudHidden": false,
+      "durationMode": "world",
+      "durationMinutes": 0,
+      "endingMinutes": 0,
+      "patterns": [
+        {
+          "id": "0iruB9MSFYI5JSzU",
+          "name": "Eternal radiance",
+          "light": {
+            "dim": 30,
+            "bright": 30,
+            "color": "#ffffff",
+            "alpha": 0.3,
+            "animation": {
+              "type": "",
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": null
+          }
+        },
+        {
+          "id": "UYf2M3DpYDwJh3UR",
+          "name": "Beacon of sanctity",
+          "light": {
+            "dim": 15,
+            "bright": 10,
+            "color": "#f4f8ff",
+            "alpha": 0.3,
+            "animation": {
+              "type": "emanation",
+              "speed": 2,
+              "intensity": 3,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": null
+          }
+        }
+      ],
+      "removed": false,
+      "removedPatterns": []
+    },
+    {
+      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.XFMQZbaRJxbdO0tC",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.XFMQZbaRJxbdO0tC",
+      "name": "Flame Charm",
+      "img": "icons/magic/fire/flame-burning-campfire-yellow-blue.webp",
+      "type": "Glamour",
+      "consume": "none",
+      "freeForAll": false,
+      "coverable": false,
+      "droppable": true,
+      "hudHidden": false,
+      "durationMode": "world",
+      "durationMinutes": 0,
+      "endingMinutes": 0,
+      "patterns": [
+        {
+          "id": "TCnADcDSXjCuKDuZ",
+          "name": "Fingertip flame",
+          "light": {
+            "dim": 10,
+            "bright": 5,
+            "color": "#c77dff",
+            "alpha": 0.4,
+            "animation": {
+              "type": "flame",
+              "speed": 4,
+              "intensity": 4,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": null
+          }
+        }
+      ],
+      "managedBy": null,
+      "fuel": null,
+      "removed": false,
+      "removedPatterns": []
+    },
+    {
+      "id": "U518QRTYBqxu92UI",
+      "uuid": null,
+      "name": "Torches",
+      "img": "icons/sundries/lights/torch-brown-lit.webp",
+      "type": "Consumable",
+      "managedBy": null,
+      "consume": "copy",
+      "fuel": null,
+      "freeForAll": false,
+      "coverable": false,
+      "droppable": true,
+      "hudHidden": false,
+      "durationMode": "world",
+      "durationMinutes": 60,
+      "endingMinutes": 10,
+      "patterns": [
+        {
+          "id": "fQaHzTz4vfuPRf8z",
+          "name": "Burning",
+          "light": {
+            "dim": 30,
+            "bright": 15,
+            "color": "#ff8a2a",
+            "alpha": 0.4,
+            "animation": {
+              "type": "torch",
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": {
+              "dim": 18,
+              "bright": 8,
+              "color": "#ff8a2a",
+              "alpha": 0.4,
+              "animation": {
+                "type": "torch",
+                "speed": 5,
+                "intensity": 5,
+                "reverse": false
+              }
+            }
+          }
+        }
+      ],
+      "removed": false,
+      "removedPatterns": []
+    },
+    {
+      "id": "hIhj8HQ8nYRaEjuq",
+      "uuid": null,
+      "name": "Candles",
+      "img": "icons/sundries/lights/candle-lit-yellow.webp",
+      "type": "Consumable",
+      "managedBy": null,
+      "consume": "copy",
+      "fuel": null,
+      "freeForAll": false,
+      "coverable": false,
+      "droppable": true,
+      "hudHidden": false,
+      "durationMode": "world",
+      "durationMinutes": 60,
+      "endingMinutes": 10,
+      "patterns": [
+        {
+          "id": "qw7JZoC6LDWDVfZd",
+          "name": "Burning",
+          "light": {
+            "dim": 5,
+            "bright": 0,
+            "color": "#ffc46b",
+            "alpha": 0.4,
+            "animation": {
+              "type": "flame",
+              "speed": 3,
+              "intensity": 3,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": {
+              "dim": 3,
+              "bright": 0,
+              "color": "#ffc46b",
+              "alpha": 0.4,
+              "animation": {
+                "type": "flame",
+                "speed": 3,
+                "intensity": 3,
+                "reverse": false
+              }
+            }
+          }
+        }
+      ],
+      "removed": false,
+      "removedPatterns": []
+    }
+  ],
+  "compatibility": {
+    "itemTypes": [
+      "Item",
+      "Consumable",
+      "Treasure",
+      "HolySpell",
+      "Glamour"
+    ],
+    "actorTypes": [
+      "Adventurer"
+    ],
+    "quantityPath": "system.quantity",
+    "chargesPath": "system.charges.value",
+    "chargesSpentPath": ""
+  }
+}
