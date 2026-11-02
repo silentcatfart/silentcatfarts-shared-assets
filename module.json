@@ -1,7 +1,7 @@
 {
   "id": "silentcatfarts-shared-assets",
   "title": "Silentcatfart's Shared Assets",
-  "version": "2.8.1",
+  "version": "2.8.2",
   "compatibility": {
       "minimum": "13",
       "verified": "14"
@@ -15,7 +15,9 @@
       }
   ],
   "esmodules": [
-      "scripts/light-sources-seed.mjs"
+      "scripts/light-sources-seed.mjs",
+      "scripts/dolmenwood-ability-scores.mjs",
+      "scripts/dolmenwood-dark-sight.mjs"
   ],
   "packs": [
       {
@@ -233,42 +235,120 @@
           "label": "Dolmenwood Actors",
           "path": "packs/dolmenwood-actors",
           "type": "Actor",
-          "system": "dolmenwood"
+          "system": "dolmenwood",
+          "ownership": {
+              "PLAYER": "NONE",
+              "TRUSTED": "NONE",
+              "ASSISTANT": "OWNER"
+          }
       },
       {
           "name": "dolmenwood-items",
           "label": "Dolmenwood Items",
           "path": "packs/dolmenwood-items",
           "type": "Item",
-          "system": "dolmenwood"
+          "system": "dolmenwood",
+          "ownership": {
+              "PLAYER": "NONE",
+              "TRUSTED": "NONE",
+              "ASSISTANT": "OWNER"
+          }
       },
       {
           "name": "dolmenwood-adventures",
           "label": "Dolmenwood Adventures",
           "path": "packs/dolmenwood-adventures",
           "type": "Adventure",
-          "system": "dolmenwood"
+          "system": "dolmenwood",
+          "ownership": {
+              "PLAYER": "NONE",
+              "TRUSTED": "NONE",
+              "ASSISTANT": "OWNER"
+          }
       },
       {
           "name": "dolmenwood-tables",
           "label": "Dolmenwood Tables",
           "path": "packs/dolmenwood-tables",
           "type": "RollTable",
-          "system": "dolmenwood"
+          "system": "dolmenwood",
+          "ownership": {
+              "PLAYER": "NONE",
+              "TRUSTED": "NONE",
+              "ASSISTANT": "OWNER"
+          }
       },
       {
           "name": "dolmenwood-journals",
           "label": "Dolmenwood Journals",
           "path": "packs/dolmenwood-journals",
           "type": "JournalEntry",
-          "system": "dolmenwood"
+          "system": "dolmenwood",
+          "ownership": {
+              "PLAYER": "NONE",
+              "TRUSTED": "NONE",
+              "ASSISTANT": "OWNER"
+          }
       },
       {
           "name": "dolmenwood-macros",
           "label": "Dolmenwood Macros",
           "path": "packs/dolmenwood-macros",
           "type": "Macro",
-          "system": "dolmenwood"
+          "system": "dolmenwood",
+          "ownership": {
+              "PLAYER": "NONE",
+              "TRUSTED": "NONE",
+              "ASSISTANT": "OWNER"
+          }
+      },
+      {
+          "name": "dolmenwood-player-items",
+          "label": "Dolmenwood Player Items",
+          "path": "packs/dolmenwood-player-items",
+          "type": "Item",
+          "system": "dolmenwood",
+          "ownership": {
+              "PLAYER": "OBSERVER",
+              "TRUSTED": "OBSERVER",
+              "ASSISTANT": "OWNER"
+          }
+      },
+      {
+          "name": "dolmenwood-player-tables",
+          "label": "Dolmenwood Player Tables",
+          "path": "packs/dolmenwood-player-tables",
+          "type": "RollTable",
+          "system": "dolmenwood",
+          "ownership": {
+              "PLAYER": "OBSERVER",
+              "TRUSTED": "OBSERVER",
+              "ASSISTANT": "OWNER"
+          }
+      },
+      {
+          "name": "dolmenwood-player-journals",
+          "label": "Dolmenwood Player Journals",
+          "path": "packs/dolmenwood-player-journals",
+          "type": "JournalEntry",
+          "system": "dolmenwood",
+          "ownership": {
+              "PLAYER": "OBSERVER",
+              "TRUSTED": "OBSERVER",
+              "ASSISTANT": "OWNER"
+          }
+      },
+      {
+          "name": "dolmenwood-player-macros",
+          "label": "Dolmenwood Player Macros",
+          "path": "packs/dolmenwood-player-macros",
+          "type": "Macro",
+          "system": "dolmenwood",
+          "ownership": {
+              "PLAYER": "OBSERVER",
+              "TRUSTED": "OBSERVER",
+              "ASSISTANT": "OWNER"
+          }
       },
       {
           "name": "playlists",
@@ -365,7 +445,11 @@
             "dolmenwood-adventures",
             "dolmenwood-tables",
             "dolmenwood-journals",
-            "dolmenwood-macros"
+            "dolmenwood-macros",
+            "dolmenwood-player-items",
+            "dolmenwood-player-tables",
+            "dolmenwood-player-journals",
+            "dolmenwood-player-macros"
         ]
     }
   ],
