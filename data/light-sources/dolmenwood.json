@@ -1,11 +1,11 @@
 {
   "module": "light-sources",
   "systemId": "dolmenwood",
-  "exportedAt": "2026-10-20T21:25:52.209Z",
+  "exportedAt": "2026-11-05T21:48:07.618Z",
   "sources": [
     {
       "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.E7XLi0aeG0XqzOmC",
-      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.E7XLi0aeG0XqzOmC",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.E7XLi0aeG0XqzOmC",
       "name": "Torches (3)",
       "img": "icons/sundries/lights/torch-brown-lit.webp",
       "type": "Consumable",
@@ -16,6 +16,7 @@
       "coverable": false,
       "droppable": true,
       "hudHidden": false,
+      "discardSpent": false,
       "durationMode": "world",
       "durationMinutes": 60,
       "endingMinutes": 10,
@@ -57,7 +58,7 @@
     },
     {
       "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.bNobmpsuSvbEELsv",
-      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.bNobmpsuSvbEELsv",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.bNobmpsuSvbEELsv",
       "name": "Candles (10)",
       "img": "icons/sundries/lights/candle-lit-yellow.webp",
       "type": "Consumable",
@@ -68,6 +69,7 @@
       "coverable": false,
       "droppable": true,
       "hudHidden": false,
+      "discardSpent": false,
       "durationMode": "world",
       "durationMinutes": 60,
       "endingMinutes": 10,
@@ -109,14 +111,14 @@
     },
     {
       "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.r9pocCMMDZGfoar5",
-      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.r9pocCMMDZGfoar5",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.r9pocCMMDZGfoar5",
       "name": "Lantern (hooded)",
       "img": "icons/sundries/lights/lantern-bullseye-signal-copper.webp",
       "type": "Item",
       "managedBy": null,
       "consume": "fuel",
       "fuel": {
-        "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.DluLcahFmV2lwJyz",
+        "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.DluLcahFmV2lwJyz",
         "name": "Oil (flask)",
         "type": "Consumable"
       },
@@ -124,6 +126,7 @@
       "coverable": false,
       "droppable": true,
       "hudHidden": false,
+      "discardSpent": false,
       "durationMode": "world",
       "durationMinutes": 240,
       "endingMinutes": 10,
@@ -165,14 +168,14 @@
     },
     {
       "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.3y7b4olXmarU4NFv",
-      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.3y7b4olXmarU4NFv",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.3y7b4olXmarU4NFv",
       "name": "Lantern (bullseye)",
       "img": "icons/sundries/lights/lantern-bullseye-signal-copper.webp",
       "type": "Item",
       "managedBy": null,
       "consume": "fuel",
       "fuel": {
-        "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.DluLcahFmV2lwJyz",
+        "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.DluLcahFmV2lwJyz",
         "name": "Oil (flask)",
         "type": "Consumable"
       },
@@ -180,6 +183,7 @@
       "coverable": false,
       "droppable": true,
       "hudHidden": false,
+      "discardSpent": false,
       "durationMode": "world",
       "durationMinutes": 240,
       "endingMinutes": 10,
@@ -232,6 +236,7 @@
       "coverable": false,
       "droppable": true,
       "hudHidden": false,
+      "discardSpent": false,
       "durationMode": "world",
       "durationMinutes": 60,
       "endingMinutes": 0,
@@ -273,6 +278,7 @@
       "coverable": false,
       "droppable": true,
       "hudHidden": false,
+      "discardSpent": false,
       "durationMode": "world",
       "durationMinutes": 30,
       "endingMinutes": 10,
@@ -325,6 +331,7 @@
       "coverable": false,
       "droppable": true,
       "hudHidden": false,
+      "discardSpent": false,
       "durationMode": "world",
       "durationMinutes": 0,
       "endingMinutes": 0,
@@ -366,6 +373,7 @@
       "coverable": false,
       "droppable": true,
       "hudHidden": false,
+      "discardSpent": false,
       "durationMode": "world",
       "durationMinutes": 0,
       "endingMinutes": 0,
@@ -407,6 +415,7 @@
       "coverable": false,
       "droppable": true,
       "hudHidden": false,
+      "discardSpent": false,
       "durationMode": "world",
       "durationMinutes": 0,
       "endingMinutes": 0,
@@ -437,7 +446,7 @@
     },
     {
       "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.GepwdS2MED2wCBV9",
-      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.GepwdS2MED2wCBV9",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.GepwdS2MED2wCBV9",
       "name": "Light",
       "img": "icons/magic/holy/prayer-hands-glowing-yellow-white.webp",
       "type": "HolySpell",
@@ -448,6 +457,7 @@
       "coverable": false,
       "droppable": true,
       "hudHidden": false,
+      "discardSpent": false,
       "durationMode": "world",
       "durationMinutes": 120,
       "endingMinutes": 0,
@@ -478,7 +488,7 @@
     },
     {
       "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.m6tsDA0U7Ro1xoFN",
-      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.m6tsDA0U7Ro1xoFN",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.m6tsDA0U7Ro1xoFN",
       "name": "Holy Light",
       "img": "icons/magic/light/beam-rays-yellow-blue.webp",
       "type": "HolySpell",
@@ -489,6 +499,7 @@
       "coverable": false,
       "droppable": true,
       "hudHidden": false,
+      "discardSpent": false,
       "durationMode": "world",
       "durationMinutes": 0,
       "endingMinutes": 0,
@@ -539,15 +550,18 @@
     },
     {
       "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.XFMQZbaRJxbdO0tC",
-      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.XFMQZbaRJxbdO0tC",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.XFMQZbaRJxbdO0tC",
       "name": "Flame Charm",
       "img": "icons/magic/fire/flame-burning-campfire-yellow-blue.webp",
       "type": "Glamour",
+      "managedBy": null,
       "consume": "none",
+      "fuel": null,
       "freeForAll": false,
       "coverable": false,
       "droppable": true,
       "hudHidden": false,
+      "discardSpent": false,
       "durationMode": "world",
       "durationMinutes": 0,
       "endingMinutes": 0,
@@ -573,88 +587,35 @@
           }
         }
       ],
-      "managedBy": null,
-      "fuel": null,
       "removed": false,
       "removedPatterns": []
     },
     {
-      "id": "U518QRTYBqxu92UI",
-      "uuid": null,
-      "name": "Torches",
-      "img": "icons/sundries/lights/torch-brown-lit.webp",
-      "type": "Consumable",
+      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.PcGllQfQsoy9XUPn",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.PcGllQfQsoy9XUPn",
+      "name": "Wand of Firelight",
+      "img": "icons/weapons/wands/wand-simple-eye.webp",
+      "type": "Treasure",
       "managedBy": null,
-      "consume": "copy",
+      "consume": "charge",
       "fuel": null,
       "freeForAll": false,
       "coverable": false,
       "droppable": true,
       "hudHidden": false,
+      "discardSpent": false,
       "durationMode": "world",
       "durationMinutes": 60,
-      "endingMinutes": 10,
+      "endingMinutes": 0,
       "patterns": [
         {
-          "id": "fQaHzTz4vfuPRf8z",
-          "name": "Burning",
+          "id": "yEe04nMjtr19UPfy",
+          "name": "Firelight",
           "light": {
-            "dim": 30,
-            "bright": 15,
-            "color": "#ff8a2a",
-            "alpha": 0.4,
-            "animation": {
-              "type": "torch",
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "negative": false,
-            "angle": 360,
-            "advanced": null,
-            "ending": {
-              "dim": 18,
-              "bright": 8,
-              "color": "#ff8a2a",
-              "alpha": 0.4,
-              "animation": {
-                "type": "torch",
-                "speed": 5,
-                "intensity": 5,
-                "reverse": false
-              }
-            }
-          }
-        }
-      ],
-      "removed": false,
-      "removedPatterns": []
-    },
-    {
-      "id": "hIhj8HQ8nYRaEjuq",
-      "uuid": null,
-      "name": "Candles",
-      "img": "icons/sundries/lights/candle-lit-yellow.webp",
-      "type": "Consumable",
-      "managedBy": null,
-      "consume": "copy",
-      "fuel": null,
-      "freeForAll": false,
-      "coverable": false,
-      "droppable": true,
-      "hudHidden": false,
-      "durationMode": "world",
-      "durationMinutes": 60,
-      "endingMinutes": 10,
-      "patterns": [
-        {
-          "id": "qw7JZoC6LDWDVfZd",
-          "name": "Burning",
-          "light": {
-            "dim": 5,
-            "bright": 0,
-            "color": "#ffc46b",
-            "alpha": 0.4,
+            "dim": 15,
+            "bright": 10,
+            "color": "#ff9a3c",
+            "alpha": 0.35,
             "animation": {
               "type": "flame",
               "speed": 3,
@@ -664,17 +625,236 @@
             "negative": false,
             "angle": 360,
             "advanced": null,
-            "ending": {
-              "dim": 3,
-              "bright": 0,
-              "color": "#ffc46b",
-              "alpha": 0.4,
-              "animation": {
-                "type": "flame",
-                "speed": 3,
-                "intensity": 3,
-                "reverse": false
-              }
+            "ending": null
+          }
+        }
+      ],
+      "removed": false,
+      "removedPatterns": []
+    },
+    {
+      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.mzsvubk9pDrZH6fe",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.mzsvubk9pDrZH6fe",
+      "name": "Rod of Light",
+      "img": "icons/weapons/maces/mace-spiked-banded-wood.webp",
+      "type": "Weapon",
+      "managedBy": null,
+      "consume": "charge",
+      "fuel": null,
+      "freeForAll": false,
+      "coverable": false,
+      "droppable": true,
+      "hudHidden": false,
+      "discardSpent": false,
+      "durationMode": "world",
+      "durationMinutes": 120,
+      "endingMinutes": 0,
+      "patterns": [
+        {
+          "id": "wbBCsSxmtgKzTprh",
+          "name": "Golden radiance",
+          "light": {
+            "dim": 15,
+            "bright": 10,
+            "color": "#ffd700",
+            "alpha": 0.3,
+            "animation": {
+              "type": "pulse",
+              "speed": 1,
+              "intensity": 2,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": null
+          }
+        }
+      ],
+      "removed": false,
+      "removedPatterns": []
+    },
+    {
+      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.avz3Id16WZ9kNR0s",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.avz3Id16WZ9kNR0s",
+      "name": "Rod of Holy Light",
+      "img": "icons/weapons/maces/mace-round-ornate-purple.webp",
+      "type": "Weapon",
+      "managedBy": null,
+      "consume": "charge",
+      "fuel": null,
+      "freeForAll": false,
+      "coverable": false,
+      "droppable": true,
+      "hudHidden": false,
+      "discardSpent": false,
+      "durationMode": "world",
+      "durationMinutes": 0,
+      "endingMinutes": 0,
+      "patterns": [
+        {
+          "id": "Ky0yMjpOA3teVRsg",
+          "name": "Eternal radiance",
+          "light": {
+            "dim": 30,
+            "bright": 30,
+            "color": "#ffffff",
+            "alpha": 0.3,
+            "animation": {
+              "type": "",
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": null
+          }
+        },
+        {
+          "id": "QIKhiWzM7dArKRIE",
+          "name": "Beacon of sanctity",
+          "light": {
+            "dim": 15,
+            "bright": 10,
+            "color": "#f4f8ff",
+            "alpha": 0.3,
+            "animation": {
+              "type": "emanation",
+              "speed": 2,
+              "intensity": 3,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": null
+          }
+        }
+      ],
+      "removed": false,
+      "removedPatterns": []
+    },
+    {
+      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.WJL5o7KVNnxhTqDf",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.WJL5o7KVNnxhTqDf",
+      "name": "Sword of St Sedge",
+      "img": "icons/weapons/swords/sword-gold-holy.webp",
+      "type": "Weapon",
+      "managedBy": null,
+      "consume": "none",
+      "fuel": null,
+      "freeForAll": false,
+      "coverable": false,
+      "droppable": true,
+      "hudHidden": false,
+      "discardSpent": false,
+      "durationMode": "world",
+      "durationMinutes": 1,
+      "endingMinutes": 0,
+      "patterns": [
+        {
+          "id": "8aXhTutEAr2tZjNG",
+          "name": "Holy radiance",
+          "light": {
+            "dim": 30,
+            "bright": 30,
+            "color": "#fff4d6",
+            "alpha": 0.45,
+            "animation": {
+              "type": "sunburst",
+              "speed": 3,
+              "intensity": 4,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": null
+          }
+        }
+      ],
+      "removed": false,
+      "removedPatterns": []
+    },
+    {
+      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.IHjidcXExavNbyOe",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.IHjidcXExavNbyOe",
+      "name": "Moonstone",
+      "img": "icons/commodities/gems/pearl-beige-smooth.webp",
+      "type": "Treasure",
+      "managedBy": null,
+      "consume": "none",
+      "fuel": null,
+      "freeForAll": false,
+      "coverable": false,
+      "droppable": true,
+      "hudHidden": false,
+      "discardSpent": false,
+      "durationMode": "world",
+      "durationMinutes": 0,
+      "endingMinutes": 0,
+      "patterns": [
+        {
+          "id": "HOCBi7CU6W57TOyX",
+          "name": "Moonlight",
+          "light": {
+            "dim": 30,
+            "bright": 15,
+            "color": "#a8c8ff",
+            "alpha": 0.35,
+            "animation": {
+              "type": "pulse",
+              "speed": 2,
+              "intensity": 2,
+              "reverse": false
+            },
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": null
+          }
+        }
+      ],
+      "removed": false,
+      "removedPatterns": []
+    },
+    {
+      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.4XxCofrFciX44wL3",
+      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.4XxCofrFciX44wL3",
+      "name": "Firelight",
+      "img": "icons/magic/light/torch-fire-hand-orange.webp",
+      "type": "Spell",
+      "managedBy": null,
+      "consume": "none",
+      "fuel": null,
+      "freeForAll": false,
+      "coverable": false,
+      "droppable": true,
+      "hudHidden": false,
+      "discardSpent": false,
+      "durationMode": "world",
+      "durationMinutes": 60,
+      "endingMinutes": 0,
+      "patterns": [
+        {
+          "id": "EiRLUy6wHODOmI3V",
+          "name": "Firelight",
+          "light": {
+            "negative": false,
+            "angle": 360,
+            "advanced": null,
+            "ending": null,
+            "dim": 15,
+            "bright": 10,
+            "color": "#ff9a3c",
+            "alpha": 0.35,
+            "animation": {
+              "type": "flame",
+              "speed": 3,
+              "intensity": 3,
+              "reverse": false
             }
           }
         }
@@ -685,11 +865,13 @@
   ],
   "compatibility": {
     "itemTypes": [
-      "Item",
+      "Spell",
       "Consumable",
-      "Treasure",
+      "Item",
+      "Glamour",
       "HolySpell",
-      "Glamour"
+      "Treasure",
+      "Weapon"
     ],
     "actorTypes": [
       "Adventurer"

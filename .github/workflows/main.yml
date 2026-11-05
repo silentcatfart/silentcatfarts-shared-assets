@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Zip files
         working-directory: ./
@@ -20,12 +22,29 @@ jobs:
         id: get-version
         run: echo "version=$(node ./.github/workflows/get-version.js)" >> $GITHUB_OUTPUT
 
+      # Notes are the commit messages since the previous version's tag, so every push to the same
+      # version adds its commits to that release's notes.
+      - name: Release Notes
+        shell: bash
+        run: |
+          version="${{ steps.get-version.outputs.version }}"
+          previous=$(git tag --sort=-v:refname | grep -vxF "$version" | head -1)
+          {
+            echo "## Changes"
+            git log ${previous:+$previous..}HEAD --no-merges --pretty='- %s'
+            if [ -n "$previous" ]; then
+              echo -e "\n**Full changelog:** https://github.com/${{ github.repository }}/compare/$previous...$version"
+            fi
+          } > "$RUNNER_TEMP/notes.md"
+          cat "$RUNNER_TEMP/notes.md"
+
       - name: Create Release
         id: create-release
         uses: ncipollo/release-action@v1
         with:
           allowUpdates: true
           name: Release ${{ steps.get-version.outputs.version }}
+          bodyFile: ${{ runner.temp }}/notes.md
           draft: false
           prerelease: false
           token: ${{secrets.GITHUB_TOKEN}}

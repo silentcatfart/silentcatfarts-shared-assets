@@ -1,0 +1,245 @@
+{
+  "systemId": "dolmenwood",
+  "exportedAt": "2026-11-05T21:48:07.618Z",
+  "settings": {
+    "always-hp.add-defeated": true,
+    "always-hp.allow-negative": false,
+    "always-hp.clear-savingthrows": false,
+    "always-hp.load-option": "gm",
+    "always-hp.maxresource": "hp.max",
+    "always-hp.resourcename": "hp.value",
+    "always-hp.show-savingthrows": false,
+    "always-hp.tempmaxresource": "",
+    "always-hp.tempresource": "",
+    "always-hp.wounds-system": false,
+    "audio-codex.minimumRole": 4,
+    "audio-codex.roots": [
+      {
+        "id": "RdNeY2BnPKcsm7yn",
+        "label": "exploration",
+        "source": "data",
+        "bucket": null,
+        "prefix": "artifacts/sounds/ambience/exploration"
+      },
+      {
+        "id": "DYMcuOYVM5EKKWpY",
+        "label": "combat",
+        "source": "data",
+        "bucket": null,
+        "prefix": "artifacts/sounds/ambience/combat"
+      },
+      {
+        "id": "PTMYBmB2whWk5I6l",
+        "label": "rest",
+        "source": "data",
+        "bucket": null,
+        "prefix": "artifacts/sounds/ambience/rest"
+      },
+      {
+        "id": "CZNdGjTm6ba80V0b",
+        "label": "effects",
+        "source": "data",
+        "bucket": null,
+        "prefix": "artifacts/sounds/effects"
+      }
+    ],
+    "augur-nexus.allowPlayerWorkspace": true,
+    "augur-nexus.campaignTimeEnabled": false,
+    "augur-nexus.entityPlacementCreatesSceneConnections": true,
+    "augur-nexus.interfaceAccentColor": "#b84a4a",
+    "augur-nexus.playerConnectionVisibility": "explicit",
+    "augur-nexus.playerDisclosure_faction_beliefs": "hide",
+    "augur-nexus.playerDisclosure_faction_thread": "hide",
+    "augur-nexus.playerDisclosure_location_thread": "hide",
+    "augur-nexus.playerDisclosure_npc_beliefs": "hide",
+    "augur-nexus.playerDisclosure_npc_thread": "hide",
+    "augur-nexus.playerDisclosure_npc_traits": "hide",
+    "augur-nexus.playerDisclosure_ship_thread": "hide",
+    "augur-nexus.playerFactionVisibility": "explicit",
+    "augur-nexus.playerGatewayEnabled": true,
+    "augur-nexus.playerLocationDisclosure": "full",
+    "augur-nexus.playerLocationVisibility": "explicit",
+    "augur-nexus.playerNexusVisibility": "explicit",
+    "augur-nexus.playerNpcVisibility": "explicit",
+    "augur-nexus.playerSceneViewing": "all",
+    "augur-nexus.playerShipVisibility": "explicit",
+    "augur-nexus.trackShipLocationFromMarkers": true,
+    "core.animateRollTable": true,
+    "core.combatTrackerConfig": {
+      "resource": "hp.value",
+      "skipDefeated": false,
+      "turnMarker": {
+        "enabled": true,
+        "animation": "spin",
+        "src": "systems/dolmenwood/assets/turn_tracker.webp",
+        "disposition": false
+      }
+    },
+    "core.dynamicTokenRing": "coreSteel",
+    "core.dynamicTokenRingFitMode": "subject",
+    "core.editorAutosaveSecs": 60,
+    "core.gridDiagonals": 4,
+    "core.permissions": {
+      "BROADCAST_AUDIO": [
+        2,
+        3,
+        4
+      ],
+      "BROADCAST_VIDEO": [
+        2,
+        3,
+        4
+      ],
+      "TOKEN_CONFIGURE": [
+        2,
+        3,
+        4
+      ],
+      "ACTOR_CREATE": [
+        3,
+        4
+      ],
+      "PLAYLIST_CREATE": [
+        3,
+        4
+      ],
+      "CARDS_CREATE": [
+        3,
+        4
+      ],
+      "ITEM_CREATE": [
+        3,
+        4
+      ],
+      "JOURNAL_CREATE": [
+        2,
+        3,
+        4
+      ],
+      "NOTE_CREATE": [
+        2,
+        3,
+        4
+      ],
+      "REGION_CREATE": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "TOKEN_CREATE": [
+        3,
+        4
+      ],
+      "TOKEN_DELETE": [
+        3,
+        4
+      ],
+      "SHOW_CURSOR": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "SHOW_RULER": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "MANUAL_ROLLS": [
+        2,
+        3,
+        4
+      ],
+      "SETTINGS_MODIFY": [
+        3,
+        4
+      ],
+      "MACRO_SCRIPT": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "WALL_DOORS": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "PING_CANVAS": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "QUERY_USER": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "FILES_UPLOAD": [
+        3,
+        4
+      ],
+      "DRAWING_CREATE": [
+        2,
+        3,
+        4
+      ],
+      "FILES_BROWSE": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "MESSAGE_WHISPER": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "core.scrollingStatusText": true,
+    "core.tokenAutoRotate": false,
+    "core.tokenDragPreview": false,
+    "dice-calculator.rightClickCommand": "decrease",
+    "dice-so-nice.allowInteractivity": true,
+    "dice-so-nice.animateInlineRoll": true,
+    "dice-so-nice.animateRollTable": false,
+    "dice-so-nice.diceCanBeFlipped": true,
+    "dice-so-nice.disabledDuringCombat": false,
+    "dice-so-nice.disabledForInitiative": false,
+    "dice-so-nice.disabledForManualRolls": true,
+    "dice-so-nice.enabledSimultaneousRollForMessage": true,
+    "dice-so-nice.enabledSimultaneousRolls": true,
+    "dice-so-nice.forceCharacterOwnerAppearance": "2",
+    "dice-so-nice.globalAnimationSpeed": "0",
+    "dice-so-nice.hide3dDiceOnSecretRolls": true,
+    "dice-so-nice.hideNpcRolls": false,
+    "dice-so-nice.hideSidebarTab": false,
+    "dice-so-nice.immediatelyDisplayChatMessages": false,
+    "dice-so-nice.interactiveThrows": "1",
+    "dice-so-nice.maxDiceNumber": 20,
+    "dice-so-nice.persistentDice": true,
+    "dice-so-nice.showGhostDice": "0",
+    "dolmenwood.autoApplyDamage": true,
+    "dolmenwood.autoMarkDefeated": true,
+    "dolmenwood.autoMissileRange": true,
+    "dolmenwood.autoWeather": false,
+    "dolmenwood.automatedKillLog": true,
+    "dolmenwood.coinsPerSlot": 100,
+    "dolmenwood.customSkills": "",
+    "dolmenwood.encumbranceMethod": "weight",
+    "dolmenwood.optionalCombatRules": true,
+    "dolmenwood.randomizeCreatureHP": true,
+    "dolmenwood.rerollInitiative": "reset",
+    "dolmenwood.showCalendar": true,
+    "dolmenwood.showDungeonTracker": true,
+    "dolmenwood.showPartyViewer": true,
+    "dolmenwood.significantLoad": 50,
+    "item-piles.currencies": []
+  }
+}
