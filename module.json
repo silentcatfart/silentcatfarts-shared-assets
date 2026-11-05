@@ -1,7 +1,7 @@
 {
   "id": "silentcatfarts-shared-assets",
   "title": "Silentcatfart's Shared Assets",
-  "version": "2.9.0",
+  "version": "2.9.1",
   "compatibility": {
       "minimum": "13",
       "verified": "14"
@@ -291,6 +291,18 @@
           }
       },
       {
+          "name": "dolmenwood-nexus",
+          "label": "Dolmenwood Nexus",
+          "path": "packs/dolmenwood-nexus",
+          "type": "JournalEntry",
+          "system": "dolmenwood",
+          "ownership": {
+              "PLAYER": "NONE",
+              "TRUSTED": "NONE",
+              "ASSISTANT": "OWNER"
+          }
+      },
+      {
           "name": "dolmenwood-macros",
           "label": "Dolmenwood Macros",
           "path": "packs/dolmenwood-macros",
@@ -445,6 +457,7 @@
             "dolmenwood-adventures",
             "dolmenwood-tables",
             "dolmenwood-journals",
+            "dolmenwood-nexus",
             "dolmenwood-macros",
             "dolmenwood-player-items",
             "dolmenwood-player-tables",
