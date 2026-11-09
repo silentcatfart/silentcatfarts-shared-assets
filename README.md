@@ -19,7 +19,11 @@ https://github.com/silentcatfart/silentcatfarts-shared-assets/releases/latest/do
 
 ## Requirements
 
-Artwork and audio files must be installed to `/foundryuserdata/Data/age-shared`.
+Artwork and audio files must be installed to these folders:
+
+- `/foundryuserdata/Data/age-shared`
+- `/foundryuserdata/Data/artifacts`
+
 They are not included in this module because of licensing and copyright restrictions.
 
 ## Releases
