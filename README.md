@@ -1,5 +1,27 @@
 # silentcatfarts-shared-assets
-Personal Foundry VTT module for use with shadowdark, mosh, pirateborg, dnd5e, ose and dolmenwood.
-Creates game specific compendiums for re-usable assets.
-Requires artwork and audio files installed to the /foundryuserdata/Data/age-shared folder path.
-Artwork and audio files not provided due to licensing/copywright issues.
+
+Personal Foundry VTT module that provides game-specific compendiums of reusable assets for:
+
+- Shadowdark
+- Mothership
+- Pirate Borg
+- D&D 5e
+- Old-School Essentials
+- Dolmenwood
+
+## Installation
+
+In Foundry, go to **Add-on Modules → Install Module** and paste this manifest URL:
+
+```
+https://github.com/silentcatfart/silentcatfarts-shared-assets/releases/latest/download/module.json
+```
+
+## Requirements
+
+Artwork and audio files must be installed to `/foundryuserdata/Data/age-shared`.
+They are not included in this module because of licensing and copyright restrictions.
+
+## Releases
+
+Every push to `main` builds `module.zip` and publishes a GitHub release tagged with the `version` in `module.json`. Bump the version before pushing to cut a new release.
