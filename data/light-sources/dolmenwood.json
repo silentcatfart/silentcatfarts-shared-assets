@@ -4,11 +4,11 @@
   "exportedAt": "2026-11-05T21:48:07.618Z",
   "sources": [
     {
-      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.E7XLi0aeG0XqzOmC",
-      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.E7XLi0aeG0XqzOmC",
-      "name": "Torches (3)",
+      "id": "Compendium.dolmenwood-premiumgame.dpb-items.Item.V83EInFMcAItcMVp",
+      "uuid": "Compendium.dolmenwood-premiumgame.dpb-items.Item.V83EInFMcAItcMVp",
+      "name": "Torch (3)",
       "img": "icons/sundries/lights/torch-brown-lit.webp",
-      "type": "Consumable",
+      "type": "Item",
       "managedBy": null,
       "consume": "copy",
       "fuel": null,
@@ -57,11 +57,11 @@
       "removedPatterns": []
     },
     {
-      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.bNobmpsuSvbEELsv",
-      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.bNobmpsuSvbEELsv",
-      "name": "Candles (10)",
+      "id": "Compendium.dolmenwood-premiumgame.dpb-items.Item.kPyhqQ1AtY9XkhST",
+      "uuid": "Compendium.dolmenwood-premiumgame.dpb-items.Item.kPyhqQ1AtY9XkhST",
+      "name": "Candle (10)",
       "img": "icons/sundries/lights/candle-lit-yellow.webp",
-      "type": "Consumable",
+      "type": "Item",
       "managedBy": null,
       "consume": "copy",
       "fuel": null,
@@ -110,17 +110,17 @@
       "removedPatterns": []
     },
     {
-      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.r9pocCMMDZGfoar5",
-      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.r9pocCMMDZGfoar5",
-      "name": "Lantern (hooded)",
+      "id": "Compendium.dolmenwood-premiumgame.dpb-items.Item.dTYe4yhzlzCcbDwL",
+      "uuid": "Compendium.dolmenwood-premiumgame.dpb-items.Item.dTYe4yhzlzCcbDwL",
+      "name": "Lantern (Hooded)",
       "img": "icons/sundries/lights/lantern-bullseye-signal-copper.webp",
       "type": "Item",
       "managedBy": null,
       "consume": "fuel",
       "fuel": {
-        "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.DluLcahFmV2lwJyz",
-        "name": "Oil (flask)",
-        "type": "Consumable"
+        "uuid": "Compendium.dolmenwood-premiumgame.dpb-items.Item.8CLdmdwMU5pTTCQJ",
+        "name": "Oil Flask",
+        "type": "Item"
       },
       "freeForAll": false,
       "coverable": false,
@@ -167,17 +167,17 @@
       "removedPatterns": []
     },
     {
-      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.3y7b4olXmarU4NFv",
-      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.3y7b4olXmarU4NFv",
-      "name": "Lantern (bullseye)",
+      "id": "Compendium.dolmenwood-premiumgame.dpb-items.Item.dneoFwssMgbJeBYc",
+      "uuid": "Compendium.dolmenwood-premiumgame.dpb-items.Item.dneoFwssMgbJeBYc",
+      "name": "Lantern (Bullseye)",
       "img": "icons/sundries/lights/lantern-bullseye-signal-copper.webp",
       "type": "Item",
       "managedBy": null,
       "consume": "fuel",
       "fuel": {
-        "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.DluLcahFmV2lwJyz",
-        "name": "Oil (flask)",
-        "type": "Consumable"
+        "uuid": "Compendium.dolmenwood-premiumgame.dpb-items.Item.8CLdmdwMU5pTTCQJ",
+        "name": "Oil Flask",
+        "type": "Item"
       },
       "freeForAll": false,
       "coverable": false,
@@ -224,8 +224,8 @@
       "removedPatterns": []
     },
     {
-      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.7Mn0iYq5HiYQCIwh",
-      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.7Mn0iYq5HiYQCIwh",
+      "id": "Compendium.dolmenwood-premiumgame.dcb-items.Item.Ubj3nPyIwIdOWRuI",
+      "uuid": "Compendium.dolmenwood-premiumgame.dcb-items.Item.Ubj3nPyIwIdOWRuI",
       "name": "Bottled Light",
       "img": "icons/consumables/potions/potion-flask-pink-red.webp",
       "type": "Consumable",
@@ -266,8 +266,8 @@
       "removedPatterns": []
     },
     {
-      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.lcfWOf9ZfVifGrLD",
-      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.lcfWOf9ZfVifGrLD",
+      "id": "Compendium.dolmenwood-premiumgame.dcb-items.Item.FQLIb3TLCBCapMgp",
+      "uuid": "Compendium.dolmenwood-premiumgame.dcb-items.Item.FQLIb3TLCBCapMgp",
       "name": "Grave Wax Candle",
       "img": "icons/sundries/lights/candle-pillar-lit-yellow.webp",
       "type": "Treasure",
@@ -361,8 +361,8 @@
       "removedPatterns": []
     },
     {
-      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.V0qm0qCkJEul30bN",
-      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.V0qm0qCkJEul30bN",
+      "id": "Compendium.dolmenwood-premiumgame.dcb-items.Item.spr9d0pmR8En0a6z",
+      "uuid": "Compendium.dolmenwood-premiumgame.dcb-items.Item.spr9d0pmR8En0a6z",
       "name": "Boggle Lantern",
       "img": "icons/sundries/lights/lantern-steel.webp",
       "type": "Treasure",
@@ -445,8 +445,8 @@
       "removedPatterns": []
     },
     {
-      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.GepwdS2MED2wCBV9",
-      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.GepwdS2MED2wCBV9",
+      "id": "Compendium.dolmenwood-premiumgame.dpb-magic.Item.K0rJUWBOYXDNGhiB",
+      "uuid": "Compendium.dolmenwood-premiumgame.dpb-magic.Item.K0rJUWBOYXDNGhiB",
       "name": "Light",
       "img": "icons/magic/holy/prayer-hands-glowing-yellow-white.webp",
       "type": "HolySpell",
@@ -487,8 +487,8 @@
       "removedPatterns": []
     },
     {
-      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.m6tsDA0U7Ro1xoFN",
-      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.m6tsDA0U7Ro1xoFN",
+      "id": "Compendium.dolmenwood-premiumgame.dpb-magic.Item.JUjgvJ2cAkVYGD7F",
+      "uuid": "Compendium.dolmenwood-premiumgame.dpb-magic.Item.JUjgvJ2cAkVYGD7F",
       "name": "Holy Light",
       "img": "icons/magic/light/beam-rays-yellow-blue.webp",
       "type": "HolySpell",
@@ -549,8 +549,8 @@
       "removedPatterns": []
     },
     {
-      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.XFMQZbaRJxbdO0tC",
-      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.XFMQZbaRJxbdO0tC",
+      "id": "Compendium.dolmenwood-premiumgame.dpb-magic.Item.lsu10noRCOyvCzzJ",
+      "uuid": "Compendium.dolmenwood-premiumgame.dpb-magic.Item.lsu10noRCOyvCzzJ",
       "name": "Flame Charm",
       "img": "icons/magic/fire/flame-burning-campfire-yellow-blue.webp",
       "type": "Glamour",
@@ -779,8 +779,8 @@
       "removedPatterns": []
     },
     {
-      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.IHjidcXExavNbyOe",
-      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-items.Item.IHjidcXExavNbyOe",
+      "id": "Compendium.dolmenwood-premiumgame.dcb-items.Item.BBnRgQ67UimPZRn4",
+      "uuid": "Compendium.dolmenwood-premiumgame.dcb-items.Item.BBnRgQ67UimPZRn4",
       "name": "Moonstone",
       "img": "icons/commodities/gems/pearl-beige-smooth.webp",
       "type": "Treasure",
@@ -821,8 +821,8 @@
       "removedPatterns": []
     },
     {
-      "id": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.4XxCofrFciX44wL3",
-      "uuid": "Compendium.silentcatfarts-shared-assets.dolmenwood-player-items.Item.4XxCofrFciX44wL3",
+      "id": "Compendium.dolmenwood-premiumgame.dpb-magic.Item.2raNwFCHyYQ38Bng",
+      "uuid": "Compendium.dolmenwood-premiumgame.dpb-magic.Item.2raNwFCHyYQ38Bng",
       "name": "Firelight",
       "img": "icons/magic/light/torch-fire-hand-orange.webp",
       "type": "Spell",
