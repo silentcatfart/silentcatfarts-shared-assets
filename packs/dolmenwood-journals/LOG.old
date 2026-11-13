@@ -1,8 +1,8 @@
-2026/11/13-13:08:00.905572 784280fff640 Recovering log #232
-2026/11/13-13:08:00.915369 784280fff640 Delete type=3 #230
-2026/11/13-13:08:00.915396 784280fff640 Delete type=0 #232
-2026/11/13-13:37:47.021868 78423275c640 Level-0 table #237: started
-2026/11/13-13:37:47.021886 78423275c640 Level-0 table #237: 0 bytes OK
-2026/11/13-13:37:47.027946 78423275c640 Delete type=0 #235
-2026/11/13-13:37:47.032046 78423275c640 Manual compaction at level-0 from '!folders!6MReEB9SklSMRe88' @ 72057594037927935 : 1 .. '!journal.pages!zX7GOidM15trLAri.ym2fyz7FjiYxWpPh' @ 0 : 0; will stop at (end)
-2026/11/13-13:37:47.041107 78423275c640 Manual compaction at level-1 from '!folders!6MReEB9SklSMRe88' @ 72057594037927935 : 1 .. '!journal.pages!zX7GOidM15trLAri.ym2fyz7FjiYxWpPh' @ 0 : 0; will stop at (end)
+2026/11/13-14:13:18.996922 75485b3fe640 Recovering log #241
+2026/11/13-14:13:19.007963 75485b3fe640 Delete type=0 #241
+2026/11/13-14:13:19.007987 75485b3fe640 Delete type=3 #240
+2026/11/13-14:19:03.798782 754858cec640 Level-0 table #245: started
+2026/11/13-14:19:03.798803 754858cec640 Level-0 table #245: 0 bytes OK
+2026/11/13-14:19:03.804131 754858cec640 Delete type=0 #243
+2026/11/13-14:19:03.816119 754858cec640 Manual compaction at level-0 from '!folders!6MReEB9SklSMRe88' @ 72057594037927935 : 1 .. '!journal.pages!zX7GOidM15trLAri.ym2fyz7FjiYxWpPh' @ 0 : 0; will stop at (end)
+2026/11/13-14:19:03.825346 754858cec640 Manual compaction at level-1 from '!folders!6MReEB9SklSMRe88' @ 72057594037927935 : 1 .. '!journal.pages!zX7GOidM15trLAri.ym2fyz7FjiYxWpPh' @ 0 : 0; will stop at (end)
