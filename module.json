@@ -1,7 +1,7 @@
 {
   "id": "silentcatfarts-shared-assets",
   "title": "Silentcatfart's Shared Assets",
-  "version": "2.9.7",
+  "version": "2.9.8",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
@@ -15,7 +15,6 @@
     }
   ],
   "esmodules": [
-    "scripts/light-sources-seed.mjs",
     "scripts/dolmenwood-ability-scores.mjs",
     "scripts/dolmenwood-dark-sight.mjs"
   ],

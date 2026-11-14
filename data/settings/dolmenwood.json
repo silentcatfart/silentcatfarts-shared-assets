@@ -436,6 +436,9 @@
         "maxCurrencyId": ""
       }
     ],
-    "sandbox-settlement-manager.wizardShown": true
+    "sandbox-settlement-manager.wizardShown": true,
+    "light-sources.restrictPlayerControl": false,
+    "light-sources.allowFreeForAllDrop": true,
+    "light-sources.announceLit": true
   }
 }
