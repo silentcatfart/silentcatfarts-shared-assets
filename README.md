@@ -37,5 +37,7 @@ Needs the Dolmenwood system and the Dolmenwood Premium Game module.
 3. Run the **Apply World Settings** macro (Dolmenwood Macros), then reload. It sets the world to the baseline in
    `data/settings/dolmenwood.json`, including the Light Sources list and Augur's connections database. Run it after
    the Nexus import, so nothing overwrites the database setting afterwards.
-4. Create the users. Players build characters with the Dolmenwood Player Macros: Roll Ability Scores, Roll
-   Character Details, then Roll Starting Equipment (a GM must be online to hand out the starting kit).
+4. Create the users, then run **Set Up Player Hotbars** (Dolmenwood Macros). It puts Roll Ability Scores, Roll
+   Character Details and Roll Starting Equipment on every player's hotbar, as launchers that always run the
+   compendium's current version. Run it again after adding a player. Players build characters with those three, in
+   that order (a GM must be online to hand out the starting kit).
