@@ -75,7 +75,7 @@
         "disposition": false
       }
     },
-    "core.dynamicTokenRing": "coreSteel",
+    "core.dynamicTokenRing": "dolmenwoodRing",
     "core.dynamicTokenRingFitMode": "subject",
     "core.editorAutosaveSecs": 60,
     "core.gridDiagonals": 4,
@@ -228,7 +228,7 @@
     "dolmenwood.autoApplyDamage": true,
     "dolmenwood.autoMarkDefeated": true,
     "dolmenwood.autoMissileRange": true,
-    "dolmenwood.autoWeather": false,
+    "dolmenwood.autoWeather": true,
     "dolmenwood.automatedKillLog": true,
     "dolmenwood.coinsPerSlot": 100,
     "dolmenwood.customSkills": "",
@@ -240,6 +240,202 @@
     "dolmenwood.showDungeonTracker": true,
     "dolmenwood.showPartyViewer": true,
     "dolmenwood.significantLoad": 50,
-    "item-piles.currencies": []
+    "item-piles.currencies": [],
+    "sandbox-settlement-manager.currencyConfig": {
+      "mode": "attribute",
+      "currencies": [
+        {
+          "id": "o7nBEwv7PiXuLPs4",
+          "name": "Pellucidium",
+          "abbreviation": "pp",
+          "isStandard": false,
+          "exchangeRate": "5:1",
+          "attributePath": "system.coins.pellucidium",
+          "itemId": "",
+          "itemName": ""
+        },
+        {
+          "id": "gold",
+          "name": "Gold",
+          "abbreviation": "gp",
+          "isStandard": true,
+          "exchangeRate": "1:1",
+          "attributePath": "system.coins.gold",
+          "itemId": "",
+          "itemName": ""
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "abbreviation": "sp",
+          "isStandard": false,
+          "exchangeRate": "1:10",
+          "attributePath": "system.coins.silver",
+          "itemId": "",
+          "itemName": ""
+        },
+        {
+          "id": "copper",
+          "name": "Copper",
+          "abbreviation": "cp",
+          "isStandard": false,
+          "exchangeRate": "1:100",
+          "attributePath": "system.coins.copper",
+          "itemId": "",
+          "itemName": ""
+        }
+      ]
+    },
+    "sandbox-settlement-manager.daysPerWeek": 7,
+    "sandbox-settlement-manager.hoursPerDay": 24,
+    "sandbox-settlement-manager.itemConfig": {
+      "nameAttribute": "name",
+      "priceFormat": "denomination-field",
+      "priceAttribute": "system.cost",
+      "priceDenominationAttribute": "system.costDenomination",
+      "weightAttribute": "system.weightCoins",
+      "itemTypes": [
+        {
+          "id": "HFy19LdFTHYYmMza",
+          "systemType": "Item",
+          "label": "Gear",
+          "attributes": [
+            {
+              "id": "zk0b6RVlJRrT9NxX",
+              "label": "weightCoins",
+              "path": "system.weightCoins"
+            },
+            {
+              "id": "7iSyMB6TsXXD866Y",
+              "label": "stackSize",
+              "path": "system.stackSize"
+            }
+          ]
+        },
+        {
+          "id": "I0NJwIvPlY0tJsPC",
+          "systemType": "Treasure",
+          "label": "Treasure",
+          "attributes": [
+            {
+              "id": "n2hu2r4uM6hPqFEF",
+              "label": "weightCoins",
+              "path": "system.weightCoins"
+            }
+          ]
+        },
+        {
+          "id": "e8r1Q54iCB8wLCbc",
+          "systemType": "Armor",
+          "label": "Armor",
+          "attributes": [
+            {
+              "id": "utaFIwTus3HmWHhu",
+              "label": "ac",
+              "path": "system.ac"
+            },
+            {
+              "id": "dNMlKxkmJrg5Ydcm",
+              "label": "armorType",
+              "path": "system.armorType"
+            },
+            {
+              "id": "aNJ1ThsOaZSlxZsU",
+              "label": "bulk",
+              "path": "system.bulk"
+            },
+            {
+              "id": "4jIolPz46MBOTCDA",
+              "label": "weightCoins",
+              "path": "system.weightCoins"
+            }
+          ]
+        },
+        {
+          "id": "msjsIRRngLcLXxV0",
+          "systemType": "Weapon",
+          "label": "Weapons",
+          "attributes": [
+            {
+              "id": "yHAqcaFT3vIGnlvL",
+              "label": "damage",
+              "path": "system.damage"
+            },
+            {
+              "id": "yy3qt1CTgJu8GBEZ",
+              "label": "qualities",
+              "path": "system.qualities"
+            },
+            {
+              "id": "mi12VOtCcp0pL6Y7",
+              "label": "weightCoins",
+              "path": "system.weightCoins"
+            }
+          ]
+        },
+        {
+          "id": "9COH4VvHCG8B0IVG",
+          "systemType": "Foraged",
+          "label": "Foraged",
+          "attributes": [
+            {
+              "id": "c6GRQrMrWPno94FL",
+              "label": "effects",
+              "path": "system.effects"
+            },
+            {
+              "id": "BgQjhQoWykSj4EYo",
+              "label": "type",
+              "path": "system.type"
+            },
+            {
+              "id": "gjH308jVf1UBAxuI",
+              "label": "weightCoins",
+              "path": "system.weightCoins"
+            }
+          ]
+        },
+        {
+          "id": "diIToOlwuuHEm4Ao",
+          "systemType": "Container",
+          "label": "Containers",
+          "attributes": [
+            {
+              "id": "qb3GhcMcuJi8RIN4",
+              "label": "capacityCoins",
+              "path": "system.capacityCoins"
+            },
+            {
+              "id": "sIGJYsnSGJr1rsIf",
+              "label": "weightCoins",
+              "path": "system.weightCoins"
+            }
+          ]
+        }
+      ]
+    },
+    "sandbox-settlement-manager.settlementTypes": [
+      {
+        "name": "Hamlet",
+        "maxCurrencyId": ""
+      },
+      {
+        "name": "Village",
+        "maxCurrencyId": ""
+      },
+      {
+        "name": "Small Town",
+        "maxCurrencyId": ""
+      },
+      {
+        "name": "Large Town",
+        "maxCurrencyId": ""
+      },
+      {
+        "name": "City",
+        "maxCurrencyId": ""
+      }
+    ],
+    "sandbox-settlement-manager.wizardShown": true
   }
 }
