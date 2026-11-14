@@ -439,6 +439,7 @@
     "sandbox-settlement-manager.wizardShown": true,
     "light-sources.restrictPlayerControl": false,
     "light-sources.allowFreeForAllDrop": true,
-    "light-sources.announceLit": true
+    "light-sources.announceLit": true,
+    "augur-nexus.connectionDatabaseJournalEntryId": "ZsZGZ7HIYemabZQf"
   }
 }
