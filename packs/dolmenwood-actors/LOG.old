@@ -1,21 +1,5 @@
-2026/11/14-14:43:15.409221 77da8b3fe640 Recovering log #292
-2026/11/14-14:43:15.418545 77da8b3fe640 Delete type=0 #292
-2026/11/14-14:43:15.418571 77da8b3fe640 Delete type=3 #291
-2026/11/14-14:43:37.287529 77da89647640 Level-0 table #296: started
-2026/11/14-14:43:37.287552 77da89647640 Level-0 table #296: 0 bytes OK
-2026/11/14-14:43:37.292842 77da89647640 Delete type=0 #294
-2026/11/14-14:43:37.300440 77da89647640 Manual compaction at level-0 from '!actors!1WAGfM3GjFJd7vfS' @ 72057594037927935 : 1 .. '!folders!vlb4l6AQ3qQYlGJO' @ 0 : 0; will stop at '!actors!lpDmVRxfIqq6ZCvp' @ 2342 : 1
-2026/11/14-14:43:37.300455 77da89647640 Compacting 1@0 + 0@1 files
-2026/11/14-14:43:37.304882 77da89647640 Generated table #297@0: 12 keys, 28995 bytes
-2026/11/14-14:43:37.304901 77da89647640 Compacted 1@0 + 0@1 files => 28995 bytes
-2026/11/14-14:43:37.308040 77da89647640 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/11/14-14:43:37.308141 77da89647640 Delete type=2 #287
-2026/11/14-14:43:37.311503 77da89647640 Manual compaction at level-0 from '!actors!lpDmVRxfIqq6ZCvp' @ 2342 : 1 .. '!folders!vlb4l6AQ3qQYlGJO' @ 0 : 0; will stop at (end)
-2026/11/14-14:43:37.311932 77da89647640 Manual compaction at level-1 from '!actors!1WAGfM3GjFJd7vfS' @ 72057594037927935 : 1 .. '!folders!vlb4l6AQ3qQYlGJO' @ 0 : 0; will stop at '!actors!lpDmVRxfIqq6ZCvp' @ 2342 : 1
-2026/11/14-14:43:37.311942 77da89647640 Compacting 1@1 + 1@2 files
-2026/11/14-14:43:37.320184 77da89647640 Generated table #298@1: 161 keys, 199726 bytes
-2026/11/14-14:43:37.320206 77da89647640 Compacted 1@1 + 1@2 files => 199726 bytes
-2026/11/14-14:43:37.324400 77da89647640 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/11/14-14:43:37.324473 77da89647640 Delete type=2 #273
-2026/11/14-14:43:37.325351 77da89647640 Delete type=2 #297
-2026/11/14-14:43:37.333053 77da89647640 Manual compaction at level-1 from '!actors!lpDmVRxfIqq6ZCvp' @ 2342 : 1 .. '!folders!vlb4l6AQ3qQYlGJO' @ 0 : 0; will stop at (end)
+2026/11/15-15:11:02.354073 782919bfc640 Recovering log #306
+2026/11/15-15:11:02.354138 782919bfc640 Level-0 table #308: started
+2026/11/15-15:11:02.357320 782919bfc640 Level-0 table #308: 1913 bytes OK
+2026/11/15-15:11:02.365743 782919bfc640 Delete type=0 #306
+2026/11/15-15:11:02.365783 782919bfc640 Delete type=3 #305

@@ -1,24 +1,5 @@
-2026/11/14-14:43:15.563477 77da8a3fc640 Recovering log #109
-2026/11/14-14:43:15.572759 77da8a3fc640 Delete type=0 #109
-2026/11/14-14:43:15.572787 77da8a3fc640 Delete type=3 #107
-2026/11/14-14:43:37.379945 77da89647640 Level-0 table #113: started
-2026/11/14-14:43:37.380025 77da89647640 Level-0 table #113: 0 bytes OK
-2026/11/14-14:43:37.383499 77da89647640 Delete type=0 #111
-2026/11/14-14:43:37.399532 77da89647640 Manual compaction at level-0 from '!macros!6TjDg7Ni859RkLl6' @ 72057594037927935 : 1 .. '!macros!yzSGp0quM6Vmsg5m' @ 0 : 0; will stop at '!macros!snezwRY29p6znAXT' @ 24 : 1
-2026/11/14-14:43:37.399550 77da89647640 Compacting 3@0 + 0@1 files
-2026/11/14-14:43:37.403357 77da89647640 Generated table #114@0: 1 keys, 8539 bytes
-2026/11/14-14:43:37.403374 77da89647640 Compacted 3@0 + 0@1 files => 8539 bytes
-2026/11/14-14:43:37.406671 77da89647640 compacted to: files[ 0 2 1 0 0 0 0 ]
-2026/11/14-14:43:37.406734 77da89647640 Delete type=2 #97
-2026/11/14-14:43:37.406788 77da89647640 Delete type=2 #103
-2026/11/14-14:43:37.406836 77da89647640 Delete type=2 #108
-2026/11/14-14:43:37.410987 77da89647640 Manual compaction at level-0 from '!macros!snezwRY29p6znAXT' @ 24 : 1 .. '!macros!yzSGp0quM6Vmsg5m' @ 0 : 0; will stop at (end)
-2026/11/14-14:43:37.414382 77da89647640 Manual compaction at level-1 from '!macros!6TjDg7Ni859RkLl6' @ 72057594037927935 : 1 .. '!macros!yzSGp0quM6Vmsg5m' @ 0 : 0; will stop at '!macros!snezwRY29p6znAXT' @ 26 : 1
-2026/11/14-14:43:37.414391 77da89647640 Compacting 2@1 + 1@2 files
-2026/11/14-14:43:37.418545 77da89647640 Generated table #115@1: 6 keys, 24594 bytes
-2026/11/14-14:43:37.418561 77da89647640 Compacted 2@1 + 1@2 files => 24594 bytes
-2026/11/14-14:43:37.422140 77da89647640 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/11/14-14:43:37.422212 77da89647640 Delete type=2 #74
-2026/11/14-14:43:37.422269 77da89647640 Delete type=2 #99
-2026/11/14-14:43:37.422318 77da89647640 Delete type=2 #114
-2026/11/14-14:43:37.426480 77da89647640 Manual compaction at level-1 from '!macros!snezwRY29p6znAXT' @ 26 : 1 .. '!macros!yzSGp0quM6Vmsg5m' @ 0 : 0; will stop at (end)
+2026/11/15-15:20:36.032233 7cfa26ffd640 Recovering log #133
+2026/11/15-15:20:36.032379 7cfa26ffd640 Level-0 table #135: started
+2026/11/15-15:20:36.036011 7cfa26ffd640 Level-0 table #135: 8768 bytes OK
+2026/11/15-15:20:36.043308 7cfa26ffd640 Delete type=0 #133
+2026/11/15-15:20:36.043340 7cfa26ffd640 Delete type=3 #132

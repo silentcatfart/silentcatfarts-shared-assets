@@ -41,9 +41,9 @@ async function applyScores(message) {
     ui.notifications.info(`Ability Scores set for ${actor.name}.`);
 }
 
-// Starting kits are applied by a GM's client: Player Items is GM-only (trinkets, containers and cold iron aren't for
-// browsing), so a player's client can't read it. Items are found by name in Player Items first (so the working
-// containers win), then the Dolmenwood Premium Game's Player's Book items and magic, ignoring case and punctuation.
+// Starting kits are applied by a GM's client: Player Items is GM-only (trinkets and cold iron aren't for browsing), so a
+// player's client can't read it. Items are found by name in Player Items first (our trinkets), then the Dolmenwood
+// Premium Game's Player's Book items and magic, ignoring case and punctuation.
 const KIT_PACKS = [`${MODULE}.dolmenwood-player-items`, "dolmenwood-premiumgame.dpb-items", "dolmenwood-premiumgame.dpb-magic"];
 const KIT_ALIASES = {
     "Oil (flask)": "Oil Flask", "Paper or parchment (2 sheets)": "Paper or Parchment (2)", "Chalk (10 sticks)": "Chalk",
