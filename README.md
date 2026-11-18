@@ -31,7 +31,8 @@ Every push to `main` builds `module.zip` and publishes a GitHub release tagged w
 Needs the Dolmenwood system and the Dolmenwood Premium Game module.
 
 1. Enable this module, the Premium Game and the modules the settings baseline covers (Augur Nexus and Augur
-   Fantasy, Light Sources, Sandbox Settlement Manager, Always HP, Easy Token, Dice So Nice and so on).
+   Fantasy, Light Sources, Item Piles, Always HP, Easy Token, Dice So Nice and so on). Item Piles gets Dolmenwood's
+   coins and prices from the Dolmenwood system itself, so the baseline sets none of its currency settings.
 2. Import the **Dolmenwood Nexus** compendium: Import All, with **Keep Document IDs** ticked and no target folder.
    The entries link to each other, to the connections database and to map pins by ID.
 3. Run the **Apply World Settings** macro (Dolmenwood Macros), then reload. It sets the world to the baseline in
