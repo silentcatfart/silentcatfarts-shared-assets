@@ -232,6 +232,7 @@
     "dolmenwood.automatedKillLog": true,
     "dolmenwood.coinsPerSlot": 100,
     "dolmenwood.customSkills": "",
+    "dolmenwood.encounterTablePrefix": "Regional Encounters",
     "dolmenwood.encumbranceMethod": "weight",
     "dolmenwood.optionalCombatRules": true,
     "dolmenwood.randomizeCreatureHP": true,

@@ -1,3 +1,24 @@
-2026/11/19-19:57:04.332422 7b9792bfd640 Recovering log #2331
-2026/11/19-19:57:04.346402 7b9792bfd640 Delete type=0 #2331
-2026/11/19-19:57:04.346430 7b9792bfd640 Delete type=3 #2330
+2026/11/26-16:29:46.793400 7786bd7eb640 Recovering log #2335
+2026/11/26-16:29:46.794792 7786bd7eb640 Level-0 table #2337: started
+2026/11/26-16:29:46.801358 7786bd7eb640 Level-0 table #2337: 146481 bytes OK
+2026/11/26-16:29:46.809366 7786bd7eb640 Delete type=0 #2335
+2026/11/26-16:29:46.809444 7786bd7eb640 Delete type=3 #2334
+2026/11/26-16:49:57.192809 7786bcfea640 Level-0 table #2340: started
+2026/11/26-16:49:57.196083 7786bcfea640 Level-0 table #2340: 719 bytes OK
+2026/11/26-16:49:57.199597 7786bcfea640 Delete type=0 #2338
+2026/11/26-16:49:57.214532 7786bcfea640 Manual compaction at level-0 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at '!playlists.sounds!iCc2nKdBOUjbkndf.vkwQ5yKjzmSlAIzb' @ 6200 : 0
+2026/11/26-16:49:57.214540 7786bcfea640 Compacting 2@0 + 0@1 files
+2026/11/26-16:49:57.223437 7786bcfea640 Generated table #2341@0: 895 keys, 126589 bytes
+2026/11/26-16:49:57.223453 7786bcfea640 Compacted 2@0 + 0@1 files => 126589 bytes
+2026/11/26-16:49:57.226321 7786bcfea640 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/26-16:49:57.226374 7786bcfea640 Delete type=2 #2337
+2026/11/26-16:49:57.226424 7786bcfea640 Delete type=2 #2340
+2026/11/26-16:49:57.226686 7786bcfea640 Manual compaction at level-0 from '!playlists.sounds!iCc2nKdBOUjbkndf.vkwQ5yKjzmSlAIzb' @ 6200 : 0 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
+2026/11/26-16:49:57.239826 7786bcfea640 Manual compaction at level-1 from '!folders!7kXWWPf1NE5ktAlD' @ 72057594037927935 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 5304 : 1
+2026/11/26-16:49:57.239833 7786bcfea640 Compacting 1@1 + 1@2 files
+2026/11/26-16:49:57.247665 7786bcfea640 Generated table #2342@1: 872 keys, 126419 bytes
+2026/11/26-16:49:57.247680 7786bcfea640 Compacted 1@1 + 1@2 files => 126419 bytes
+2026/11/26-16:49:57.251400 7786bcfea640 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/11/26-16:49:57.251481 7786bcfea640 Delete type=2 #1941
+2026/11/26-16:49:57.251546 7786bcfea640 Delete type=2 #2341
+2026/11/26-16:49:57.266405 7786bcfea640 Manual compaction at level-1 from '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 5304 : 1 .. '!playlists.sounds!ymTRaqbGKnKIexYV.y5afpQCQKeMgiOnC' @ 0 : 0; will stop at (end)
